@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-03-25T15:37:48",
+    "aggiornato": "2026-03-25T15:57:09",
     "dal": "25\/03\/2026",
     "anno_formativo": "2025\/2026",
     "fasce": [
@@ -360,7 +360,7 @@
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "LUN",
@@ -368,7 +368,7 @@
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "LUN",
@@ -376,7 +376,7 @@
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "VEN",
@@ -384,7 +384,7 @@
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "VEN",
@@ -392,7 +392,7 @@
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "VEN",
@@ -400,7 +400,7 @@
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T25"
+                    "aula": null
                 }
             ]
         },
@@ -1663,7 +1663,7 @@
                     "a": "12:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.TERM.",
-                    "aula": "T51"
+                    "aula": "T11"
                 },
                 {
                     "giorno": "GIO",
@@ -1671,7 +1671,7 @@
                     "a": "13:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.TERM.",
-                    "aula": "T51"
+                    "aula": "T11"
                 },
                 {
                     "giorno": "GIO",
@@ -1679,7 +1679,7 @@
                     "a": "14:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.TERM.",
-                    "aula": "T51"
+                    "aula": "T11"
                 },
                 {
                     "giorno": "LUN",
@@ -1751,7 +1751,7 @@
                     "a": "09:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.TERM.",
-                    "aula": "T51"
+                    "aula": "T11"
                 },
                 {
                     "giorno": "VEN",
@@ -1759,7 +1759,7 @@
                     "a": "10:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.TERM.",
-                    "aula": "T51"
+                    "aula": "T11"
                 },
                 {
                     "giorno": "VEN",
@@ -1767,7 +1767,7 @@
                     "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.TERM.",
-                    "aula": "T51"
+                    "aula": "T11"
                 },
                 {
                     "giorno": "VEN",
@@ -2086,7 +2086,7 @@
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "GIO",
@@ -2094,7 +2094,7 @@
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "GIO",
@@ -2102,7 +2102,7 @@
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "LUN",
@@ -2110,7 +2110,7 @@
                     "a": "09:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "LUN",
@@ -2118,7 +2118,7 @@
                     "a": "10:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "LUN",
@@ -2126,7 +2126,7 @@
                     "a": "11:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "LUN",
@@ -2166,7 +2166,7 @@
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "MER",
@@ -2174,7 +2174,7 @@
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "MER",
@@ -2182,7 +2182,7 @@
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
-                    "aula": "T25"
+                    "aula": null
                 },
                 {
                     "giorno": "VEN",
@@ -2344,7 +2344,7 @@
                     "a": "09:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T51"
+                    "aula": "P7"
                 },
                 {
                     "giorno": "MAR",
@@ -2352,7 +2352,7 @@
                     "a": "10:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T51"
+                    "aula": "P7"
                 },
                 {
                     "giorno": "MAR",
@@ -2384,7 +2384,7 @@
                     "a": "09:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.EL.",
-                    "aula": "T51"
+                    "aula": "P7"
                 },
                 {
                     "giorno": "MER",
@@ -2392,7 +2392,7 @@
                     "a": "10:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.EL.",
-                    "aula": "T51"
+                    "aula": "P7"
                 },
                 {
                     "giorno": "MER",
@@ -2400,7 +2400,7 @@
                     "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "A.S.LAB.EL.",
-                    "aula": "T51"
+                    "aula": "P7"
                 },
                 {
                     "giorno": "MER",
@@ -4928,7 +4928,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM."
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
                 },
                 {
                     "giorno": "GIO",
@@ -4939,7 +4940,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM."
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
                 },
                 {
                     "giorno": "GIO",
@@ -4950,7 +4952,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM."
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
                 },
                 {
                     "giorno": "LUN",
@@ -5009,7 +5012,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "PIPITONE ANTONINO",
-                    "materia2": "LABORATORIO ELETTRICO"
+                    "materia2": "LABORATORIO ELETTRICO",
+                    "aula2": "P7"
                 },
                 {
                     "giorno": "MAR",
@@ -5020,7 +5024,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "PIPITONE ANTONINO",
-                    "materia2": "LABORATORIO ELETTRICO"
+                    "materia2": "LABORATORIO ELETTRICO",
+                    "aula2": "P7"
                 },
                 {
                     "giorno": "MAR",
@@ -5063,7 +5068,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "PIPITONE ANTONINO",
-                    "materia2": "A.S.LAB.EL."
+                    "materia2": "A.S.LAB.EL.",
+                    "aula2": "P7"
                 },
                 {
                     "giorno": "MER",
@@ -5074,7 +5080,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "PIPITONE ANTONINO",
-                    "materia2": "A.S.LAB.EL."
+                    "materia2": "A.S.LAB.EL.",
+                    "aula2": "P7"
                 },
                 {
                     "giorno": "MER",
@@ -5085,7 +5092,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "PIPITONE ANTONINO",
-                    "materia2": "A.S.LAB.EL."
+                    "materia2": "A.S.LAB.EL.",
+                    "aula2": "P7"
                 },
                 {
                     "giorno": "MER",
@@ -5120,7 +5128,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM."
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
                 },
                 {
                     "giorno": "VEN",
@@ -5131,7 +5140,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM."
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
                 },
                 {
                     "giorno": "VEN",
@@ -5142,7 +5152,8 @@
                     "aula": "T51",
                     "tipo": "divisa",
                     "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM."
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
                 },
                 {
                     "giorno": "VEN",
@@ -5451,7 +5462,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "GIO",
@@ -5462,7 +5474,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "GIO",
@@ -5473,7 +5486,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "LUN",
@@ -5484,7 +5498,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "LUN",
@@ -5495,7 +5510,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "LUN",
@@ -5506,7 +5522,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "LUN",
@@ -5517,7 +5534,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "CARAVELLO SIMONA",
-                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)"
+                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)",
+                    "aula2": null
                 },
                 {
                     "giorno": "LUN",
@@ -5528,7 +5546,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "CARAVELLO SIMONA",
-                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)"
+                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)",
+                    "aula2": null
                 },
                 {
                     "giorno": "LUN",
@@ -5539,7 +5558,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "CARAVELLO SIMONA",
-                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)"
+                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)",
+                    "aula2": null
                 },
                 {
                     "giorno": "MAR",
@@ -5622,7 +5642,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "MER",
@@ -5633,7 +5654,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "MER",
@@ -5644,7 +5666,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "Pianificazione delle fasi di lavoro"
+                    "materia2": "Pianificazione delle fasi di lavoro",
+                    "aula2": null
                 },
                 {
                     "giorno": "VEN",
@@ -5679,7 +5702,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "CARAVELLO SIMONA",
-                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)"
+                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)",
+                    "aula2": null
                 },
                 {
                     "giorno": "VEN",
@@ -5690,7 +5714,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "CARAVELLO SIMONA",
-                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)"
+                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)",
+                    "aula2": null
                 },
                 {
                     "giorno": "VEN",
@@ -5701,7 +5726,8 @@
                     "aula": "T25",
                     "tipo": "divisa",
                     "docente2": "CARAVELLO SIMONA",
-                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)"
+                    "materia2": "LAB. ESTETICA(RIC. UNGHIA)",
+                    "aula2": null
                 }
             ]
         }
