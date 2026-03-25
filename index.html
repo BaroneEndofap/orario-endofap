@@ -492,12 +492,13 @@ function buildCorsoGrid(entity) {
                 <div class="slot-divisa">
                   <div class="slot-main">${esc(l.materia)}</div>
                   <div class="slot-sub">${esc(l.docente)}</div>
+                  ${l.aula  ? `<div class="slot-aula">${esc(l.aula)}</div>`  : ''}
                 </div>
                 <div class="slot-divisa">
                   <div class="slot-main">${esc(l.materia2)}</div>
                   <div class="slot-sub">${esc(l.docente2)}</div>
+                  ${l.aula2 ? `<div class="slot-aula">${esc(l.aula2)}</div>` : ''}
                 </div>
-                ${l.aula ? `<div class="slot-aula">${esc(l.aula)}</div>` : ''}
               </div>
             </div>`;
           }
