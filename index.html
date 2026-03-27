@@ -195,6 +195,9 @@
     .day-section { margin: .85rem 1rem 0; }
 
     .day-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       font-size: .8rem;
       font-weight: 700;
       text-transform: uppercase;
@@ -204,7 +207,46 @@
       border-radius: .5rem .5rem 0 0;
       padding: .45rem .9rem;
       border-bottom: 2px solid #93c5fd;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      min-height: 2.5rem;
     }
+
+    /* Oggi highlight */
+    .day-section.today .day-label {
+      background: var(--blu);
+      color: #fff;
+      border-bottom-color: var(--oro);
+    }
+    .today-pill {
+      display: none;
+      background: rgba(255,255,255,.25);
+      color: #fff;
+      border-radius: 1rem;
+      padding: .05rem .45rem;
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: .03em;
+      vertical-align: middle;
+      margin-left: .4rem;
+      text-transform: none;
+    }
+    .day-chevron {
+      font-size: .55rem;
+      opacity: .55;
+      transition: transform .2s;
+      flex-shrink: 0;
+      margin-left: .5rem;
+    }
+    .day-section.collapsed .day-chevron { transform: rotate(-90deg); }
+
+    /* Collaps */
+    .day-collapse {
+      overflow: hidden;
+      transition: max-height .25s ease;
+    }
+    .day-section.collapsed .day-collapse { max-height: 0 !important; }
 
     .day-body {
       background: #fff;
@@ -214,6 +256,28 @@
       border: 1px solid var(--border);
       border-top: none;
     }
+
+    /* Btn "Vai ad oggi" */
+    #btn-oggi {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      background: var(--blu);
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      padding: .55rem 1.1rem;
+      font-size: .8rem;
+      font-weight: 700;
+      font-family: inherit;
+      box-shadow: 0 2px 10px rgba(0,0,0,.28);
+      cursor: pointer;
+      z-index: 200;
+      display: none;
+      -webkit-tap-highlight-color: transparent;
+      letter-spacing: .03em;
+    }
+    #btn-oggi:active { background: var(--blu-scuro); }
 
     /* ── Riga slot ─────────────────────────────────────────────────────────── */
     .slot-row {
@@ -348,6 +412,9 @@
   <div id="detail-grid"></div>
 </div>
 
+<!-- Btn Oggi (visibile nel dettaglio) -->
+<button id="btn-oggi" onclick="scrollToToday()">&#8593; Oggi</button>
+
 <!-- Footer -->
 <div class="update-footer" id="update-footer" style="display:none">
   Aggiornato il <strong id="footer-ts"></strong>
@@ -441,12 +508,14 @@ function showDetail(nome) {
   document.getElementById('dettaglio').style.display  = 'block';
   document.getElementById('update-footer').style.display = 'none';
   window.scrollTo(0, 0);
+  initDaySections();
 }
 
 function showList() {
   document.getElementById('dettaglio').style.display  = 'none';
   document.getElementById('lista-view').style.display = 'block';
   document.getElementById('update-footer').style.display = 'block';
+  document.getElementById('btn-oggi').style.display   = 'none';
 }
 
 /* ── Griglia docente ───────────────────────────────────────────────────── */
@@ -468,9 +537,9 @@ function buildDocenteGrid(entity) {
           </div>
         </div>`).join('')
       : '<div class="day-empty">Nessuna lezione</div>';
-    return `<div class="day-section">
-      <div class="day-label">${DAYS[day]}</div>
-      <div class="day-body">${rows}</div>
+    return `<div class="day-section" data-day="${day}">
+      <div class="day-label"><span>${DAYS[day]}<span class="today-pill">Oggi</span></span><span class="day-chevron">&#9660;</span></div>
+      <div class="day-collapse"><div class="day-body">${rows}</div></div>
     </div>`;
   }).join('');
 }
@@ -515,12 +584,60 @@ function buildCorsoGrid(entity) {
           </div>`;
         }).join('')
       : '<div class="day-empty">Nessuna lezione</div>';
-    return `<div class="day-section">
-      <div class="day-label">${DAYS[day]}</div>
-      <div class="day-body">${rows}</div>
+    return `<div class="day-section" data-day="${day}">
+      <div class="day-label"><span>${DAYS[day]}<span class="today-pill">Oggi</span></span><span class="day-chevron">&#9660;</span></div>
+      <div class="day-collapse"><div class="day-body">${rows}</div></div>
     </div>`;
   }).join('');
 }
+
+/* ── Inizializza sezioni giorno (oggi + collasso + toggle) ─────────────── */
+function initDaySections() {
+  const DAY_MAP  = {1:'LUN', 2:'MAR', 3:'MER', 4:'GIO', 5:'VEN'};
+  const todayCode = DAY_MAP[new Date().getDay()];
+  const isMobile  = window.matchMedia('(max-width:639px)').matches;
+
+  document.querySelectorAll('#detail-grid .day-section').forEach(function(sec) {
+    var collapse = sec.querySelector('.day-collapse');
+    if (collapse) collapse.style.maxHeight = collapse.scrollHeight + 'px';
+
+    if (sec.dataset.day === todayCode) {
+      sec.classList.add('today');
+      var pill = sec.querySelector('.today-pill');
+      if (pill) pill.style.display = 'inline-block';
+    } else if (isMobile) {
+      sec.classList.add('collapsed');
+    }
+
+    sec.querySelector('.day-label').addEventListener('click', function() {
+      var c = sec.querySelector('.day-collapse');
+      if (sec.classList.contains('collapsed')) {
+        sec.classList.remove('collapsed');
+        if (c) c.style.maxHeight = c.scrollHeight + 'px';
+      } else {
+        sec.classList.add('collapsed');
+      }
+    });
+  });
+
+  var todayEl = document.querySelector('#detail-grid .day-section.today');
+  var btnOggi = document.getElementById('btn-oggi');
+  if (todayEl) {
+    if (btnOggi) btnOggi.style.display = 'block';
+    setTimeout(function() { todayEl.scrollIntoView({behavior:'smooth', block:'start'}); }, 120);
+  } else {
+    if (btnOggi) btnOggi.style.display = 'none';
+  }
+}
+
+window.scrollToToday = function() {
+  var todayEl = document.querySelector('#detail-grid .day-section.today');
+  if (!todayEl) return;
+  todayEl.querySelector('.day-collapse') && document.querySelector('#detail-grid .day-section.today').classList.remove('collapsed');
+  var c = todayEl.querySelector('.day-collapse');
+  if (c) c.style.maxHeight = c.scrollHeight + 'px';
+  todayEl.scrollIntoView({behavior:'smooth', block:'start'});
+};
 
 /* ── Utility ───────────────────────────────────────────────────────────── */
 function groupByDay(slots) {
@@ -542,4 +659,5 @@ loadData();
 
 </body>
 </html>
+
 
