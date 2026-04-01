@@ -497,6 +497,38 @@ html, body {
     padding: 4px 0;
 }
 
+/* ── Slide Media/Immagine ─────────────────────────────────────────────────── */
+.slide-media {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.slide-media img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.slide-media-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(26, 58, 92, 0.85));
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 24px 32px 16px;
+    text-align: center;
+}
+
 </style>
 </head>
 
@@ -550,6 +582,7 @@ html, body {
                 maxRowsPerSlide: 5, // righe massime per slide tabella
                 jsonUrl: 'https://baroneendofap.github.io/orario-endofap/data/orario.json',
                 comunicazioniUrl: 'https://baroneendofap.github.io/orario-endofap/data/comunicazioni.json',
+                mediaUrl: 'https://baroneendofap.github.io/orario-endofap/data/media.json',
                 tickerEnabled: getParam('ticker') === '1',
                 filtro_piano: getParam('piano'), // '0' o '1'
                 filtro_aula: getParam('aula'), // nome aula es. 'P1', 'T56'
@@ -562,6 +595,7 @@ html, body {
             let currentSlide = 0;
             let rotationTimer = null;
             let dati = null;
+            let mediaItems = [];
 
             // ── Utility ──────────────────────────────────────────────────────────────
 
@@ -754,17 +788,27 @@ html, body {
             async function caricaDati() {
                 const ts = Date.now();
                 try {
-                    const [respOrario, respCom] = await Promise.all([
+                    const [respOrario, respCom, respMedia] = await Promise.all([
                         fetch(CONFIG.jsonUrl + '?_t=' + ts),
                         fetch(CONFIG.comunicazioniUrl + '?_t=' + ts).catch(() => null),
+                        fetch(CONFIG.mediaUrl + '?_t=' + ts).catch(() => null),
                     ]);
                     if (!respOrario.ok) throw new Error('HTTP ' + respOrario.status);
                     const raw = await respOrario.json();
                     dati = adattaJson(raw);
 
+                    // Comunicazioni ticker
                     if (respCom && respCom.ok) {
                         const rawCom = await respCom.json();
                         aggiornaTicker(rawCom.comunicazioni || []);
+                    }
+
+                    // Media carousel (immagini/locandine)
+                    if (respMedia && respMedia.ok) {
+                        const rawMedia = await respMedia.json();
+                        mediaItems = rawMedia.media || [];
+                    } else {
+                        mediaItems = [];
                     }
 
                     costruisciSlides();
@@ -781,7 +825,13 @@ html, body {
                     return;
                 }
                 // Separa i messaggi con un separatore visivo
-                ticker.textContent = testi.join('   ·   ');
+                const testo = testi.join('  \u2014  ');
+                ticker.textContent = testo;
+
+                // Adatta la velocità dell'animazione alla lunghezza del testo
+                const durata = Math.max(15, testo.length * 0.3);
+                ticker.style.animationDuration = durata + 's';
+
                 footer.classList.remove('hidden');
             }
 
@@ -811,6 +861,11 @@ html, body {
                 }
                 if (!vistaFissa || vistaFissa === 'adesso') {
                     slidesHtml = slidesHtml.concat(costruisciVistaAdesso());
+                }
+
+                // Slide immagini/media (locandine, pubblicità, etc.)
+                if (mediaItems && mediaItems.length > 0) {
+                    slidesHtml = slidesHtml.concat(costruisciSlideMedia());
                 }
 
                 container.innerHTML = slidesHtml.join('');
@@ -1143,6 +1198,25 @@ html, body {
                     '</div>';
             }
 
+            // ── Slide Media/Immagini ────────────────────────────────────────────────
+
+            function costruisciSlideMedia() {
+                const result = [];
+                for (const m of mediaItems) {
+                    const durata = m.durata || 15;
+                    let html = '<div class="totem-slide" data-durata="' + durata + '">';
+                    html += '<div class="slide-media">';
+                    html += '<img src="' + escHtml(m.url) + '" alt="' + escHtml(m.titolo || '') + '">';
+                    if (m.titolo) {
+                        html += '<div class="slide-media-title">' + escHtml(m.titolo) + '</div>';
+                    }
+                    html += '</div>';
+                    html += '</div>';
+                    result.push(html);
+                }
+                return result;
+            }
+
             function renderValidita() {
                 if (!dati || !dati.orario_dal) return '';
                 return '<div class="orario-validita">Orario in vigore dal ' +
@@ -1165,17 +1239,28 @@ html, body {
 
             // ── Rotazione Carousel ───────────────────────────────────────────────────
 
-            function avviaRotazione() {
-                if (rotationTimer) clearInterval(rotationTimer);
-                if (slides.length <= 1) return;
+            function getSlideDurata(slideEl) {
+                // Slide media possono avere durata personalizzata (in secondi)
+                const d = slideEl.getAttribute('data-durata');
+                return d ? parseInt(d, 10) * 1000 : CONFIG.rotationInterval;
+            }
 
-                rotationTimer = setInterval(function() {
-                    if (slides.length === 0) return;
+            function avviaRotazione() {
+                if (rotationTimer) { clearTimeout(rotationTimer); rotationTimer = null; }
+                if (slides.length <= 1) return;
+                scheduleProssimaSlide();
+            }
+
+            function scheduleProssimaSlide() {
+                if (slides.length <= 1) return;
+                const durata = getSlideDurata(slides[currentSlide]);
+                rotationTimer = setTimeout(function() {
                     slides[currentSlide].classList.remove('active');
                     currentSlide = (currentSlide + 1) % slides.length;
                     slides[currentSlide].classList.add('active');
                     aggiornaIndicatori();
-                }, CONFIG.rotationInterval);
+                    scheduleProssimaSlide();
+                }, durata);
             }
 
             function aggiornaIndicatori() {
