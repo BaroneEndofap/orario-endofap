@@ -1,6 +1,6 @@
 {
-    "aggiornato": "2026-03-31T08:39:34",
-    "dal": "31\/03\/2026",
+    "aggiornato": "2026-04-02T10:38:55",
+    "dal": "08\/04\/2026",
     "anno_formativo": "2025\/2026",
     "fasce": [
         "08:00-09:00",
@@ -18,55 +18,55 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "Informatica e competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "Competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "Informatica e competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "Informatica e competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "Competenze digitali",
                     "aula": "P29"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "Competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 },
@@ -80,8 +80,8 @@
                 },
                 {
                     "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
+                    "da": "11:00",
+                    "a": "12:00",
                     "corso": "OP. MECCANICO IeFP-2",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
@@ -90,7 +90,55 @@
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "Competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
+                    "materia": "Competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
                     "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 }
@@ -100,38 +148,6 @@
             "nome": "BASILE CATERINA",
             "slots": [
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "PARI OPPORTUNITA'",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "Orientamento",
-                    "aula": "P28"
-                },
-                {
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
@@ -153,7 +169,7 @@
                     "a": "11:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                     "materia": "Orientamento",
-                    "aula": "P10"
+                    "aula": "P24"
                 },
                 {
                     "giorno": "MER",
@@ -182,34 +198,31 @@
             ]
         },
         {
+            "nome": "BONSANGUE GIUSEPPE",
+            "slots": [
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "Sostenibilita ambientale e transizione ecologica",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "Sostenibilita ambientale e transizione ecologica",
+                    "aula": "P8"
+                }
+            ]
+        },
+        {
             "nome": "CANNATELLA ANGELO",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -217,7 +230,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -225,7 +238,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -233,15 +246,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "TECNOLOGIA RIP. VEIC",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
@@ -249,11 +254,27 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
                     "materia": "TECNOLOGIA RIP. VEIC",
+                    "aula": "T22"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
+                    "aula": "T22"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
                     "aula": "T22"
                 }
             ]
@@ -262,7 +283,7 @@
             "nome": "CARAVELLO SIMONA",
             "slots": [
                 {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -270,7 +291,7 @@
                     "aula": "T38"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -278,7 +299,7 @@
                     "aula": "T38"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -286,7 +307,7 @@
                     "aula": "T38"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -294,7 +315,7 @@
                     "aula": "T38"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -302,7 +323,7 @@
                     "aula": "T38"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -315,39 +336,7 @@
             "nome": "CILLUFFO RICCARDO",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "Religione - Attività alternative 3",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "Religione - Attività alternative 3",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Religione - Attività alternative 3",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "IRC - Cultura etica",
-                    "aula": "P1"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
@@ -356,11 +345,51 @@
                 },
                 {
                     "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "Religione - Attività alternative 3",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "IRC - Cultura etica",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
+                    "materia": "Religione - Attività alternative 3",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "IRC - Cultura etica",
+                    "aula": "P26"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Religione - Attività alternative 3",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "IRC - Cultura etica",
-                    "aula": "P2"
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "Religione - Attività alternative 3",
+                    "aula": "P25"
                 }
             ]
         },
@@ -387,22 +416,6 @@
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T27"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T27"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
                     "corso": "OP. MECCANICO IeFP-2",
                     "materia": "LAB. MECCANICO",
                     "aula": "T27"
@@ -438,22 +451,6 @@
             "slots": [
                 {
                     "giorno": "GIO",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "INGLESE",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "INGLESE",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -461,15 +458,55 @@
                     "aula": "P28"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "INGLESE",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "INGLESE",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
                     "corso": "OP. ELETTRICO IeFP-2",
                     "materia": "INGLESE",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "INGLESE",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
@@ -477,33 +514,25 @@
                     "aula": "P26"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "INGLESE",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                     "materia": "INGLESE",
                     "aula": "P24"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
                     "materia": "INGLESE",
-                    "aula": "P8"
+                    "aula": "P25"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "INGLESE",
                     "aula": "P23"
@@ -515,62 +544,30 @@
             "slots": [
                 {
                     "giorno": "GIO",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "MATEMATICA",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "Statistica Descrittiva",
                     "aula": "P10"
                 },
                 {
                     "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
                     "materia": "MATEMATICA",
-                    "aula": "P9"
+                    "aula": "P1"
                 },
                 {
                     "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "MATEMATICA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. MECCANICO IeFP-2",
@@ -578,31 +575,7 @@
                     "aula": "P8bis"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "Statistica Descrittiva",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-2",
@@ -619,19 +592,11 @@
                 },
                 {
                     "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-2",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
                     "materia": "MATEMATICA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "MATEMATICA",
-                    "aula": "P1"
+                    "aula": "P9"
                 },
                 {
                     "giorno": "MER",
@@ -640,6 +605,46 @@
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "MATEMATICA",
                     "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "MATEMATICA",
+                    "aula": "P26"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "MATEMATICA",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "MATEMATICA",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "MATEMATICA",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "MATEMATICA",
+                    "aula": "P1"
                 }
             ]
         },
@@ -647,31 +652,7 @@
             "nome": "GANCI DIEGO",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "HACCP",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "HACCP",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "HACCP",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. RISTORAZIONE IeFP-2",
@@ -679,51 +660,11 @@
                     "aula": "T51"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "materia": "HACCP",
                     "aula": "T51"
                 },
                 {
@@ -748,6 +689,54 @@
                     "a": "11:00",
                     "corso": "OP. RISTORAZIONE IeFP-2",
                     "materia": "TECNOLOGIA ALIMENTARE",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "HACCP",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "HACCP",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "HACCP",
                     "aula": "T51"
                 }
             ]
@@ -756,23 +745,23 @@
             "nome": "GERACI FABRIZIO",
             "slots": [
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
                     "materia": "Sviluppo sostenibile ambientale",
                     "aula": "P25"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -780,26 +769,10 @@
                     "aula": "P28"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "Sviluppo sostenibile ambientale",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
                     "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "EDUCAZIONE FISICA",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
                     "materia": "EDUCAZIONE FISICA",
                     "aula": "PALESTRA"
                 }
@@ -833,79 +806,31 @@
                     "aula": "T51"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "LABORATORIO CUCINA 2",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "LABORATORIO CUCINA 2",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RISTORAZIONE IeFP-2",
-                    "materia": "LABORATORIO CUCINA 2",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.CUCINA",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "LABORATORIO CUCINA 2",
                     "aula": "T51"
                 },
                 {
                     "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "LABORATORIO CUCINA 2",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RISTORAZIONE IeFP-2",
+                    "materia": "LABORATORIO CUCINA 2",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
@@ -913,7 +838,7 @@
                     "aula": "T51"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
@@ -921,7 +846,7 @@
                     "aula": "T51"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
@@ -933,54 +858,6 @@
         {
             "nome": "GRECO EGLE",
             "slots": [
-                {
-                    "giorno": "GIO",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "ITALIANO",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "ITALIANO",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "ITALIANO",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "aula": "P9"
-                },
                 {
                     "giorno": "MER",
                     "da": "09:00",
@@ -1018,7 +895,47 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. MECCANICO IeFP-2",
                     "materia": "ITALIANO(MULTIMEDIALITA')",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "ITALIANO",
                     "aula": "P8bis"
                 }
             ]
@@ -1051,47 +968,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "A.S.LAB.RIP.VEIC.",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "A.S.LAB.RIP.VEIC.",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "A.S.LAB.RIP.VEIC.",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -1099,7 +976,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -1107,7 +984,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -1177,32 +1054,8 @@
                 },
                 {
                     "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "Scienze Motorie",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "LUN",
                     "da": "09:00",
                     "a": "10:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "Sviluppo sostenibile ambientale",
                     "aula": "P10"
@@ -1222,6 +1075,22 @@
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "Trasformazione energetica",
                     "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
                 }
             ]
         },
@@ -1229,99 +1098,51 @@
             "nome": "LO GALBO ANGELO",
             "slots": [
                 {
-                    "giorno": "GIO",
+                    "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "A.S.LAB.TERM.",
                     "aula": "T11"
                 },
                 {
-                    "giorno": "GIO",
+                    "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "A.S.LAB.TERM.",
                     "aula": "T11"
                 },
                 {
-                    "giorno": "GIO",
+                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "A.S.LAB.TERM.",
                     "aula": "T11"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.TERM.",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "LAB.TERMOIDRAULICA",
                     "aula": "T11"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.TERM.",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "LAB.TERMOIDRAULICA",
                     "aula": "T11"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.TERM.",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
                     "corso": "OP. ELETTRICO IeFP-2",
                     "materia": "LAB.TERMOIDRAULICA",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.TERM.",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.TERM.",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.TERM.",
                     "aula": "T11"
                 }
             ]
@@ -1330,51 +1151,51 @@
             "nome": "MANGIAPANE AURELIO",
             "slots": [
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Utilizzo e manut strum e attrez",
-                    "aula": "T29"
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "LABORATORIO ELETTRICO 2",
+                    "aula": "T26"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Utilizzo e manut strum e attrez",
-                    "aula": "T29"
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "LABORATORIO ELETTRICO 2",
+                    "aula": "T26"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Utilizzo e manut strum e attrez",
-                    "aula": "T29"
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "LABORATORIO ELETTRICO 2",
+                    "aula": "T26"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Utilizzo e manut strum e attrez",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "aula": "T29"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Utilizzo e manut strum e attrez",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "aula": "T29"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Utilizzo e manut strum e attrez",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "aula": "T29"
                 },
                 {
@@ -1399,6 +1220,30 @@
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "Utilizzo e manut strum e attrez",
+                    "aula": "T29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Pianificazione delle fasi di lavoro",
+                    "aula": "T29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Pianificazione delle fasi di lavoro",
+                    "aula": "T29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "aula": "T29"
                 }
             ]
@@ -1408,6 +1253,30 @@
             "slots": [
                 {
                     "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "ECONOMIA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
+                    "materia": "DIRITTO",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "ECONOMIA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -1415,49 +1284,17 @@
                     "aula": "P24"
                 },
                 {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "ECONOMIA",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
                     "materia": "DIRITTO",
                     "aula": "P25"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "DIRITTO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "ECONOMIA",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "DIRITTO",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                     "materia": "ECONOMIA",
                     "aula": "P24"
@@ -1469,10 +1306,18 @@
             "slots": [
                 {
                     "giorno": "GIO",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "aula": "T37"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "Pianificazione delle fasi di lavoro",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
                     "aula": "T37"
                 },
                 {
@@ -1480,19 +1325,19 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "TECNOLOGIA ESTETICA",
-                    "aula": "P8"
+                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "aula": "T37"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
                     "materia": "Pianificazione delle fasi di lavoro",
                     "aula": "T37"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1500,7 +1345,7 @@
                     "aula": "T37"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1508,7 +1353,7 @@
                     "aula": "T37"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1516,51 +1361,35 @@
                     "aula": "T37"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "aula": "T37"
+                    "materia": "TECNOLOGIA ESTETICA",
+                    "aula": "P8"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "aula": "T37"
+                    "materia": "TECNOLOGIA ESTETICA",
+                    "aula": "P8"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "aula": "T37"
+                    "materia": "TECNOLOGIA ESTETICA",
+                    "aula": "P8"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO",
-                    "aula": "T37"
-                },
-                {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO",
-                    "aula": "T37"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "aula": "T37"
                 }
             ]
@@ -1568,30 +1397,6 @@
         {
             "nome": "PINELLO FLAVIA",
             "slots": [
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "aula": "T25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "aula": "T25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "aula": "T25"
-                },
                 {
                     "giorno": "MER",
                     "da": "08:00",
@@ -1622,146 +1427,34 @@
             "nome": "PIPITONE ANTONINO",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "TECNOLOGIA ELETTRICA",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "P7"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "P7"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "TECNOLOGIA ELETTRICA",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "TECNOLOGIA ELETTRICA",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.EL.",
-                    "aula": "P7"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.EL.",
-                    "aula": "P7"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "A.S.LAB.EL.",
-                    "aula": "P7"
-                },
-                {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                    "aula": "P2"
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "LABORATORIO ELETTRICO",
+                    "aula": "P7"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "LABORATORIO ELETTRICO",
+                    "aula": "P7"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "LABORATORIO ELETTRICO",
+                    "aula": "P7"
                 }
             ]
         },
         {
             "nome": "TARANTINO MARCO",
             "slots": [
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
                 {
                     "giorno": "MER",
                     "da": "08:00",
@@ -1816,20 +1509,44 @@
             "nome": "URZI' FEDERICO",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "Sostenibilita ambientale e transizione ecologica",
+                    "aula": "P2"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
                     "corso": "OP. ELETTRICO IeFP-2",
                     "materia": "EDUCAZIONE FISICA",
                     "aula": "PALESTRA"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
                     "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "aula": "P2"
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
                 }
             ]
         },
@@ -1837,7 +1554,7 @@
             "nome": "VANGELO GIOVANNI",
             "slots": [
                 {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1845,7 +1562,7 @@
                     "aula": "T25"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1853,7 +1570,7 @@
                     "aula": "T25"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1861,7 +1578,7 @@
                     "aula": "T25"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1869,7 +1586,7 @@
                     "aula": "T25"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1877,7 +1594,7 @@
                     "aula": "T25"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
@@ -1890,73 +1607,25 @@
             "nome": "VULLO ENZA",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "GEO-STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
                     "materia": "GEO-STORIA",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
                     "corso": "OP. BENESSERE EST IeFP-2",
                     "materia": "GEO-STORIA",
                     "aula": "P8"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
                     "corso": "OP. BENESSERE EST IeFP-2",
                     "materia": "GEO-STORIA",
                     "aula": "P8"
@@ -1970,36 +1639,76 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
                     "materia": "TECNOLOGIA ACCONCIATURA",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "TECNOLOGIA ACCONCIATURA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "TECNOLOGIA ACCONCIATURA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
@@ -2007,7 +1716,7 @@
                     "aula": "T56"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
@@ -2015,7 +1724,7 @@
                     "aula": "T56"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
@@ -2023,7 +1732,7 @@
                     "aula": "T56"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
@@ -2031,7 +1740,7 @@
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
@@ -2039,44 +1748,12 @@
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
                     "materia": "TECNOLOGIA ACCONCIATURA",
                     "aula": "P9"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "TECNOLOGIA ACCONCIATURA",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "aula": "T56"
                 }
             ]
         },
@@ -2095,81 +1772,81 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "ITALIANO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
                     "materia": "ITALIANO",
                     "aula": "P25"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-1",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "corso": "OP. ELETTRICO IeFP-2",
-                    "materia": "ITALIANO",
-                    "aula": null
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "ITALIANO",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "ITALIANO",
                     "aula": "P23"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
                     "corso": "OP. ELETTRICO IeFP-2",
                     "materia": "ITALIANO(MULTIMEDIALITA')",
                     "aula": "P2"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
+                    "materia": "Multimedialita\/Comunicazione",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P2"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "10:00",
+                    "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-1",
                     "materia": "ITALIANO",
                     "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P2"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. ELETTRICO IeFP-2",
+                    "materia": "ITALIANO",
+                    "aula": "P2"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "ITALIANO",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "Multimedialita\/Comunicazione",
+                    "aula": "P24"
                 }
             ]
         }
@@ -2182,121 +1859,49 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "Religione - Attività alternative 3",
-                    "docente": "CILLUFFO RICCARDO",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "DIRITTO",
-                    "docente": "MEGNA ROBERTA",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "A.S.LAB.ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "T56"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
                     "materia": "Sviluppo sostenibile ambientale",
                     "docente": "GERACI FABRIZIO",
                     "aula": "P25"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Statistica Descrittiva",
-                    "docente": "FICANO AURELIO",
+                    "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "ITALIANO",
+                    "docente": "ZITO SABRINA",
                     "aula": "P25"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "Competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "DIRITTO",
-                    "docente": "MEGNA ROBERTA",
-                    "aula": "P25"
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
                 },
                 {
                     "giorno": "MER",
@@ -2345,6 +1950,54 @@
                     "materia": "A.S.LAB.ACCONCIATURA",
                     "docente": "ZAMA VINCENZA",
                     "aula": "T56"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "A.S.LAB.ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "DIRITTO",
+                    "docente": "MEGNA ROBERTA",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "Religione - Attività alternative 3",
+                    "docente": "CILLUFFO RICCARDO",
+                    "aula": "P25"
                 }
             ]
         },
@@ -2355,84 +2008,60 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "ITALIANO",
-                    "docente": "GRECO EGLE",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                    "docente": "PIPITONE ANTONINO",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
                     "materia": "TECNOLOGIA ACCONCIATURA",
                     "docente": "ZAMA VINCENZA",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "docente": "GERACI FABRIZIO",
+                    "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "TECNOLOGIA ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "TECNOLOGIA ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "GEO-STORIA",
+                    "docente": "VULLO ENZA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "materia": "IRC - Cultura etica",
@@ -2440,84 +2069,84 @@
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "MER",
                     "da": "10:00",
                     "a": "11:00",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+                    "docente": "TARANTINO MARCO",
+                    "aula": "T36"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+                    "docente": "TARANTINO MARCO",
+                    "aula": "T36"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+                    "docente": "TARANTINO MARCO",
+                    "aula": "T36"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
                     "materia": "ITALIANO",
                     "docente": "GRECO EGLE",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "TECNOLOGIA ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "TECNOLOGIA ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "TECNOLOGIA ACCONCIATURA",
-                    "docente": "ZAMA VINCENZA",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "ITALIANO",
                     "docente": "GRECO EGLE",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
                     "materia": "TECNOLOGIA ACCONCIATURA",
                     "docente": "ZAMA VINCENZA",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "TECNOLOGIA ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
                     "aula": "P9"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
+                    "materia": "TECNOLOGIA ACCONCIATURA",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "P9"
                 }
             ]
         },
@@ -2528,60 +2157,36 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "docente": "GRECO EGLE",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "docente": "GRECO EGLE",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "TECNOLOGIA ESTETICA",
+                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
                     "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "P8"
+                    "aula": "T37"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
-                    "aula": "P8"
+                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "T37"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
-                    "aula": "P8"
+                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "T37"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
-                    "aula": "P8"
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "materia": "GEO-STORIA",
@@ -2589,60 +2194,12 @@
                     "aula": "P8"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "materia": "GEO-STORIA",
                     "docente": "VULLO ENZA",
                     "aula": "P8"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "ITALIANO",
-                    "docente": "GRECO EGLE",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
                 },
                 {
                     "giorno": "MER",
@@ -2672,25 +2229,73 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
+                    "materia": "TECNOLOGIA ESTETICA",
+                    "docente": "MORGANTE ANGELAMARIA",
                     "aula": "P8"
                 },
                 {
                     "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "VULLO ENZA",
+                    "materia": "TECNOLOGIA ESTETICA",
+                    "docente": "MORGANTE ANGELAMARIA",
                     "aula": "P8"
                 },
                 {
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "EDUCAZIONE FISICA",
-                    "docente": "GERACI FABRIZIO",
-                    "aula": "PALESTRA"
+                    "materia": "TECNOLOGIA ESTETICA",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "Sostenibilita ambientale e transizione ecologica",
+                    "docente": "BONSANGUE GIUSEPPE",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "Sostenibilita ambientale e transizione ecologica",
+                    "docente": "BONSANGUE GIUSEPPE",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "ITALIANO",
+                    "docente": "GRECO EGLE",
+                    "aula": "P8"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
                 }
             ]
         },
@@ -2701,120 +2306,48 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "docente": "LO GALBO ANGELO",
-                    "aula": "T11"
+                    "materia": "LABORATORIO ELETTRICO 2",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T26"
                 },
                 {
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "docente": "LO GALBO ANGELO",
-                    "aula": "T11"
+                    "materia": "LABORATORIO ELETTRICO 2",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T26"
                 },
                 {
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "docente": "LO GALBO ANGELO",
-                    "aula": "T11"
+                    "materia": "LABORATORIO ELETTRICO 2",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T26"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "TECNOLOGIA ELETTRICA",
-                    "docente": "PIPITONE ANTONINO",
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "ITALIANO(MULTIMEDIALITA')",
+                    "docente": "ZITO SABRINA",
                     "aula": "P2"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": null
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
                     "materia": "Informatica e competenze digitali",
                     "docente": "AMMIRATA GIUSEPPE",
                     "aula": "P29"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "EDUCAZIONE FISICA",
-                    "docente": "URZI' FEDERICO",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "docente": "URZI' FEDERICO",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "docente": "LO GALBO ANGELO",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "docente": "LO GALBO ANGELO",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "docente": "LO GALBO ANGELO",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "TECNOLOGIA ELETTRICA",
-                    "docente": "PIPITONE ANTONINO",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "TECNOLOGIA ELETTRICA",
-                    "docente": "PIPITONE ANTONINO",
+                    "materia": "ITALIANO",
+                    "docente": "ZITO SABRINA",
                     "aula": "P2"
                 },
                 {
@@ -2845,15 +2378,15 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                    "docente": "PIPITONE ANTONINO",
+                    "materia": "ITALIANO",
+                    "docente": "ZITO SABRINA",
                     "aula": "P2"
                 },
                 {
                     "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
+                    "materia": "ITALIANO",
                     "docente": "ZITO SABRINA",
                     "aula": "P2"
                 },
@@ -2861,9 +2394,57 @@
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "IRC - Cultura etica",
-                    "docente": "CILLUFFO RICCARDO",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "Sostenibilita ambientale e transizione ecologica",
+                    "docente": "URZI' FEDERICO",
                     "aula": "P2"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "URZI' FEDERICO",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "URZI' FEDERICO",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "LAB.TERMOIDRAULICA",
+                    "docente": "LO GALBO ANGELO",
+                    "aula": "T11"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "LAB.TERMOIDRAULICA",
+                    "docente": "LO GALBO ANGELO",
+                    "aula": "T11"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "LAB.TERMOIDRAULICA",
+                    "docente": "LO GALBO ANGELO",
+                    "aula": "T11"
                 }
             ]
         },
@@ -2882,111 +2463,39 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
+                    "materia": "Competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
                     "materia": "ITALIANO",
                     "docente": "ZITO SABRINA",
                     "aula": "P23"
                 },
                 {
                     "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "Utilizzo e manut strum e attrez",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "Utilizzo e manut strum e attrez",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "Utilizzo e manut strum e attrez",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "LUN",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "Religione - Attività alternative 3",
-                    "docente": "CILLUFFO RICCARDO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "Competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "DIRITTO",
-                    "docente": "MEGNA ROBERTA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "Utilizzo e manut strum e attrez",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "docente": "MANGIAPANE AURELIO",
                     "aula": "T29"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "Utilizzo e manut strum e attrez",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "docente": "MANGIAPANE AURELIO",
                     "aula": "T29"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Utilizzo e manut strum e attrez",
+                    "materia": "Pianificazione delle fasi di lavoro",
                     "docente": "MANGIAPANE AURELIO",
                     "aula": "T29"
                 },
@@ -3036,6 +2545,54 @@
                     "a": "14:00",
                     "materia": "MATEMATICA",
                     "docente": "FICANO AURELIO",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "Pianificazione delle fasi di lavoro",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "Pianificazione delle fasi di lavoro",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "Pianificazione delle fasi di lavoro",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Religione - Attività alternative 3",
+                    "docente": "CILLUFFO RICCARDO",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
                     "aula": "P23"
                 }
             ]
@@ -3068,39 +2625,15 @@
                     "aula": "T27"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
                     "aula": "P8bis"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "materia": "MATEMATICA",
@@ -3108,55 +2641,7 @@
                     "aula": "P8bis"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "BASILE CATERINA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "PARI OPPORTUNITA'",
-                    "docente": "BASILE CATERINA",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                    "docente": "PIPITONE ANTONINO",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "DI CARO VINCENZO",
-                    "aula": "T27"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "DI CARO VINCENZO",
-                    "aula": "T27"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "materia": "MATEMATICA",
@@ -3191,23 +2676,71 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "MATEMATICA",
-                    "docente": "FICANO AURELIO",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
                     "materia": "Informatica e competenze digitali",
                     "docente": "AMMIRATA GIUSEPPE",
                     "aula": "P29"
                 },
                 {
                     "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "IRC - Cultura etica",
+                    "docente": "CILLUFFO RICCARDO",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
+                    "materia": "ITALIANO",
+                    "docente": "GRECO EGLE",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
                     "materia": "ITALIANO(MULTIMEDIALITA')",
+                    "docente": "GRECO EGLE",
+                    "aula": "P8bis"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "URZI' FEDERICO",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "URZI' FEDERICO",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "ITALIANO",
                     "docente": "GRECO EGLE",
                     "aula": "P8bis"
                 }
@@ -3220,100 +2753,28 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P24"
+                    "materia": "A.S.LAB.RIP.MOTO",
+                    "docente": "CANNATELLA ANGELO",
+                    "aula": "T22"
                 },
                 {
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "ECONOMIA",
-                    "docente": "MEGNA ROBERTA",
-                    "aula": "P24"
+                    "materia": "A.S.LAB.RIP.MOTO",
+                    "docente": "CANNATELLA ANGELO",
+                    "aula": "T22"
                 },
                 {
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "Scienze Motorie",
-                    "docente": "LERDA RAMIRO EZEQUIEL",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "A.S.LAB.RIP.VEIC.",
-                    "docente": "IENNA FRANCESCO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "A.S.LAB.RIP.VEIC.",
-                    "docente": "IENNA FRANCESCO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "A.S.LAB.RIP.VEIC.",
-                    "docente": "IENNA FRANCESCO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
                     "materia": "A.S.LAB.RIP.MOTO",
                     "docente": "CANNATELLA ANGELO",
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "A.S.LAB.RIP.MOTO",
-                    "docente": "CANNATELLA ANGELO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "A.S.LAB.RIP.MOTO",
-                    "docente": "CANNATELLA ANGELO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
                     "materia": "A.S.LAB.RIP.VEIC.",
@@ -3321,7 +2782,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "materia": "A.S.LAB.RIP.VEIC.",
@@ -3329,7 +2790,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "materia": "A.S.LAB.RIP.VEIC.",
@@ -3358,7 +2819,7 @@
                     "a": "11:00",
                     "materia": "Orientamento",
                     "docente": "BASILE CATERINA",
-                    "aula": "P10"
+                    "aula": "P24"
                 },
                 {
                     "giorno": "MER",
@@ -3383,6 +2844,54 @@
                     "materia": "A.S.LAB.RIP.VEIC.",
                     "docente": "IENNA FRANCESCO",
                     "aula": "T22"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "ITALIANO",
+                    "docente": "ZITO SABRINA",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "Multimedialita\/Comunicazione",
+                    "docente": "ZITO SABRINA",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Scienze Motorie",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "ECONOMIA",
+                    "docente": "MEGNA ROBERTA",
+                    "aula": "P24"
                 }
             ]
         },
@@ -3414,87 +2923,15 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "docente": "LERDA RAMIRO EZEQUIEL",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "docente": "LERDA RAMIRO EZEQUIEL",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
-                    "docente": "CANNATELLA ANGELO",
-                    "aula": "T22"
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
-                    "docente": "CANNATELLA ANGELO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
-                    "docente": "CANNATELLA ANGELO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
-                    "docente": "IENNA FRANCESCO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
-                    "docente": "IENNA FRANCESCO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "GEO-STORIA",
-                    "docente": "BASILE CATERINA",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "TECNOLOGIA RIP. VEIC",
-                    "docente": "CANNATELLA ANGELO",
-                    "aula": "T22"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "materia": "TECNOLOGIA RIP. VEIC",
@@ -3502,7 +2939,7 @@
                     "aula": "T22"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "materia": "TECNOLOGIA RIP. VEIC",
@@ -3556,6 +2993,54 @@
                     "materia": "PARI OPPORTUNITA'",
                     "docente": "BASILE CATERINA",
                     "aula": "P26"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P26"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P26"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "IRC - Cultura etica",
+                    "docente": "CILLUFFO RICCARDO",
+                    "aula": "P26"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
+                    "docente": "CANNATELLA ANGELO",
+                    "aula": "T22"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "LAB. RIP. MOTO(SCOOTER, CICLOMOTORI, MOTOCICLI)",
+                    "docente": "CANNATELLA ANGELO",
+                    "aula": "T22"
                 }
             ]
         },
@@ -3566,12 +3051,60 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "MATEMATICA",
+                    "materia": "Competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "Sviluppo sostenibile ambientale",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "Statistica Descrittiva",
                     "docente": "FICANO AURELIO",
                     "aula": "P10"
                 },
                 {
                     "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "ECONOMIA",
+                    "docente": "MEGNA ROBERTA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Multimedialita\/Comunicazione",
+                    "docente": "ZITO SABRINA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "ECONOMIA",
+                    "docente": "MEGNA ROBERTA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "materia": "INGLESE",
@@ -3579,183 +3112,19 @@
                     "aula": "P10"
                 },
                 {
-                    "giorno": "GIO",
+                    "giorno": "MER",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "ECONOMIA",
-                    "docente": "MEGNA ROBERTA",
+                    "materia": "ITALIANO",
+                    "docente": "ZITO SABRINA",
                     "aula": "P10"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
                     "materia": "Religione - Attività alternative 3",
                     "docente": "CILLUFFO RICCARDO",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "HACCP",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "PIPITONE ANTONINO",
-                    "materia2": "LABORATORIO ELETTRICO",
-                    "aula2": "P7"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "HACCP",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "PIPITONE ANTONINO",
-                    "materia2": "LABORATORIO ELETTRICO",
-                    "aula2": "P7"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM.",
-                    "aula2": "T11"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM.",
-                    "aula2": "T11"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM.",
-                    "aula2": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "Sviluppo sostenibile ambientale",
-                    "docente": "LERDA RAMIRO EZEQUIEL",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "Competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "ECONOMIA",
-                    "docente": "MEGNA ROBERTA",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM.",
-                    "aula2": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM.",
-                    "aula2": "T11"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "A.S.LAB.TERM.",
-                    "aula2": "T11"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "PIPITONE ANTONINO",
-                    "materia2": "A.S.LAB.EL.",
-                    "aula2": "P7"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "PIPITONE ANTONINO",
-                    "materia2": "A.S.LAB.EL.",
-                    "aula2": "P7"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "A.S.LAB.CUCINA",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "PIPITONE ANTONINO",
-                    "materia2": "A.S.LAB.EL.",
-                    "aula2": "P7"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "docente": "ZITO SABRINA",
                     "aula": "P10"
                 },
                 {
@@ -3770,9 +3139,81 @@
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P10"
+                    "materia": "Competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "A.S.LAB.CUCINA",
+                    "docente": "GRECO DARIO",
+                    "aula": "T51",
+                    "tipo": "divisa",
+                    "docente2": "LO GALBO ANGELO",
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "A.S.LAB.CUCINA",
+                    "docente": "GRECO DARIO",
+                    "aula": "T51",
+                    "tipo": "divisa",
+                    "docente2": "LO GALBO ANGELO",
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "A.S.LAB.CUCINA",
+                    "docente": "GRECO DARIO",
+                    "aula": "T51",
+                    "tipo": "divisa",
+                    "docente2": "LO GALBO ANGELO",
+                    "materia2": "A.S.LAB.TERM.",
+                    "aula2": "T11"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "HACCP",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51",
+                    "tipo": "divisa",
+                    "docente2": "PIPITONE ANTONINO",
+                    "materia2": "LABORATORIO ELETTRICO",
+                    "aula2": "P7"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "HACCP",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51",
+                    "tipo": "divisa",
+                    "docente2": "PIPITONE ANTONINO",
+                    "materia2": "LABORATORIO ELETTRICO",
+                    "aula2": "P7"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "HACCP",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51",
+                    "tipo": "divisa",
+                    "docente2": "PIPITONE ANTONINO",
+                    "materia2": "LABORATORIO ELETTRICO",
+                    "aula2": "P7"
                 }
             ]
         },
@@ -3804,98 +3245,26 @@
                     "aula": "T51"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LABORATORIO CUCINA 2",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LABORATORIO CUCINA 2",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "LABORATORIO CUCINA 2",
-                    "docente": "GRECO DARIO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "HACCP",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "HACCP",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "IRC - Cultura etica",
-                    "docente": "CILLUFFO RICCARDO",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
                     "aula": "P1"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "TECNOLOGIA ALIMENTARE",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "materia": "HACCP",
                     "docente": "GANCI DIEGO",
                     "aula": "T51"
                 },
                 {
-                    "giorno": "MAR",
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "materia": "HACCP",
                     "docente": "GANCI DIEGO",
                     "aula": "T51"
                 },
@@ -3927,12 +3296,60 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "EDUCAZIONE FISICA",
-                    "docente": "GERACI FABRIZIO",
-                    "aula": "PALESTRA"
+                    "materia": "LABORATORIO CUCINA 2",
+                    "docente": "GRECO DARIO",
+                    "aula": "T51"
                 },
                 {
                     "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "LABORATORIO CUCINA 2",
+                    "docente": "GRECO DARIO",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "LABORATORIO CUCINA 2",
+                    "docente": "GRECO DARIO",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "TECNOLOGIA ALIMENTARE",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
                     "materia": "MATEMATICA",
@@ -3940,12 +3357,12 @@
                     "aula": "P1"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 }
             ]
         },
@@ -3964,9 +3381,9 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "Pianificazione delle fasi di lavoro",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P28"
                 },
                 {
                     "giorno": "GIO",
@@ -3977,7 +3394,103 @@
                     "aula": "P28"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "Pianificazione delle fasi di lavoro",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "T37"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Sviluppo sostenibile ambientale",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "DIRITTO",
+                    "docente": "MEGNA ROBERTA",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "materia": "LAB.MANUFATT.TESSILE 2",
+                    "docente": "PINELLO FLAVIA",
+                    "aula": "T25",
+                    "tipo": "divisa",
+                    "docente2": "MORGANTE ANGELAMARIA",
+                    "materia2": "LABORATORIO ESTETICO",
+                    "aula2": "T37"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "materia": "LAB.MANUFATT.TESSILE 2",
+                    "docente": "PINELLO FLAVIA",
+                    "aula": "T25",
+                    "tipo": "divisa",
+                    "docente2": "MORGANTE ANGELAMARIA",
+                    "materia2": "LABORATORIO ESTETICO",
+                    "aula2": "T37"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "materia": "LAB.MANUFATT.TESSILE 2",
+                    "docente": "PINELLO FLAVIA",
+                    "aula": "T25",
+                    "tipo": "divisa",
+                    "docente2": "MORGANTE ANGELAMARIA",
+                    "materia2": "LABORATORIO ESTETICO",
+                    "aula2": "T37"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "A.S.LAB.MAN.TESS.",
+                    "docente": "VANGELO GIOVANNI",
+                    "aula": "T25",
+                    "tipo": "divisa",
+                    "docente2": "CARAVELLO SIMONA",
+                    "materia2": "A.S.LAB.ESTETICA",
+                    "aula2": "T38"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "A.S.LAB.MAN.TESS.",
+                    "docente": "VANGELO GIOVANNI",
+                    "aula": "T25",
+                    "tipo": "divisa",
+                    "docente2": "CARAVELLO SIMONA",
+                    "materia2": "A.S.LAB.ESTETICA",
+                    "aula2": "T38"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "A.S.LAB.MAN.TESS.",
+                    "docente": "VANGELO GIOVANNI",
+                    "aula": "T25",
+                    "tipo": "divisa",
+                    "docente2": "CARAVELLO SIMONA",
+                    "materia2": "A.S.LAB.ESTETICA",
+                    "aula2": "T38"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
                     "materia": "Competenze digitali",
@@ -3985,155 +3498,23 @@
                     "aula": "P29"
                 },
                 {
-                    "giorno": "LUN",
+                    "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "10:00",
-                    "a": "11:00",
                     "materia": "Pianificazione delle fasi di lavoro",
                     "docente": "MORGANTE ANGELAMARIA",
                     "aula": "T37"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "A.S.LAB.MAN.TESS.",
-                    "docente": "VANGELO GIOVANNI",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "CARAVELLO SIMONA",
-                    "materia2": "A.S.LAB.ESTETICA",
-                    "aula2": "T38"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "A.S.LAB.MAN.TESS.",
-                    "docente": "VANGELO GIOVANNI",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "CARAVELLO SIMONA",
-                    "materia2": "A.S.LAB.ESTETICA",
-                    "aula2": "T38"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "A.S.LAB.MAN.TESS.",
-                    "docente": "VANGELO GIOVANNI",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "CARAVELLO SIMONA",
-                    "materia2": "A.S.LAB.ESTETICA",
-                    "aula2": "T38"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "docente": "PINELLO FLAVIA",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "LABORATORIO ESTETICO",
-                    "aula2": "T37"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "docente": "PINELLO FLAVIA",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "LABORATORIO ESTETICO",
-                    "aula2": "T37"
-                },
-                {
-                    "giorno": "MAR",
+                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "docente": "PINELLO FLAVIA",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "LABORATORIO ESTETICO",
-                    "aula2": "T37"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "Orientamento",
-                    "docente": "BASILE CATERINA",
+                    "materia": "Religione - Attività alternative 3",
+                    "docente": "CILLUFFO RICCARDO",
                     "aula": "P28"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Sviluppo sostenibile ambientale",
-                    "docente": "GERACI FABRIZIO",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "Sviluppo sostenibile ambientale",
-                    "docente": "GERACI FABRIZIO",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "docente": "PINELLO FLAVIA",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "LABORATORIO ESTETICO",
-                    "aula2": "T37"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "docente": "PINELLO FLAVIA",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "LABORATORIO ESTETICO",
-                    "aula2": "T37"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "LAB.MANUFATT.TESSILE 2",
-                    "docente": "PINELLO FLAVIA",
-                    "aula": "T25",
-                    "tipo": "divisa",
-                    "docente2": "MORGANTE ANGELAMARIA",
-                    "materia2": "LABORATORIO ESTETICO",
-                    "aula2": "T37"
-                },
-                {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
                     "materia": "A.S.LAB.MAN.TESS.",
@@ -4145,7 +3526,7 @@
                     "aula2": "T38"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
                     "materia": "A.S.LAB.MAN.TESS.",
@@ -4157,7 +3538,7 @@
                     "aula2": "T38"
                 },
                 {
-                    "giorno": "MER",
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
                     "materia": "A.S.LAB.MAN.TESS.",
