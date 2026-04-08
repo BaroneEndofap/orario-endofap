@@ -629,15 +629,66 @@ html, body {
     // ── Fetch dati ───────────────────────────────────────────────────────────
 
     async function caricaDati() {
-        let url = CONFIG.apiUrl + '?_t=' + Date.now();
-        if (CONFIG.filtro_piano)  url += '&piano=' + encodeURIComponent(CONFIG.filtro_piano);
-        if (CONFIG.filtro_aula)   url += '&aula='  + encodeURIComponent(CONFIG.filtro_aula);
-        if (CONFIG.totem_codice)  url += '&totem=' + encodeURIComponent(CONFIG.totem_codice);
-
         try {
-            const resp = await fetch(url);
-            if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            dati = await resp.json();
+            const cb = '?_t=' + Date.now();
+            const [rOrario, rComm, rMedia] = await Promise.all([
+                fetch(CONFIG.orarioUrl + cb).then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch(CONFIG.comunicazioniUrl + cb).then(r => r.ok ? r.json() : null).catch(() => null),
+                fetch(CONFIG.mediaUrl + cb).then(r => r.ok ? r.json() : null).catch(() => null),
+            ]);
+
+            const now = new Date();
+            const nomiLunghi = ['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato'];
+            const nomiBrevi  = ['DOM','LUN','MAR','MER','GIO','VEN','SAB'];
+            const oggiLungo = nomiLunghi[now.getDay()];
+            const oggiBreve = nomiBrevi[now.getDay()];
+            const oggiISO   = now.toISOString().split('T')[0];
+            const oraStr    = String(now.getHours()).padStart(2,'0') + ':' + String(now.getMinutes()).padStart(2,'0');
+
+            const lezioni = [];
+            const aulaMap = {}, corsoMap = {};
+            let corsoIdx = 0, aulaIdx = 0;
+
+            if (rOrario && rOrario.corsi) {
+                for (const corso of rOrario.corsi) {
+                    let idCorso = null;
+                    for (const slot of (corso.lezioni || [])) {
+                        const sg = (slot.giorno || '').toUpperCase().substring(0, 3); if (sg !== oggiBreve && slot.giorno !== oggiLungo) continue;
+                        if (idCorso === null) { idCorso = ++corsoIdx; corsoMap[idCorso] = corso.nome; }
+                        const aulaKey = slot.aula || '';
+                        if (!aulaMap[aulaKey]) aulaMap[aulaKey] = ++aulaIdx;
+                        const idAula = aulaMap[aulaKey];
+                        lezioni.push({
+                            da: slot.da, a: slot.a, fascia: slot.da + '-' + slot.a,
+                            corso: corso.nome, id_corso: idCorso,
+                            materia: slot.materia || '', docente: slot.docente || '',
+                            aula: slot.aula || '', id_aula: idAula, piano: 0,
+                            in_corso: oraStr >= slot.da && oraStr < slot.a,
+                        });
+                    }
+                }
+            }
+
+            const fasceSet = {};
+            for (const l of lezioni) fasceSet[l.fascia] = {da: l.da, a: l.a};
+            const fasce = Object.values(fasceSet).sort((a,b) => a.da.localeCompare(b.da));
+            const aule  = Object.entries(aulaMap).map(([nome, id]) => ({id, nome, piano: 0}))
+                              .sort((a,b) => a.nome.localeCompare(b.nome));
+            const corsi = Object.entries(corsoMap).map(([id, nome]) => ({id: +id, nome}))
+                              .sort((a,b) => a.nome.localeCompare(b.nome));
+
+            const messaggi = (rComm && rComm.comunicazioni || []).map((t, i) => ({id: i+1, testo: t}));
+            const media    = (rMedia && rMedia.media) || [];
+
+            let orarioDal = null;
+            if (rOrario && rOrario.dal) {
+                const p = rOrario.dal.split('/');
+                if (p.length === 3) orarioDal = p[2] + '-' + p[1] + '-' + p[0];
+            }
+
+            dati = { data: oggiISO, giorno: oggiLungo, festivo: false, ora: oraStr,
+                     orario_id: null, orario_dal: orarioDal, orario_al: null,
+                     lezioni, fasce, aule, corsi, messaggi, media };
             costruisciSlides();
         } catch (err) {
             console.error('Errore caricamento dati:', err);
