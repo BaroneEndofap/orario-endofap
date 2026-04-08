@@ -639,7 +639,7 @@ html, body {
 
             const now = new Date();
             const nomiLunghi = ['Domenica','Luned\u00ec','Marted\u00ec','Mercoled\u00ec','Gioved\u00ec','Venerd\u00ec','Sabato'];
-            const nomiBrevi  = ['Dom','Lun','Mar','Mer','Gio','Ven','Sab'];
+            const nomiBrevi  = ['DOM','LUN','MAR','MER','GIO','VEN','SAB'];
             const oggiLungo = nomiLunghi[now.getDay()];
             const oggiBreve = nomiBrevi[now.getDay()];
             const oggiISO   = now.toISOString().split('T')[0];
@@ -653,7 +653,7 @@ html, body {
                 for (const corso of rOrario.corsi) {
                     let idCorso = null;
                     for (const slot of (corso.lezioni || [])) {
-                        if (slot.giorno !== oggiLungo && slot.giorno !== oggiBreve) continue;
+                        const sg = (slot.giorno || '').toUpperCase().substring(0, 3); if (sg !== oggiBreve && slot.giorno !== oggiLungo) continue;
                         if (idCorso === null) { idCorso = ++corsoIdx; corsoMap[idCorso] = corso.nome; }
                         const aulaKey = slot.aula || '';
                         if (!aulaMap[aulaKey]) aulaMap[aulaKey] = ++aulaIdx;
