@@ -629,66 +629,15 @@ html, body {
     // ── Fetch dati ───────────────────────────────────────────────────────────
 
     async function caricaDati() {
+        let url = CONFIG.apiUrl + '?_t=' + Date.now();
+        if (CONFIG.filtro_piano)  url += '&piano=' + encodeURIComponent(CONFIG.filtro_piano);
+        if (CONFIG.filtro_aula)   url += '&aula='  + encodeURIComponent(CONFIG.filtro_aula);
+        if (CONFIG.totem_codice)  url += '&totem=' + encodeURIComponent(CONFIG.totem_codice);
+
         try {
-            const cb = '?_t=' + Date.now();
-            const [rOrario, rComm, rMedia] = await Promise.all([
-                fetch(CONFIG.orarioUrl + cb).then(r => r.ok ? r.json() : null).catch(() => null),
-                fetch(CONFIG.comunicazioniUrl + cb).then(r => r.ok ? r.json() : null).catch(() => null),
-                fetch(CONFIG.mediaUrl + cb).then(r => r.ok ? r.json() : null).catch(() => null),
-            ]);
-
-            const now = new Date();
-            const nomiLunghi = ['Domenica','Luned\u00ec','Marted\u00ec','Mercoled\u00ec','Gioved\u00ec','Venerd\u00ec','Sabato'];
-            const nomiBrevi  = ['DOM','LUN','MAR','MER','GIO','VEN','SAB'];
-            const oggiLungo = nomiLunghi[now.getDay()];
-            const oggiBreve = nomiBrevi[now.getDay()];
-            const oggiISO   = now.toISOString().split('T')[0];
-            const oraStr    = String(now.getHours()).padStart(2,'0') + ':' + String(now.getMinutes()).padStart(2,'0');
-
-            const lezioni = [];
-            const aulaMap = {}, corsoMap = {};
-            let corsoIdx = 0, aulaIdx = 0;
-
-            if (rOrario && rOrario.corsi) {
-                for (const corso of rOrario.corsi) {
-                    let idCorso = null;
-                    for (const slot of (corso.lezioni || [])) {
-                        const sg = (slot.giorno || '').toUpperCase().substring(0, 3); if (sg !== oggiBreve && slot.giorno !== oggiLungo) continue;
-                        if (idCorso === null) { idCorso = ++corsoIdx; corsoMap[idCorso] = corso.nome; }
-                        const aulaKey = slot.aula || '';
-                        if (!aulaMap[aulaKey]) aulaMap[aulaKey] = ++aulaIdx;
-                        const idAula = aulaMap[aulaKey];
-                        lezioni.push({
-                            da: slot.da, a: slot.a, fascia: slot.da + '-' + slot.a,
-                            corso: corso.nome, id_corso: idCorso,
-                            materia: slot.materia || '', docente: slot.docente || '',
-                            aula: slot.aula || '', id_aula: idAula, piano: 0,
-                            in_corso: oraStr >= slot.da && oraStr < slot.a,
-                        });
-                    }
-                }
-            }
-
-            const fasceSet = {};
-            for (const l of lezioni) fasceSet[l.fascia] = {da: l.da, a: l.a};
-            const fasce = Object.values(fasceSet).sort((a,b) => a.da.localeCompare(b.da));
-            const aule  = Object.entries(aulaMap).map(([nome, id]) => ({id, nome, piano: 0}))
-                              .sort((a,b) => a.nome.localeCompare(b.nome));
-            const corsi = Object.entries(corsoMap).map(([id, nome]) => ({id: +id, nome}))
-                              .sort((a,b) => a.nome.localeCompare(b.nome));
-
-            const messaggi = (rComm && rComm.comunicazioni || []).map((t, i) => ({id: i+1, testo: t}));
-            const media    = (rMedia && rMedia.media) || [];
-
-            let orarioDal = null;
-            if (rOrario && rOrario.dal) {
-                const p = rOrario.dal.split('/');
-                if (p.length === 3) orarioDal = p[2] + '-' + p[1] + '-' + p[0];
-            }
-
-            dati = { data: oggiISO, giorno: oggiLungo, festivo: false, ora: oraStr,
-                     orario_id: null, orario_dal: orarioDal, orario_al: null,
-                     lezioni, fasce, aule, corsi, messaggi, media };
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error('HTTP ' + resp.status);
+            dati = await resp.json();
             costruisciSlides();
         } catch (err) {
             console.error('Errore caricamento dati:', err);
@@ -869,116 +818,42 @@ html, body {
                         html += '<div class="cell-sub">' + escHtml(lez.docente) + '</div>';
                         html += '</td>';
                     } else {
-                        html += '<div class="colonna-adesso-title prossima">Prossima Ora</div>';
-                        html += '<div class="colonna-vuota">Nessuna lezione successiva</div>';
+                        html += '<td class="' + cls + '">';
+                        html += '<div class="cell-main">' + escHtml(lez.materia) + '</div>';
+                        html += '<div class="cell-sub">' + escHtml(lez.docente) + '</div>';
+                        html += '<div class="cell-sub">' + escHtml(lez.aula) + '</div>';
+                        html += '</td>';
                     }
-                    html += '</div>';
-
-                    html += '</div>';
-                    html += renderValidita();
-                    html += '</div>';
-                    result.push(html);
-                }
-
-                return result;
-            }
-
-            function renderCardLezione(lez, inCorso) {
-                let html = '<div class="card-lezione' + (inCorso ? ' in-corso' : '') + '">' +
-                    '<div class="card-orario">' + escHtml(lez.da) + ' – ' + escHtml(lez.a) + '</div>' +
-                    '<div class="card-corso">' + escHtml(lez.corso) + '</div>';
-                if (lez.divisa) {
-                    html += '<div class="card-divisa">';
-                    html += '<div class="card-divisa-gruppo">' +
-                        '<div class="card-materia">' + escHtml(lez.materia) + '</div>' +
-                        '<div class="card-dettagli">' +
-                        '<span>' + escHtml(lez.docente) + '</span>' +
-                        '<span>' + escHtml(lez.aula) + '</span>' +
-                        '</div></div>';
-                    html += '<div class="card-divisa-gruppo">' +
-                        '<div class="card-materia">' + escHtml(lez.divisa.materia2) + '</div>' +
-                        '<div class="card-dettagli">' +
-                        '<span>' + escHtml(lez.divisa.docente2) + '</span>' +
-                        (lez.divisa.aula2 ? '<span>' + escHtml(lez.divisa.aula2) + '</span>' : '') +
-                        '</div></div>';
-                    html += '</div>';
                 } else {
-                    html += '<div class="card-materia">' + escHtml(lez.materia) + '</div>' +
-                        '<div class="card-dettagli">' +
-                        '<span>Docente: ' + escHtml(lez.docente) + '</span>' +
-                        '<span>Aula: ' + escHtml(lez.aula) + '</span>' +
-                        '</div>';
+                    html += '<td class="empty">—</td>';
                 }
-                html += '</div>';
-                return html;
             }
-
-            function renderCardVuota(nomeCorso) {
-                return '<div class="card-lezione vuota">' +
-                    '<div class="card-corso">' + escHtml(nomeCorso) + '</div>' +
-                    '<div class="card-nessuna-lezione">Nessuna lezione</div>' +
-                    '</div>';
-            }
-
-            function renderValidita() {
-                if (!dati || !dati.orario_dal) return '';
-                return '<div class="orario-validita">Orario in vigore dal ' +
-                    formattaData(dati.orario_dal) +
-                    (dati.orario_al ? ' al ' + formattaData(dati.orario_al) : '') +
-                    '</div>';
-            }
-
-            // ── Paginazione righe ────────────────────────────────────────────────────
-
-            function paginaRighe(items, maxPerPage) {
-                const pages = [];
-                for (let i = 0; i < items.length; i += maxPerPage) {
-                    pages.push(items.slice(i, i + maxPerPage));
-                }
-                return pages.length > 0 ? pages : [
-                    []
-                ];
-            }
+            html += '</tr>';
+        }
+        html += '</tbody></table>';
+        return html;
+    }
 
     // ── Vista ADESSO / PROSSIMA ORA ──────────────────────────────────────────
-    // Se le lezioni sono troppe per una slide, vengono paginate in più slide
-    // così il carousel le mostra tutte in rotazione.
 
-    const MAX_CARDS_PER_SLIDE = 5; // card per colonna per slide
+    function costruisciVistaAdesso() {
+        const { fasce, lezioni } = dati;
+        if (!fasce || fasce.length === 0) return [];
 
-            function avviaRotazione() {
-                if (rotationTimer) clearInterval(rotationTimer);
-                if (slides.length <= 1) return;
+        const oraCorrente = dati.ora || '';
 
-                rotationTimer = setInterval(function() {
-                    if (slides.length === 0) return;
-                    slides[currentSlide].classList.remove('active');
-                    currentSlide = (currentSlide + 1) % slides.length;
-                    slides[currentSlide].classList.add('active');
-                    aggiornaIndicatori();
-                }, CONFIG.rotationInterval);
+        // Trova fascia corrente e prossima
+        let fasciaCorrente = null;
+        let fasciaProssima = null;
+        for (let i = 0; i < fasce.length; i++) {
+            if (oraCorrente >= fasce[i].da && oraCorrente < fasce[i].a) {
+                fasciaCorrente = fasce[i];
+                if (i + 1 < fasce.length) fasciaProssima = fasce[i + 1];
+                break;
             }
-
-            function aggiornaIndicatori() {
-                const container = document.getElementById('slideIndicators');
-                if (slides.length <= 1) {
-                    container.innerHTML = '';
-                    return;
-                }
-                let html = '';
-                for (let i = 0; i < slides.length; i++) {
-                    html += '<div class="slide-dot' + (i === currentSlide ? ' active' : '') + '"></div>';
-                }
-                container.innerHTML = html;
-            }
-
-            // ── Ticker / Banner ──────────────────────────────────────────────────────
-
-            function inizializzaTicker() {
-                const footer = document.getElementById('totemFooter');
-                if (CONFIG.tickerEnabled) {
-                    footer.classList.remove('hidden');
-                }
+            if (oraCorrente < fasce[i].da) {
+                fasciaProssima = fasce[i];
+                break;
             }
         }
 
@@ -1000,14 +875,13 @@ html, body {
             ? lezioni.filter(l => l.fascia === fasciaProssima.da + '-' + fasciaProssima.a)
             : [];
 
-        // Calcola il numero di pagine necessarie
         const maxLezioni = Math.max(lezCorrente.length, lezProssima.length, 1);
-        const totalPages = Math.ceil(maxLezioni / MAX_CARDS_PER_SLIDE);
+        const totalPages = Math.ceil(maxLezioni / CONFIG.maxRowsPerSlide);
 
         const result = [];
         for (let p = 0; p < totalPages; p++) {
-            const from = p * MAX_CARDS_PER_SLIDE;
-            const to = from + MAX_CARDS_PER_SLIDE;
+            const from = p * CONFIG.maxRowsPerSlide;
+            const to = from + CONFIG.maxRowsPerSlide;
             const pageCorrente = lezCorrente.slice(from, to);
             const pageProssima = lezProssima.slice(from, to);
             const pageLabel = totalPages > 1 ? (p + 1) + '/' + totalPages : '';
@@ -1069,7 +943,6 @@ html, body {
         }
         return result;
     }
-
     function renderCardLezione(lez, inCorso) {
         return '<div class="card-lezione' + (inCorso ? ' in-corso' : '') + '">' +
             '<div class="card-orario">' + escHtml(lez.da) + ' – ' + escHtml(lez.a) + '</div>' +
