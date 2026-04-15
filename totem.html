@@ -690,10 +690,15 @@ html, body {
                 let rawCorsi, rawFasce, orarioDal, orarioAl;
 
                 if (raw.orari && Array.isArray(raw.orari)) {
-                    // Nuovo formato: cerca l'orario valido per dataStr (confronto ISO, ordinabile)
-                    const orarioAttivo = raw.orari.find(function(o) {
-                        return o.dal <= dataStr && (o.al === null || o.al >= dataStr);
-                    });
+                    // Nuovo formato: cerca l'orario valido per dataStr (confronto ISO, ordinabile).
+                    // Itera tutto l'array (ordinato dal ASC) e tiene l'ULTIMO match: così se un vecchio
+                    // orario ha al=null e uno nuovo è già attivo, vince il più recente.
+                    let orarioAttivo = null;
+                    for (const o of raw.orari) {
+                        if (o.dal <= dataStr && (o.al === null || o.al >= dataStr)) {
+                            orarioAttivo = o;
+                        }
+                    }
                     if (!orarioAttivo) {
                         return Object.assign(base, { errore: 'Nessun orario attivo per oggi' });
                     }
