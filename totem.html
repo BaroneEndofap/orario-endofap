@@ -632,11 +632,34 @@ html, body {
                 return null;
             }
 
+            // Normalizza "Lunedi"→"LUN", "Martedi"→"MAR" ecc.
+            // per compatibilità con schedule importati da sistemi esterni.
+            const GIORNO_NORM = {
+                'lunedi': 'LUN', 'lunedì': 'LUN',
+                'martedi': 'MAR', 'martedì': 'MAR',
+                'mercoledi': 'MER', 'mercoledì': 'MER',
+                'giovedi': 'GIO', 'giovedì': 'GIO',
+                'venerdi': 'VEN', 'venerdì': 'VEN',
+                'sabato': 'SAB', 'domenica': 'DOM'
+            };
+
+            function normalizzaGiorno(g) {
+                if (!g) return g;
+                const lower = g.toLowerCase();
+                return GIORNO_NORM[lower] || g.toUpperCase();
+            }
+
             function adattaJson(raw) {
                 const now = new Date();
                 const dow = now.getDay();
                 const giornoCode = GIORNO_CODE[dow];
-                const dataStr = now.toISOString().split('T')[0];
+                // Usa la data locale (non UTC) per evitare che nelle prime 2 ore
+                // dopo mezzanotte il totem selezioni lo schedule del giorno sbagliato.
+                const dataStr = [
+                    now.getFullYear(),
+                    String(now.getMonth() + 1).padStart(2, '0'),
+                    String(now.getDate()).padStart(2, '0')
+                ].join('-');
                 const ora = now.toTimeString().slice(0, 5);
 
                 const base = {
@@ -711,7 +734,7 @@ html, body {
 
                 for (const corso of rawCorsi) {
                     for (const l of (corso.lezioni || [])) {
-                        if (l.giorno !== giornoCode) continue;
+                        if (normalizzaGiorno(l.giorno) !== giornoCode) continue;
 
                         const piano = getPiano(l.aula);
 
