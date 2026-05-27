@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-05-25T10:04:48",
+    "aggiornato": "2026-05-27T09:58:26",
     "anno_formativo": "2025\/2026",
     "orari": [
         {
-            "id": 1016,
-            "dal": "2026-05-25",
+            "id": 1017,
+            "dal": "2026-05-27",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -112,6 +112,22 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "Informatica e competenze digitali",
+                            "aula": "P29"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BENESSERE EST IeFP-2",
+                            "materia": "Informatica e competenze digitali",
+                            "aula": "P29"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BENESSERE EST IeFP-2",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         },
@@ -393,14 +409,6 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-3",
                             "materia": "SOLUZIONI TECNOLOGICHE ECO COMPATIBILI",
                             "aula": "P8bis"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. BENESSERE EST IeFP-2",
-                            "materia": "Sostenibilita ambientale e transizione ecologica",
-                            "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
@@ -4552,6 +4560,22 @@
                             "aula": "P8"
                         },
                         {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
+                        },
+                        {
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
@@ -4598,14 +4622,6 @@
                             "materia": "Informatica e competenze digitali",
                             "docente": "AMMIRATA GIUSEPPE",
                             "aula": "P29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica",
-                            "docente": "BONSANGUE GIUSEPPE",
-                            "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
@@ -7577,7 +7593,7 @@
             ]
         }
     ],
-    "dal": "25\/05\/2026",
+    "dal": "27\/05\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -7683,6 +7699,22 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
+                    "materia": "Informatica e competenze digitali",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE EST IeFP-2",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 },
@@ -7964,14 +7996,6 @@
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-3",
                     "materia": "SOLUZIONI TECNOLOGICHE ECO COMPATIBILI",
                     "aula": "P8bis"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE EST IeFP-2",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "aula": "P8"
                 },
                 {
                     "giorno": "VEN",
@@ -12123,6 +12147,22 @@
                     "aula": "P8"
                 },
                 {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
+                },
+                {
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
@@ -12169,14 +12209,6 @@
                     "materia": "Informatica e competenze digitali",
                     "docente": "AMMIRATA GIUSEPPE",
                     "aula": "P29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica",
-                    "docente": "BONSANGUE GIUSEPPE",
-                    "aula": "P8"
                 },
                 {
                     "giorno": "VEN",
