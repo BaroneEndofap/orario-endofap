@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-06-15T08:32:47",
+    "aggiornato": "2026-06-17T12:47:16",
     "anno_formativo": "2025\/2026",
     "orari": [
         {
-            "id": 1024,
-            "dal": "2026-06-15",
+            "id": 1025,
+            "dal": "2026-06-17",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -2848,22 +2848,6 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-3",
                             "materia": "LABORATORIO DI ACCONCIATURA (2)",
                             "aula": "T36"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BENESSERE ACC IeFP-1",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "aula": "T36"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BENESSERE ACC IeFP-1",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "aula": "T36"
                         }
                     ]
                 },
@@ -3287,6 +3271,22 @@
                         },
                         {
                             "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BENESSERE ACC IeFP-1",
+                            "materia": "A.S.LAB.ACC.",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BENESSERE ACC IeFP-1",
+                            "materia": "A.S.LAB.ACC.",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. BENESSERE ACC IeFP-1",
@@ -3573,17 +3573,17 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "docente": "TARANTINO MARCO",
-                            "aula": "T36"
+                            "materia": "A.S.LAB.ACC.",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "MER",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "docente": "TARANTINO MARCO",
-                            "aula": "T36"
+                            "materia": "A.S.LAB.ACC.",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "MER",
@@ -6664,7 +6664,7 @@
             ]
         }
     ],
-    "dal": "15\/06\/2026",
+    "dal": "17\/06\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -9506,22 +9506,6 @@
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-3",
                     "materia": "LABORATORIO DI ACCONCIATURA (2)",
                     "aula": "T36"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-1",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
                 }
             ]
         },
@@ -9945,6 +9929,22 @@
                 },
                 {
                     "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACC.",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE ACC IeFP-1",
+                    "materia": "A.S.LAB.ACC.",
+                    "aula": "T56"
+                },
+                {
+                    "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE ACC IeFP-1",
@@ -10231,17 +10231,17 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
+                    "materia": "A.S.LAB.ACC.",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
                 },
                 {
                     "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
+                    "materia": "A.S.LAB.ACC.",
+                    "docente": "ZAMA VINCENZA",
+                    "aula": "T56"
                 },
                 {
                     "giorno": "MER",
