@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-09-30T12:57:20",
+    "aggiornato": "2026-09-30T12:58:12",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1034,
-            "dal": "2026-09-29",
+            "id": 1035,
+            "dal": "2026-09-30",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -236,46 +236,6 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "Cultura d'impresa e Organiz Aziend",
                             "aula": "P24"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "STORIA",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "STORIA",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                            "materia": "PARI OPPORTUNITA'",
-                            "aula": "P2"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "aula": "P25"
                         }
                     ]
                 },
@@ -951,6 +911,14 @@
                         },
                         {
                             "giorno": "MER",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -1161,6 +1129,14 @@
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "MATEMATICA",
                             "aula": "P8"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
+                            "materia": "MATEMATICA",
+                            "aula": "P2"
                         },
                         {
                             "giorno": "MER",
@@ -1403,6 +1379,14 @@
                             "corso": "OP. BENESSERE EST IeFP-3",
                             "materia": "Sostenibilita ambientale e transizione ecologica",
                             "aula": "P1"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MER",
@@ -1967,6 +1951,14 @@
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "Scienze integrate",
                             "aula": "P24"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MER",
@@ -4657,9 +4649,9 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "STORIA",
-                            "docente": "BASILE CATERINA",
-                            "aula": "P25"
+                            "materia": "Scienze Motorie",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MER",
@@ -5570,14 +5562,6 @@
                             "aula": "P8"
                         },
                         {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "docente": "BASILE CATERINA",
-                            "aula": "P25"
-                        },
-                        {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
@@ -6196,9 +6180,9 @@
                             "giorno": "MER",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "docente": "BASILE CATERINA",
-                            "aula": "P23"
+                            "materia": "Scienze Motorie",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MER",
@@ -6417,8 +6401,8 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "PARI OPPORTUNITA'",
-                            "docente": "BASILE CATERINA",
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
                             "aula": "P2"
                         },
                         {
@@ -7056,8 +7040,8 @@
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "STORIA",
-                            "docente": "BASILE CATERINA",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P23"
                         },
                         {
@@ -7390,7 +7374,7 @@
             ]
         }
     ],
-    "dal": "29\/09\/2026",
+    "dal": "30\/09\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -7620,46 +7604,6 @@
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                     "materia": "Cultura d'impresa e Organiz Aziend",
                     "aula": "P24"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                    "materia": "STORIA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "STORIA",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "Cultura d'impresa e Organiz Aziend",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                    "materia": "PARI OPPORTUNITA'",
-                    "aula": "P2"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "Cultura d'impresa e Organiz Aziend",
-                    "aula": "P25"
                 }
             ]
         },
@@ -8335,6 +8279,14 @@
                 },
                 {
                     "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -8545,6 +8497,14 @@
                     "corso": "OP. MECCANICO IeFP-2",
                     "materia": "MATEMATICA",
                     "aula": "P8"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
+                    "materia": "MATEMATICA",
+                    "aula": "P2"
                 },
                 {
                     "giorno": "MER",
@@ -8787,6 +8747,14 @@
                     "corso": "OP. BENESSERE EST IeFP-3",
                     "materia": "Sostenibilita ambientale e transizione ecologica",
                     "aula": "P1"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MER",
@@ -9351,6 +9319,14 @@
                     "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                     "materia": "Scienze integrate",
                     "aula": "P24"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MER",
@@ -12041,9 +12017,9 @@
                     "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "STORIA",
-                    "docente": "BASILE CATERINA",
-                    "aula": "P25"
+                    "materia": "Scienze Motorie",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MER",
@@ -12954,14 +12930,6 @@
                     "aula": "P8"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Cultura d'impresa e Organiz Aziend",
-                    "docente": "BASILE CATERINA",
-                    "aula": "P25"
-                },
-                {
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
@@ -13580,9 +13548,9 @@
                     "giorno": "MER",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "Cultura d'impresa e Organiz Aziend",
-                    "docente": "BASILE CATERINA",
-                    "aula": "P23"
+                    "materia": "Scienze Motorie",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MER",
@@ -13801,8 +13769,8 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "PARI OPPORTUNITA'",
-                    "docente": "BASILE CATERINA",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
                     "aula": "P2"
                 },
                 {
@@ -14440,8 +14408,8 @@
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "STORIA",
-                    "docente": "BASILE CATERINA",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
                     "aula": "P23"
                 },
                 {
