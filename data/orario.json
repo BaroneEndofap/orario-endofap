@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-09-28T08:50:29",
+    "aggiornato": "2026-09-30T12:57:20",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1033,
-            "dal": "2026-09-28",
+            "id": 1034,
+            "dal": "2026-09-29",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -231,35 +231,11 @@
                     "slots": [
                         {
                             "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "PARI OPPORTUNITA'",
-                            "aula": "P9"
-                        },
-                        {
-                            "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "Cultura d'impresa e Organiz Aziend",
                             "aula": "P24"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "PARI OPPORTUNITA'",
-                            "aula": "P8bis"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Geografia Economica",
-                            "aula": "P23"
                         },
                         {
                             "giorno": "MER",
@@ -651,10 +627,26 @@
                         },
                         {
                             "giorno": "MAR",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. BENESSERE EST IeFP-3",
+                            "materia": "ITALIANO",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                             "materia": "Multimedialita\/Comunicazione",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "ITALIANO",
                             "aula": "P23"
                         },
                         {
@@ -958,38 +950,6 @@
                             "aula": "P10"
                         },
                         {
-                            "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                            "materia": "INGLESE",
-                            "aula": "P9"
-                        },
-                        {
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
@@ -1140,6 +1100,14 @@
                         },
                         {
                             "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BENESSERE EST IeFP-3",
+                            "materia": "MATEMATICA",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
@@ -1153,6 +1121,14 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                             "materia": "MATEMATICA",
                             "aula": "P23"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "MATEMATICA",
+                            "aula": "P8bis"
                         },
                         {
                             "giorno": "MAR",
@@ -1664,14 +1640,6 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "ITALIANO2",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. ELETTRICO IeFP-3",
@@ -1860,6 +1828,14 @@
                             "aula": "T22"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
+                            "aula": "T22"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -1973,6 +1949,14 @@
                             "da": "08:00",
                             "a": "09:00",
                             "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
                             "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
                         },
@@ -3021,6 +3005,14 @@
                         },
                         {
                             "giorno": "MAR",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. BENESSERE EST IeFP-3",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. RISTORAZIONE IeFP-3",
@@ -3194,22 +3186,6 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "IRC - Cultura etica",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "Religione - Attività alternative",
-                            "aula": "P10"
-                        },
-                        {
-                            "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-3",
@@ -3354,30 +3330,6 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "aula": "T36"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "aula": "T36"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "aula": "T36"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
                             "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
                             "aula": "T36"
                         },
@@ -3715,6 +3667,14 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "ITALIANO",
+                            "aula": "P9"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. RISTORAZIONE IeFP-3",
                             "materia": "ITALIANO",
                             "aula": "P9"
                         },
@@ -4324,38 +4284,6 @@
                     "nome": "OP. BENESSERE ACC IeFP-2",
                     "lezioni": [
                         {
-                            "giorno": "MAR",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "materia": "ITALIANO2",
-                            "docente": "GRECO EGLE",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "docente": "TARANTINO MARCO",
-                            "aula": "T36"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "docente": "TARANTINO MARCO",
-                            "aula": "T36"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                            "docente": "TARANTINO MARCO",
-                            "aula": "T36"
-                        },
-                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -4894,24 +4822,24 @@
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "IRC - Cultura etica",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
+                            "materia": "ITALIANO",
+                            "docente": "CILLUFFO RICCARDO",
                             "aula": "P25"
                         },
                         {
@@ -5147,8 +5075,8 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "PARI OPPORTUNITA'",
-                            "docente": "BASILE CATERINA",
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
                             "aula": "P8bis"
                         },
                         {
@@ -5999,9 +5927,9 @@
                             "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P9"
+                            "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
+                            "docente": "IENNA FRANCESCO",
+                            "aula": "T22"
                         },
                         {
                             "giorno": "MAR",
@@ -6220,9 +6148,9 @@
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
-                            "aula": "P10"
+                            "materia": "Scienze Motorie",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MAR",
@@ -6428,14 +6356,6 @@
                             "materia": "EDUCAZIONE FISICA",
                             "docente": "DE SIMONE ANDREA",
                             "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P28"
                         },
                         {
                             "giorno": "MAR",
@@ -6827,8 +6747,8 @@
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "PARI OPPORTUNITA'",
-                            "docente": "BASILE CATERINA",
+                            "materia": "ITALIANO",
+                            "docente": "ZITO SABRINA",
                             "aula": "P9"
                         },
                         {
@@ -7128,8 +7048,8 @@
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Geografia Economica",
-                            "docente": "BASILE CATERINA",
+                            "materia": "ITALIANO",
+                            "docente": "CILLUFFO RICCARDO",
                             "aula": "P23"
                         },
                         {
@@ -7470,7 +7390,7 @@
             ]
         }
     ],
-    "dal": "28\/09\/2026",
+    "dal": "29\/09\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -7695,35 +7615,11 @@
             "slots": [
                 {
                     "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RISTORAZIONE IeFP-3",
-                    "materia": "PARI OPPORTUNITA'",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MAR",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                     "materia": "Cultura d'impresa e Organiz Aziend",
                     "aula": "P24"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "PARI OPPORTUNITA'",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                    "materia": "Geografia Economica",
-                    "aula": "P23"
                 },
                 {
                     "giorno": "MER",
@@ -8115,10 +8011,26 @@
                 },
                 {
                     "giorno": "MAR",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE EST IeFP-3",
+                    "materia": "ITALIANO",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "MAR",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                     "materia": "Multimedialita\/Comunicazione",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "MAR",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                    "materia": "ITALIANO",
                     "aula": "P23"
                 },
                 {
@@ -8422,38 +8334,6 @@
                     "aula": "P10"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                    "materia": "INGLESE",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "INGLESE",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "INGLESE",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "INGLESE",
-                    "aula": "P9"
-                },
-                {
                     "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
@@ -8604,6 +8484,14 @@
                 },
                 {
                     "giorno": "MAR",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE EST IeFP-3",
+                    "materia": "MATEMATICA",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "MAR",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
@@ -8617,6 +8505,14 @@
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                     "materia": "MATEMATICA",
                     "aula": "P23"
+                },
+                {
+                    "giorno": "MAR",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. ELETTRICO IeFP-3",
+                    "materia": "MATEMATICA",
+                    "aula": "P8bis"
                 },
                 {
                     "giorno": "MAR",
@@ -9128,14 +9024,6 @@
                 },
                 {
                     "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "ITALIANO2",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MAR",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. ELETTRICO IeFP-3",
@@ -9324,6 +9212,14 @@
                     "aula": "T22"
                 },
                 {
+                    "giorno": "MAR",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
+                    "aula": "T22"
+                },
+                {
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
@@ -9437,6 +9333,14 @@
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "MAR",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
                     "materia": "Scienze Motorie",
                     "aula": "PALESTRA"
                 },
@@ -10485,6 +10389,14 @@
                 },
                 {
                     "giorno": "MAR",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. BENESSERE EST IeFP-3",
+                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "MAR",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. RISTORAZIONE IeFP-3",
@@ -10658,22 +10570,6 @@
                 },
                 {
                     "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "IRC - Cultura etica",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "Religione - Attività alternative",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "MAR",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-3",
@@ -10818,30 +10714,6 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
                     "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
                     "aula": "T36"
                 },
@@ -11179,6 +11051,14 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "ITALIANO",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "MAR",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. RISTORAZIONE IeFP-3",
                     "materia": "ITALIANO",
                     "aula": "P9"
                 },
@@ -11788,38 +11668,6 @@
             "nome": "OP. BENESSERE ACC IeFP-2",
             "lezioni": [
                 {
-                    "giorno": "MAR",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "ITALIANO2",
-                    "docente": "GRECO EGLE",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
-                    "docente": "TARANTINO MARCO",
-                    "aula": "T36"
-                },
-                {
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
@@ -12358,24 +12206,24 @@
                     "giorno": "MAR",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "IRC - Cultura etica",
-                    "docente": "SILIATO ROSSELLA VALERIA",
+                    "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                    "docente": "PIPITONE ANTONINO",
                     "aula": "P25"
                 },
                 {
                     "giorno": "MAR",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
                     "aula": "P25"
                 },
                 {
                     "giorno": "MAR",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
+                    "materia": "ITALIANO",
+                    "docente": "CILLUFFO RICCARDO",
                     "aula": "P25"
                 },
                 {
@@ -12611,8 +12459,8 @@
                     "giorno": "MAR",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "PARI OPPORTUNITA'",
-                    "docente": "BASILE CATERINA",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
                     "aula": "P8bis"
                 },
                 {
@@ -13463,9 +13311,9 @@
                     "giorno": "MAR",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P9"
+                    "materia": "LAB. RIPARAZIONE VEICOLI A MOTORE",
+                    "docente": "IENNA FRANCESCO",
+                    "aula": "T22"
                 },
                 {
                     "giorno": "MAR",
@@ -13684,9 +13532,9 @@
                     "giorno": "MAR",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "Religione - Attività alternative",
-                    "docente": "SILIATO ROSSELLA VALERIA",
-                    "aula": "P10"
+                    "materia": "Scienze Motorie",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MAR",
@@ -13892,14 +13740,6 @@
                     "materia": "EDUCAZIONE FISICA",
                     "docente": "DE SIMONE ANDREA",
                     "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P28"
                 },
                 {
                     "giorno": "MAR",
@@ -14291,8 +14131,8 @@
                     "giorno": "MAR",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "PARI OPPORTUNITA'",
-                    "docente": "BASILE CATERINA",
+                    "materia": "ITALIANO",
+                    "docente": "ZITO SABRINA",
                     "aula": "P9"
                 },
                 {
@@ -14592,8 +14432,8 @@
                     "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Geografia Economica",
-                    "docente": "BASILE CATERINA",
+                    "materia": "ITALIANO",
+                    "docente": "CILLUFFO RICCARDO",
                     "aula": "P23"
                 },
                 {
