@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-09-30T12:58:12",
+    "aggiornato": "2026-10-01T12:02:22",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1035,
-            "dal": "2026-09-30",
+            "id": 1036,
+            "dal": "2026-10-01",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -837,6 +837,30 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                            "aula": "T24"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                            "aula": "T24"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                            "aula": "T24"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. MECCANICO IeFP-1",
                             "materia": "LABORATORIO MECCANICA POLIVALENTE",
                             "aula": "T24"
                         },
@@ -2414,54 +2438,6 @@
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "LAB. MECCANICO",
                             "aula": "T29"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
                         },
                         {
                             "giorno": "VEN",
@@ -5144,30 +5120,6 @@
                             "aula": "P23"
                         },
                         {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
@@ -5360,25 +5312,25 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                            "docente": "DI CARO VINCENZO",
+                            "aula": "T24"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                            "docente": "DI CARO VINCENZO",
+                            "aula": "T24"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                            "docente": "DI CARO VINCENZO",
+                            "aula": "T24"
                         },
                         {
                             "giorno": "GIO",
@@ -7374,7 +7326,7 @@
             ]
         }
     ],
-    "dal": "30\/09\/2026",
+    "dal": "01\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -8205,6 +8157,30 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                    "aula": "T24"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                    "aula": "T24"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                    "aula": "T24"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. MECCANICO IeFP-1",
                     "materia": "LABORATORIO MECCANICA POLIVALENTE",
                     "aula": "T24"
                 },
@@ -9782,54 +9758,6 @@
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "LAB. MECCANICO",
                     "aula": "T29"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
                 },
                 {
                     "giorno": "VEN",
@@ -12512,30 +12440,6 @@
                     "aula": "P23"
                 },
                 {
-                    "giorno": "GIO",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
-                },
-                {
                     "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
@@ -12728,25 +12632,25 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                    "docente": "DI CARO VINCENZO",
+                    "aula": "T24"
                 },
                 {
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                    "docente": "DI CARO VINCENZO",
+                    "aula": "T24"
                 },
                 {
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
+                    "docente": "DI CARO VINCENZO",
+                    "aula": "T24"
                 },
                 {
                     "giorno": "GIO",
