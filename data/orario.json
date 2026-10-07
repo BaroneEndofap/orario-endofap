@@ -1,9 +1,9 @@
 {
-    "aggiornato": "2026-10-05T08:38:04",
+    "aggiornato": "2026-10-07T13:30:16",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1037,
+            "id": 1029,
             "dal": "2026-10-05",
             "al": "2030-12-31",
             "nota": "",
@@ -843,7 +843,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. MECCANICO IeFP-3",
-                            "materia": "MATEMATICA 2",
+                            "materia": "TECNOLOGIA MECCANICA",
                             "aula": "P24"
                         },
                         {
@@ -851,7 +851,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-3",
-                            "materia": "MATEMATICA 2",
+                            "materia": "TECNOLOGIA MECCANICA",
                             "aula": "P24"
                         },
                         {
@@ -925,59 +925,6 @@
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                             "materia": "TECNOLOGIA RIP. VEIC",
                             "aula": "P2"
-                        }
-                    ]
-                },
-                {
-                    "nome": "DE SIMONE ANDREA",
-                    "slots": [
-                        {
-                            "giorno": "LUN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                            "materia": "EDUCAZIONE FISICA",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "Scienze integrate 2",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "Scienze Motorie 2",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "EDUCAZIONE FISICA 2",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "EDUCAZIONE FISICA 2",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "aula": "P28"
                         }
                     ]
                 },
@@ -1899,7 +1846,7 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "aula": "P9"
                         },
                         {
@@ -1923,7 +1870,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "aula": "P10"
                         },
                         {
@@ -1931,7 +1878,7 @@
                             "da": "08:00",
                             "a": "09:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Multimedialita\/Comunicazione 2",
+                            "materia": "",
                             "aula": "P8bis"
                         },
                         {
@@ -1939,7 +1886,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "aula": "P8bis"
                         },
                         {
@@ -1979,7 +1926,7 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "aula": "P25"
                         },
                         {
@@ -1987,7 +1934,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "Multimedialita\/Comunicazione 2",
+                            "materia": "",
                             "aula": "P24"
                         },
                         {
@@ -2003,7 +1950,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "aula": "P1"
                         },
                         {
@@ -2796,7 +2743,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "ECONOMIA",
+                            "materia": "STORIA",
                             "aula": "P23"
                         },
                         {
@@ -3703,7 +3650,7 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Scienze Motorie 2",
+                            "materia": "",
                             "aula": "PALESTRA"
                         },
                         {
@@ -3711,7 +3658,7 @@
                             "da": "08:00",
                             "a": "09:00",
                             "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "materia": "",
                             "aula": "P24"
                         },
                         {
@@ -3719,7 +3666,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "EDUCAZIONE FISICA 2",
+                            "materia": "",
                             "aula": "PALESTRA"
                         },
                         {
@@ -3727,7 +3674,7 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Scienze integrate 2",
+                            "materia": "",
                             "aula": "P23"
                         },
                         {
@@ -3735,7 +3682,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Scienze Motorie 2",
+                            "materia": "",
                             "aula": "PALESTRA"
                         }
                     ]
@@ -4719,22 +4666,6 @@
                             "aula2": "T51"
                         },
                         {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "Scienze integrate 2",
-                            "docente": "DE SIMONE ANDREA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "Scienze Motorie 2",
-                            "docente": "DE SIMONE ANDREA",
-                            "aula": "PALESTRA"
-                        },
-                        {
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
@@ -4943,7 +4874,7 @@
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P10"
                         },
@@ -5023,7 +4954,7 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P25"
                         },
@@ -5031,7 +4962,7 @@
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Multimedialita\/Comunicazione 2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P24"
                         },
@@ -5923,7 +5854,7 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "materia": "",
                             "docente": "URZI' FEDERICO",
                             "aula": "P24"
                         },
@@ -5931,7 +5862,7 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "EDUCAZIONE FISICA 2",
+                            "materia": "",
                             "docente": "URZI' FEDERICO",
                             "aula": "PALESTRA"
                         },
@@ -6269,7 +6200,7 @@
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Scienze Motorie 2",
+                            "materia": "",
                             "docente": "URZI' FEDERICO",
                             "aula": "PALESTRA"
                         },
@@ -6309,7 +6240,7 @@
                             "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P9"
                         },
@@ -6341,7 +6272,7 @@
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Multimedialita\/Comunicazione 2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P8bis"
                         },
@@ -6349,7 +6280,7 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P8bis"
                         },
@@ -6405,7 +6336,7 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Scienze integrate 2",
+                            "materia": "",
                             "docente": "URZI' FEDERICO",
                             "aula": "P23"
                         },
@@ -6421,7 +6352,7 @@
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Scienze Motorie 2",
+                            "materia": "",
                             "docente": "URZI' FEDERICO",
                             "aula": "PALESTRA"
                         },
@@ -6437,7 +6368,7 @@
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ITALIANO2",
+                            "materia": "",
                             "docente": "GRECO EGLE",
                             "aula": "P1"
                         },
@@ -6546,7 +6477,7 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "MATEMATICA 2",
+                            "materia": "TECNOLOGIA MECCANICA",
                             "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P24"
                         },
@@ -6554,7 +6485,7 @@
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "MATEMATICA 2",
+                            "materia": "TECNOLOGIA MECCANICA",
                             "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P24"
                         },
@@ -7214,14 +7145,6 @@
                             "aula": "T28"
                         },
                         {
-                            "giorno": "LUN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "EDUCAZIONE FISICA",
-                            "docente": "DE SIMONE ANDREA",
-                            "aula": "PALESTRA"
-                        },
-                        {
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
@@ -7842,30 +7765,6 @@
                             "materia": "LABORATORIO CUCINA 2",
                             "docente": "GRECO DARIO",
                             "aula": "T51"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "EDUCAZIONE FISICA 2",
-                            "docente": "DE SIMONE ANDREA",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "EDUCAZIONE FISICA 2",
-                            "docente": "DE SIMONE ANDREA",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "docente": "DE SIMONE ANDREA",
-                            "aula": "P28"
                         }
                     ]
                 },
@@ -8293,7 +8192,7 @@
                             "giorno": "MER",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ECONOMIA",
+                            "materia": "STORIA",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P23"
                         },
@@ -9235,7 +9134,7 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. MECCANICO IeFP-3",
-                    "materia": "MATEMATICA 2",
+                    "materia": "TECNOLOGIA MECCANICA",
                     "aula": "P24"
                 },
                 {
@@ -9243,7 +9142,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-3",
-                    "materia": "MATEMATICA 2",
+                    "materia": "TECNOLOGIA MECCANICA",
                     "aula": "P24"
                 },
                 {
@@ -9317,59 +9216,6 @@
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                     "materia": "TECNOLOGIA RIP. VEIC",
                     "aula": "P2"
-                }
-            ]
-        },
-        {
-            "nome": "DE SIMONE ANDREA",
-            "slots": [
-                {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                    "materia": "EDUCAZIONE FISICA",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                    "materia": "Scienze integrate 2",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                    "materia": "Scienze Motorie 2",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RISTORAZIONE IeFP-3",
-                    "materia": "EDUCAZIONE FISICA 2",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RISTORAZIONE IeFP-3",
-                    "materia": "EDUCAZIONE FISICA 2",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RISTORAZIONE IeFP-3",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "aula": "P28"
                 }
             ]
         },
@@ -10291,7 +10137,7 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "aula": "P9"
                 },
                 {
@@ -10315,7 +10161,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "aula": "P10"
                 },
                 {
@@ -10323,7 +10169,7 @@
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "Multimedialita\/Comunicazione 2",
+                    "materia": "",
                     "aula": "P8bis"
                 },
                 {
@@ -10331,7 +10177,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "aula": "P8bis"
                 },
                 {
@@ -10371,7 +10217,7 @@
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "aula": "P25"
                 },
                 {
@@ -10379,7 +10225,7 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "Multimedialita\/Comunicazione 2",
+                    "materia": "",
                     "aula": "P24"
                 },
                 {
@@ -10395,7 +10241,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "aula": "P1"
                 },
                 {
@@ -11188,7 +11034,7 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "ECONOMIA",
+                    "materia": "STORIA",
                     "aula": "P23"
                 },
                 {
@@ -12095,7 +11941,7 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "Scienze Motorie 2",
+                    "materia": "",
                     "aula": "PALESTRA"
                 },
                 {
@@ -12103,7 +11949,7 @@
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
+                    "materia": "",
                     "aula": "P24"
                 },
                 {
@@ -12111,7 +11957,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "EDUCAZIONE FISICA 2",
+                    "materia": "",
                     "aula": "PALESTRA"
                 },
                 {
@@ -12119,7 +11965,7 @@
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "Scienze integrate 2",
+                    "materia": "",
                     "aula": "P23"
                 },
                 {
@@ -12127,7 +11973,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "Scienze Motorie 2",
+                    "materia": "",
                     "aula": "PALESTRA"
                 }
             ]
@@ -13111,22 +12957,6 @@
                     "aula2": "T51"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "Scienze integrate 2",
-                    "docente": "DE SIMONE ANDREA",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Scienze Motorie 2",
-                    "docente": "DE SIMONE ANDREA",
-                    "aula": "PALESTRA"
-                },
-                {
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
@@ -13335,7 +13165,7 @@
                     "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P10"
                 },
@@ -13415,7 +13245,7 @@
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P25"
                 },
@@ -13423,7 +13253,7 @@
                     "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "Multimedialita\/Comunicazione 2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P24"
                 },
@@ -14315,7 +14145,7 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
+                    "materia": "",
                     "docente": "URZI' FEDERICO",
                     "aula": "P24"
                 },
@@ -14323,7 +14153,7 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "EDUCAZIONE FISICA 2",
+                    "materia": "",
                     "docente": "URZI' FEDERICO",
                     "aula": "PALESTRA"
                 },
@@ -14661,7 +14491,7 @@
                     "giorno": "LUN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "Scienze Motorie 2",
+                    "materia": "",
                     "docente": "URZI' FEDERICO",
                     "aula": "PALESTRA"
                 },
@@ -14701,7 +14531,7 @@
                     "giorno": "MAR",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P9"
                 },
@@ -14733,7 +14563,7 @@
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "Multimedialita\/Comunicazione 2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P8bis"
                 },
@@ -14741,7 +14571,7 @@
                     "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P8bis"
                 },
@@ -14797,7 +14627,7 @@
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "Scienze integrate 2",
+                    "materia": "",
                     "docente": "URZI' FEDERICO",
                     "aula": "P23"
                 },
@@ -14813,7 +14643,7 @@
                     "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Scienze Motorie 2",
+                    "materia": "",
                     "docente": "URZI' FEDERICO",
                     "aula": "PALESTRA"
                 },
@@ -14829,7 +14659,7 @@
                     "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "ITALIANO2",
+                    "materia": "",
                     "docente": "GRECO EGLE",
                     "aula": "P1"
                 },
@@ -14938,7 +14768,7 @@
                     "giorno": "MAR",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "MATEMATICA 2",
+                    "materia": "TECNOLOGIA MECCANICA",
                     "docente": "DADDELLI ANGELO SALVATORE",
                     "aula": "P24"
                 },
@@ -14946,7 +14776,7 @@
                     "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "MATEMATICA 2",
+                    "materia": "TECNOLOGIA MECCANICA",
                     "docente": "DADDELLI ANGELO SALVATORE",
                     "aula": "P24"
                 },
@@ -15606,14 +15436,6 @@
                     "aula": "T28"
                 },
                 {
-                    "giorno": "LUN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "EDUCAZIONE FISICA",
-                    "docente": "DE SIMONE ANDREA",
-                    "aula": "PALESTRA"
-                },
-                {
                     "giorno": "MAR",
                     "da": "08:00",
                     "a": "09:00",
@@ -16234,30 +16056,6 @@
                     "materia": "LABORATORIO CUCINA 2",
                     "docente": "GRECO DARIO",
                     "aula": "T51"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "EDUCAZIONE FISICA 2",
-                    "docente": "DE SIMONE ANDREA",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "EDUCAZIONE FISICA 2",
-                    "docente": "DE SIMONE ANDREA",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "docente": "DE SIMONE ANDREA",
-                    "aula": "P28"
                 }
             ]
         },
@@ -16685,7 +16483,7 @@
                     "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "ECONOMIA",
+                    "materia": "STORIA",
                     "docente": "MEGNA ROBERTA",
                     "aula": "P23"
                 },
