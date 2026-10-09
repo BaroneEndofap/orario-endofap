@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-10-07T13:30:16",
+    "aggiornato": "2026-10-09T08:32:00",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1029,
-            "dal": "2026-10-05",
+            "id": 1038,
+            "dal": "2026-10-09",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -348,30 +348,6 @@
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "Cultura d'impresa e Organiz Aziend",
                             "aula": "P25"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "ECONOMIA",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "aula": "P9"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                            "materia": "PARI OPPORTUNITA'",
-                            "aula": "P2"
                         }
                     ]
                 },
@@ -646,57 +622,9 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "LAB. ESTETICA(RIC. UNGHIA)",
                             "aula": "T38"
                         }
@@ -787,6 +715,14 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "ITALIANO",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-3",
@@ -843,7 +779,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. MECCANICO IeFP-3",
-                            "materia": "TECNOLOGIA MECCANICA",
+                            "materia": "MATEMATICA 2",
                             "aula": "P24"
                         },
                         {
@@ -851,7 +787,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-3",
-                            "materia": "TECNOLOGIA MECCANICA",
+                            "materia": "MATEMATICA 2",
                             "aula": "P24"
                         },
                         {
@@ -925,6 +861,43 @@
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                             "materia": "TECNOLOGIA RIP. VEIC",
                             "aula": "P2"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
+                            "materia": "TECNOLOGIA RIP. VEIC",
+                            "aula": "P2"
+                        }
+                    ]
+                },
+                {
+                    "nome": "DE SIMONE ANDREA",
+                    "slots": [
+                        {
+                            "giorno": "LUN",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
+                            "materia": "EDUCAZIONE FISICA",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "Scienze integrate 2",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "Scienze Motorie 2",
+                            "aula": "PALESTRA"
                         }
                     ]
                 },
@@ -1138,6 +1111,14 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -1345,6 +1326,14 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "MATEMATICA",
+                            "aula": "P9"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "MATEMATICA",
                             "aula": "P9"
@@ -1632,6 +1621,22 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Scienze integrate",
+                            "aula": null
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Scienze integrate",
+                            "aula": null
+                        },
+                        {
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
@@ -1846,7 +1851,7 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "aula": "P9"
                         },
                         {
@@ -1870,7 +1875,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "aula": "P10"
                         },
                         {
@@ -1878,7 +1883,7 @@
                             "da": "08:00",
                             "a": "09:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "Multimedialita\/Comunicazione 2",
                             "aula": "P8bis"
                         },
                         {
@@ -1886,7 +1891,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "aula": "P8bis"
                         },
                         {
@@ -1926,7 +1931,7 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "aula": "P25"
                         },
                         {
@@ -1934,7 +1939,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "",
+                            "materia": "Multimedialita\/Comunicazione 2",
                             "aula": "P24"
                         },
                         {
@@ -1950,7 +1955,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "aula": "P1"
                         },
                         {
@@ -3011,24 +3016,24 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "LABORATORIO ESTETICO",
                             "aula": "T37"
                         },
                         {
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "LABORATORIO ESTETICO",
                             "aula": "T37"
                         },
                         {
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "LABORATORIO ESTETICO",
                             "aula": "T37"
                         }
                     ]
@@ -3650,7 +3655,7 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "Scienze Motorie 2",
                             "aula": "PALESTRA"
                         },
                         {
@@ -3658,7 +3663,7 @@
                             "da": "08:00",
                             "a": "09:00",
                             "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "",
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
                             "aula": "P24"
                         },
                         {
@@ -3666,7 +3671,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "",
+                            "materia": "EDUCAZIONE FISICA 2",
                             "aula": "PALESTRA"
                         },
                         {
@@ -3674,7 +3679,7 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "Scienze integrate 2",
                             "aula": "P23"
                         },
                         {
@@ -3682,7 +3687,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "",
+                            "materia": "Scienze Motorie 2",
                             "aula": "PALESTRA"
                         }
                     ]
@@ -4666,6 +4671,22 @@
                             "aula2": "T51"
                         },
                         {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "materia": "Scienze integrate 2",
+                            "docente": "DE SIMONE ANDREA",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "materia": "Scienze Motorie 2",
+                            "docente": "DE SIMONE ANDREA",
+                            "aula": "PALESTRA"
+                        },
+                        {
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
@@ -4745,9 +4766,9 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38",
+                            "materia": "LABORATORIO ESTETICO",
+                            "docente": "MORGANTE ANGELAMARIA",
+                            "aula": "T37",
                             "tipo": "divisa",
                             "docente2": "GANCI DIEGO",
                             "materia2": "LABORATORIO CUCINA",
@@ -4757,9 +4778,9 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38",
+                            "materia": "LABORATORIO ESTETICO",
+                            "docente": "MORGANTE ANGELAMARIA",
+                            "aula": "T37",
                             "tipo": "divisa",
                             "docente2": "GANCI DIEGO",
                             "materia2": "LABORATORIO CUCINA",
@@ -4769,9 +4790,9 @@
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38",
+                            "materia": "LABORATORIO ESTETICO",
+                            "docente": "MORGANTE ANGELAMARIA",
+                            "aula": "T37",
                             "tipo": "divisa",
                             "docente2": "GANCI DIEGO",
                             "materia2": "LABORATORIO CUCINA",
@@ -4874,7 +4895,7 @@
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "docente": "GRECO EGLE",
                             "aula": "P10"
                         },
@@ -4954,7 +4975,7 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "docente": "GRECO EGLE",
                             "aula": "P25"
                         },
@@ -4962,7 +4983,7 @@
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "",
+                            "materia": "Multimedialita\/Comunicazione 2",
                             "docente": "GRECO EGLE",
                             "aula": "P24"
                         },
@@ -5412,31 +5433,31 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38"
+                            "materia": "ITALIANO",
+                            "docente": "CILLUFFO RICCARDO",
+                            "aula": "P24"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38"
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LABORATORIO ESTETICO(2)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38"
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LABORATORIO ESTETICO(2)",
+                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
                             "docente": "CARAVELLO SIMONA",
                             "aula": "T38"
                         },
@@ -5700,30 +5721,6 @@
                             "materia": "GEO-STORIA",
                             "docente": "GRECO EGLE",
                             "aula": "P25"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                            "docente": "MORGANTE ANGELAMARIA",
-                            "aula": "T37"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                            "docente": "MORGANTE ANGELAMARIA",
-                            "aula": "T37"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                            "docente": "MORGANTE ANGELAMARIA",
-                            "aula": "T37"
                         }
                     ]
                 },
@@ -5854,7 +5851,7 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "",
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
                             "docente": "URZI' FEDERICO",
                             "aula": "P24"
                         },
@@ -5862,7 +5859,7 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "",
+                            "materia": "EDUCAZIONE FISICA 2",
                             "docente": "URZI' FEDERICO",
                             "aula": "PALESTRA"
                         },
@@ -6200,7 +6197,7 @@
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "",
+                            "materia": "Scienze Motorie 2",
                             "docente": "URZI' FEDERICO",
                             "aula": "PALESTRA"
                         },
@@ -6240,7 +6237,7 @@
                             "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "docente": "GRECO EGLE",
                             "aula": "P9"
                         },
@@ -6272,7 +6269,7 @@
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "",
+                            "materia": "Multimedialita\/Comunicazione 2",
                             "docente": "GRECO EGLE",
                             "aula": "P8bis"
                         },
@@ -6280,7 +6277,7 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "docente": "GRECO EGLE",
                             "aula": "P8bis"
                         },
@@ -6336,7 +6333,7 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "",
+                            "materia": "Scienze integrate 2",
                             "docente": "URZI' FEDERICO",
                             "aula": "P23"
                         },
@@ -6352,7 +6349,7 @@
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "",
+                            "materia": "Scienze Motorie 2",
                             "docente": "URZI' FEDERICO",
                             "aula": "PALESTRA"
                         },
@@ -6368,7 +6365,7 @@
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "",
+                            "materia": "ITALIANO2",
                             "docente": "GRECO EGLE",
                             "aula": "P1"
                         },
@@ -6477,7 +6474,7 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "TECNOLOGIA MECCANICA",
+                            "materia": "MATEMATICA 2",
                             "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P24"
                         },
@@ -6485,7 +6482,7 @@
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "TECNOLOGIA MECCANICA",
+                            "materia": "MATEMATICA 2",
                             "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P24"
                         },
@@ -7145,6 +7142,14 @@
                             "aula": "T28"
                         },
                         {
+                            "giorno": "LUN",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "materia": "EDUCAZIONE FISICA",
+                            "docente": "DE SIMONE ANDREA",
+                            "aula": "PALESTRA"
+                        },
+                        {
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
@@ -7284,8 +7289,8 @@
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "PARI OPPORTUNITA'",
-                            "docente": "BASILE CATERINA",
+                            "materia": "TECNOLOGIA RIP. VEIC",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P2"
                         },
                         {
@@ -7489,8 +7494,8 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "docente": "BASILE CATERINA",
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
                             "aula": "P9"
                         },
                         {
@@ -7955,8 +7960,8 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ECONOMIA",
-                            "docente": "BASILE CATERINA",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P23"
                         },
                         {
@@ -8297,7 +8302,7 @@
             ]
         }
     ],
-    "dal": "05\/10\/2026",
+    "dal": "09\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -8639,30 +8644,6 @@
                     "corso": "OP. MECCANICO IeFP-2",
                     "materia": "Cultura d'impresa e Organiz Aziend",
                     "aula": "P25"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                    "materia": "ECONOMIA",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "Cultura d'impresa e Organiz Aziend",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                    "materia": "PARI OPPORTUNITA'",
-                    "aula": "P2"
                 }
             ]
         },
@@ -8937,57 +8918,9 @@
                 },
                 {
                     "giorno": "GIO",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "aula": "T38"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "aula": "T38"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "aula": "T38"
-                },
-                {
-                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "aula": "T38"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                    "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T38"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                    "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "aula": "T38"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                     "materia": "LAB. ESTETICA(RIC. UNGHIA)",
                     "aula": "T38"
                 }
@@ -9078,6 +9011,14 @@
                 },
                 {
                     "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "materia": "ITALIANO",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE ACC IeFP-3",
@@ -9134,7 +9075,7 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. MECCANICO IeFP-3",
-                    "materia": "TECNOLOGIA MECCANICA",
+                    "materia": "MATEMATICA 2",
                     "aula": "P24"
                 },
                 {
@@ -9142,7 +9083,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-3",
-                    "materia": "TECNOLOGIA MECCANICA",
+                    "materia": "MATEMATICA 2",
                     "aula": "P24"
                 },
                 {
@@ -9216,6 +9157,43 @@
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                     "materia": "TECNOLOGIA RIP. VEIC",
                     "aula": "P2"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
+                    "materia": "TECNOLOGIA RIP. VEIC",
+                    "aula": "P2"
+                }
+            ]
+        },
+        {
+            "nome": "DE SIMONE ANDREA",
+            "slots": [
+                {
+                    "giorno": "LUN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "materia": "Scienze integrate 2",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "materia": "Scienze Motorie 2",
+                    "aula": "PALESTRA"
                 }
             ]
         },
@@ -9429,6 +9407,14 @@
                 },
                 {
                     "giorno": "GIO",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P23"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -9636,6 +9622,14 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                    "materia": "MATEMATICA",
+                    "aula": "P9"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                     "materia": "MATEMATICA",
                     "aula": "P9"
@@ -9923,6 +9917,22 @@
                     "aula": "PALESTRA"
                 },
                 {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "materia": "Scienze integrate",
+                    "aula": null
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "materia": "Scienze integrate",
+                    "aula": null
+                },
+                {
                     "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
@@ -10137,7 +10147,7 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "aula": "P9"
                 },
                 {
@@ -10161,7 +10171,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "aula": "P10"
                 },
                 {
@@ -10169,7 +10179,7 @@
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "Multimedialita\/Comunicazione 2",
                     "aula": "P8bis"
                 },
                 {
@@ -10177,7 +10187,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "aula": "P8bis"
                 },
                 {
@@ -10217,7 +10227,7 @@
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "aula": "P25"
                 },
                 {
@@ -10225,7 +10235,7 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "",
+                    "materia": "Multimedialita\/Comunicazione 2",
                     "aula": "P24"
                 },
                 {
@@ -10241,7 +10251,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "aula": "P1"
                 },
                 {
@@ -11302,24 +11312,24 @@
                     "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "materia": "LABORATORIO ESTETICO",
                     "aula": "T37"
                 },
                 {
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "materia": "LABORATORIO ESTETICO",
                     "aula": "T37"
                 },
                 {
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "materia": "LABORATORIO ESTETICO",
                     "aula": "T37"
                 }
             ]
@@ -11941,7 +11951,7 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "Scienze Motorie 2",
                     "aula": "PALESTRA"
                 },
                 {
@@ -11949,7 +11959,7 @@
                     "da": "08:00",
                     "a": "09:00",
                     "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "",
+                    "materia": "Sostenibilita ambientale e transizione ecologica2",
                     "aula": "P24"
                 },
                 {
@@ -11957,7 +11967,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "",
+                    "materia": "EDUCAZIONE FISICA 2",
                     "aula": "PALESTRA"
                 },
                 {
@@ -11965,7 +11975,7 @@
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "Scienze integrate 2",
                     "aula": "P23"
                 },
                 {
@@ -11973,7 +11983,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "",
+                    "materia": "Scienze Motorie 2",
                     "aula": "PALESTRA"
                 }
             ]
@@ -12957,6 +12967,22 @@
                     "aula2": "T51"
                 },
                 {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "materia": "Scienze integrate 2",
+                    "docente": "DE SIMONE ANDREA",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "materia": "Scienze Motorie 2",
+                    "docente": "DE SIMONE ANDREA",
+                    "aula": "PALESTRA"
+                },
+                {
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
@@ -13036,9 +13062,9 @@
                     "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "docente": "CARAVELLO SIMONA",
-                    "aula": "T38",
+                    "materia": "LABORATORIO ESTETICO",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "T37",
                     "tipo": "divisa",
                     "docente2": "GANCI DIEGO",
                     "materia2": "LABORATORIO CUCINA",
@@ -13048,9 +13074,9 @@
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "docente": "CARAVELLO SIMONA",
-                    "aula": "T38",
+                    "materia": "LABORATORIO ESTETICO",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "T37",
                     "tipo": "divisa",
                     "docente2": "GANCI DIEGO",
                     "materia2": "LABORATORIO CUCINA",
@@ -13060,9 +13086,9 @@
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                    "docente": "CARAVELLO SIMONA",
-                    "aula": "T38",
+                    "materia": "LABORATORIO ESTETICO",
+                    "docente": "MORGANTE ANGELAMARIA",
+                    "aula": "T37",
                     "tipo": "divisa",
                     "docente2": "GANCI DIEGO",
                     "materia2": "LABORATORIO CUCINA",
@@ -13165,7 +13191,7 @@
                     "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "docente": "GRECO EGLE",
                     "aula": "P10"
                 },
@@ -13245,7 +13271,7 @@
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "docente": "GRECO EGLE",
                     "aula": "P25"
                 },
@@ -13253,7 +13279,7 @@
                     "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "",
+                    "materia": "Multimedialita\/Comunicazione 2",
                     "docente": "GRECO EGLE",
                     "aula": "P24"
                 },
@@ -13703,31 +13729,31 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "docente": "CARAVELLO SIMONA",
-                    "aula": "T38"
+                    "materia": "ITALIANO",
+                    "docente": "CILLUFFO RICCARDO",
+                    "aula": "P24"
                 },
                 {
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "docente": "CARAVELLO SIMONA",
-                    "aula": "T38"
+                    "materia": "Scienze integrate",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": null
                 },
                 {
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LABORATORIO ESTETICO(2)",
-                    "docente": "CARAVELLO SIMONA",
-                    "aula": "T38"
+                    "materia": "Scienze integrate",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": null
                 },
                 {
                     "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "LABORATORIO ESTETICO(2)",
+                    "materia": "LAB. ESTETICA(RIC. UNGHIA)",
                     "docente": "CARAVELLO SIMONA",
                     "aula": "T38"
                 },
@@ -13991,30 +14017,6 @@
                     "materia": "GEO-STORIA",
                     "docente": "GRECO EGLE",
                     "aula": "P25"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "Lab. Estetica(pedicure, epilazione, trucco base)",
-                    "docente": "MORGANTE ANGELAMARIA",
-                    "aula": "T37"
                 }
             ]
         },
@@ -14145,7 +14147,7 @@
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "",
+                    "materia": "Sostenibilita ambientale e transizione ecologica2",
                     "docente": "URZI' FEDERICO",
                     "aula": "P24"
                 },
@@ -14153,7 +14155,7 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "",
+                    "materia": "EDUCAZIONE FISICA 2",
                     "docente": "URZI' FEDERICO",
                     "aula": "PALESTRA"
                 },
@@ -14491,7 +14493,7 @@
                     "giorno": "LUN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "",
+                    "materia": "Scienze Motorie 2",
                     "docente": "URZI' FEDERICO",
                     "aula": "PALESTRA"
                 },
@@ -14531,7 +14533,7 @@
                     "giorno": "MAR",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "docente": "GRECO EGLE",
                     "aula": "P9"
                 },
@@ -14563,7 +14565,7 @@
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "",
+                    "materia": "Multimedialita\/Comunicazione 2",
                     "docente": "GRECO EGLE",
                     "aula": "P8bis"
                 },
@@ -14571,7 +14573,7 @@
                     "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "docente": "GRECO EGLE",
                     "aula": "P8bis"
                 },
@@ -14627,7 +14629,7 @@
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "",
+                    "materia": "Scienze integrate 2",
                     "docente": "URZI' FEDERICO",
                     "aula": "P23"
                 },
@@ -14643,7 +14645,7 @@
                     "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "",
+                    "materia": "Scienze Motorie 2",
                     "docente": "URZI' FEDERICO",
                     "aula": "PALESTRA"
                 },
@@ -14659,7 +14661,7 @@
                     "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "",
+                    "materia": "ITALIANO2",
                     "docente": "GRECO EGLE",
                     "aula": "P1"
                 },
@@ -14768,7 +14770,7 @@
                     "giorno": "MAR",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "TECNOLOGIA MECCANICA",
+                    "materia": "MATEMATICA 2",
                     "docente": "DADDELLI ANGELO SALVATORE",
                     "aula": "P24"
                 },
@@ -14776,7 +14778,7 @@
                     "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "TECNOLOGIA MECCANICA",
+                    "materia": "MATEMATICA 2",
                     "docente": "DADDELLI ANGELO SALVATORE",
                     "aula": "P24"
                 },
@@ -15436,6 +15438,14 @@
                     "aula": "T28"
                 },
                 {
+                    "giorno": "LUN",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "DE SIMONE ANDREA",
+                    "aula": "PALESTRA"
+                },
+                {
                     "giorno": "MAR",
                     "da": "08:00",
                     "a": "09:00",
@@ -15575,8 +15585,8 @@
                     "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "PARI OPPORTUNITA'",
-                    "docente": "BASILE CATERINA",
+                    "materia": "TECNOLOGIA RIP. VEIC",
+                    "docente": "DADDELLI ANGELO SALVATORE",
                     "aula": "P2"
                 },
                 {
@@ -15780,8 +15790,8 @@
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "Cultura d'impresa e Organiz Aziend",
-                    "docente": "BASILE CATERINA",
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
                     "aula": "P9"
                 },
                 {
@@ -16246,8 +16256,8 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "ECONOMIA",
-                    "docente": "BASILE CATERINA",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
                     "aula": "P23"
                 },
                 {
