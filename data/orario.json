@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-10-13T09:11:23",
+    "aggiornato": "2026-10-14T08:43:41",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1040,
-            "dal": "2026-10-13",
+            "id": 1041,
+            "dal": "2026-10-14",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -367,8 +367,8 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
+                            "da": "11:00",
+                            "a": "12:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                             "materia": "PARI OPPORTUNITA'",
                             "aula": "P2"
@@ -896,16 +896,16 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
+                            "da": "12:00",
+                            "a": "13:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                             "materia": "TECNOLOGIA RIP. VEIC",
                             "aula": "P2"
                         },
                         {
                             "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
+                            "da": "13:00",
+                            "a": "14:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                             "materia": "TECNOLOGIA RIP. VEIC",
                             "aula": "P2"
@@ -2313,6 +2313,22 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
+                        },
+                        {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
@@ -2671,30 +2687,6 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-1",
                             "materia": "LAB. MECCANICO",
                             "aula": "T29"
                         },
@@ -3923,6 +3915,14 @@
                             "corso": "OP. BENESSERE ACC IeFP-3",
                             "materia": "PARI OPPORTUNITA'",
                             "aula": "P28"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "STORIA",
+                            "aula": "P8"
                         },
                         {
                             "giorno": "MER",
@@ -6160,25 +6160,25 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "STORIA",
+                            "docente": "VULLO ENZA",
+                            "aula": "P8"
                         },
                         {
                             "giorno": "MER",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "Scienze Motorie",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "Scienze Motorie",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
@@ -7385,8 +7385,8 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "TECNOLOGIA RIP. VEIC",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "PARI OPPORTUNITA'",
+                            "docente": "BASILE CATERINA",
                             "aula": "P2"
                         },
                         {
@@ -7401,8 +7401,8 @@
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "PARI OPPORTUNITA'",
-                            "docente": "BASILE CATERINA",
+                            "materia": "TECNOLOGIA RIP. VEIC",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P2"
                         },
                         {
@@ -8462,7 +8462,7 @@
             ]
         }
     ],
-    "dal": "13\/10\/2026",
+    "dal": "14\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -8823,8 +8823,8 @@
                 },
                 {
                     "giorno": "GIO",
-                    "da": "13:00",
-                    "a": "14:00",
+                    "da": "11:00",
+                    "a": "12:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                     "materia": "PARI OPPORTUNITA'",
                     "aula": "P2"
@@ -9352,16 +9352,16 @@
                 },
                 {
                     "giorno": "GIO",
-                    "da": "11:00",
-                    "a": "12:00",
+                    "da": "12:00",
+                    "a": "13:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                     "materia": "TECNOLOGIA RIP. VEIC",
                     "aula": "P2"
                 },
                 {
                     "giorno": "GIO",
-                    "da": "12:00",
-                    "a": "13:00",
+                    "da": "13:00",
+                    "a": "14:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
                     "materia": "TECNOLOGIA RIP. VEIC",
                     "aula": "P2"
@@ -10769,6 +10769,22 @@
                     "aula": "PALESTRA"
                 },
                 {
+                    "giorno": "MER",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
+                },
+                {
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
@@ -11127,30 +11143,6 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. MECCANICO IeFP-1",
                     "materia": "LAB. MECCANICO",
                     "aula": "T29"
                 },
@@ -12379,6 +12371,14 @@
                     "corso": "OP. BENESSERE ACC IeFP-3",
                     "materia": "PARI OPPORTUNITA'",
                     "aula": "P28"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "STORIA",
+                    "aula": "P8"
                 },
                 {
                     "giorno": "MER",
@@ -14616,25 +14616,25 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "STORIA",
+                    "docente": "VULLO ENZA",
+                    "aula": "P8"
                 },
                 {
                     "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "Scienze Motorie",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "Scienze Motorie",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "GIO",
@@ -15841,8 +15841,8 @@
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "TECNOLOGIA RIP. VEIC",
-                    "docente": "DADDELLI ANGELO SALVATORE",
+                    "materia": "PARI OPPORTUNITA'",
+                    "docente": "BASILE CATERINA",
                     "aula": "P2"
                 },
                 {
@@ -15857,8 +15857,8 @@
                     "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "PARI OPPORTUNITA'",
-                    "docente": "BASILE CATERINA",
+                    "materia": "TECNOLOGIA RIP. VEIC",
+                    "docente": "DADDELLI ANGELO SALVATORE",
                     "aula": "P2"
                 },
                 {
