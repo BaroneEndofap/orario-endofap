@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-10-14T08:43:41",
+    "aggiornato": "2026-10-15T08:16:54",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1041,
-            "dal": "2026-10-14",
+            "id": 1042,
+            "dal": "2026-10-15",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -1701,6 +1701,14 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P8"
+                        },
+                        {
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
@@ -2337,6 +2345,14 @@
                             "aula": "P24"
                         },
                         {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P28"
+                        },
+                        {
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
@@ -2902,22 +2918,6 @@
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "STORIA",
                             "aula": "P1"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P28"
                         }
                     ]
                 },
@@ -7646,8 +7646,8 @@
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
                             "aula": "P28"
                         },
                         {
@@ -8413,8 +8413,8 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
                             "aula": "P8"
                         },
                         {
@@ -8462,7 +8462,7 @@
             ]
         }
     ],
-    "dal": "14\/10\/2026",
+    "dal": "15\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -10157,6 +10157,14 @@
                     "aula": "PALESTRA"
                 },
                 {
+                    "giorno": "GIO",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                    "materia": "Scienze integrate",
+                    "aula": "P8"
+                },
+                {
                     "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
@@ -10793,6 +10801,14 @@
                     "aula": "P24"
                 },
                 {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                    "materia": "Scienze integrate",
+                    "aula": "P28"
+                },
+                {
                     "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
@@ -11358,22 +11374,6 @@
                     "corso": "OP. MECCANICO IeFP-2",
                     "materia": "STORIA",
                     "aula": "P1"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "STORIA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "STORIA",
-                    "aula": "P28"
                 }
             ]
         },
@@ -16102,8 +16102,8 @@
                     "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "STORIA",
-                    "docente": "MEGNA ROBERTA",
+                    "materia": "Scienze integrate",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
                     "aula": "P28"
                 },
                 {
@@ -16869,8 +16869,8 @@
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "STORIA",
-                    "docente": "MEGNA ROBERTA",
+                    "materia": "Scienze integrate",
+                    "docente": "GERACI FABRIZIO",
                     "aula": "P8"
                 },
                 {
