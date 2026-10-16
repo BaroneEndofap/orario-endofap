@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-10-15T08:16:54",
+    "aggiornato": "2026-10-16T08:30:52",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1042,
-            "dal": "2026-10-15",
+            "id": 1043,
+            "dal": "2026-10-16",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -189,22 +189,6 @@
                         },
                         {
                             "giorno": "VEN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Informatica e competenze digitali",
-                            "aula": "P29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "Informatica e competenze digitali",
-                            "aula": "P29"
-                        },
-                        {
-                            "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. ELETTRICO IeFP-3",
@@ -224,14 +208,6 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "Informatica e competenze digitali",
-                            "aula": "P29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-1",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         }
@@ -354,7 +330,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "ECONOMIA",
+                            "materia": "Geografia Economica",
                             "aula": "P23"
                         },
                         {
@@ -1436,6 +1412,14 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "MATEMATICA",
+                            "aula": null
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. BENESSERE EST IeFP-3",
@@ -1715,6 +1699,14 @@
                             "corso": "OP. BENESSERE EST IeFP-3",
                             "materia": "Sostenibilita ambientale e transizione ecologica",
                             "aula": "P25"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "VEN",
@@ -6267,14 +6259,6 @@
                             "materia": "INGLESE",
                             "docente": "DI SALVO SIMONETTA",
                             "aula": "P10"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
                         }
                     ]
                 },
@@ -8136,7 +8120,7 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ECONOMIA",
+                            "materia": "Geografia Economica",
                             "docente": "BASILE CATERINA",
                             "aula": "P23"
                         },
@@ -8188,9 +8172,9 @@
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
+                            "aula": null
                         },
                         {
                             "giorno": "VEN",
@@ -8429,9 +8413,9 @@
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "Scienze Motorie",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "VEN",
@@ -8462,7 +8446,7 @@
             ]
         }
     ],
-    "dal": "15\/10\/2026",
+    "dal": "16\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -8645,22 +8629,6 @@
                 },
                 {
                     "giorno": "VEN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                    "materia": "Informatica e competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "Informatica e competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. ELETTRICO IeFP-3",
@@ -8680,14 +8648,6 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "Informatica e competenze digitali",
-                    "aula": "P29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. MECCANICO IeFP-1",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 }
@@ -8810,7 +8770,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                    "materia": "ECONOMIA",
+                    "materia": "Geografia Economica",
                     "aula": "P23"
                 },
                 {
@@ -9892,6 +9852,14 @@
                 },
                 {
                     "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                    "materia": "MATEMATICA",
+                    "aula": null
+                },
+                {
+                    "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. BENESSERE EST IeFP-3",
@@ -10171,6 +10139,14 @@
                     "corso": "OP. BENESSERE EST IeFP-3",
                     "materia": "Sostenibilita ambientale e transizione ecologica",
                     "aula": "P25"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "VEN",
@@ -14723,14 +14699,6 @@
                     "materia": "INGLESE",
                     "docente": "DI SALVO SIMONETTA",
                     "aula": "P10"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
                 }
             ]
         },
@@ -16592,7 +16560,7 @@
                     "giorno": "GIO",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "ECONOMIA",
+                    "materia": "Geografia Economica",
                     "docente": "BASILE CATERINA",
                     "aula": "P23"
                 },
@@ -16644,9 +16612,9 @@
                     "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": null
                 },
                 {
                     "giorno": "VEN",
@@ -16885,9 +16853,9 @@
                     "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
+                    "materia": "Scienze Motorie",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "VEN",
