@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-10-19T07:57:25",
+    "aggiornato": "2026-10-19T08:12:16",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -1114,6 +1114,30 @@
                 {
                     "nome": "DI SALVO SIMONETTA",
                     "slots": [
+                        {
+                            "giorno": "LUN",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "INGLESE",
+                            "aula": "P23"
+                        },
                         {
                             "giorno": "MAR",
                             "da": "08:00",
@@ -2649,33 +2673,9 @@
                     "slots": [
                         {
                             "giorno": "LUN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-2",
                             "materia": "LAB. MECCANICO",
                             "aula": "T29"
                         },
@@ -6188,17 +6188,17 @@
                             "giorno": "LUN",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P10"
                         },
                         {
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P10"
                         },
                         {
                             "giorno": "LUN",
@@ -6457,9 +6457,9 @@
                             "giorno": "LUN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P23"
                         },
                         {
                             "giorno": "LUN",
@@ -9731,6 +9731,30 @@
             "nome": "DI SALVO SIMONETTA",
             "slots": [
                 {
+                    "giorno": "LUN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "LUN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "LUN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-2",
+                    "materia": "INGLESE",
+                    "aula": "P23"
+                },
+                {
                     "giorno": "MAR",
                     "da": "08:00",
                     "a": "09:00",
@@ -11265,33 +11289,9 @@
             "slots": [
                 {
                     "giorno": "LUN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "LUN",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-2",
                     "materia": "LAB. MECCANICO",
                     "aula": "T29"
                 },
@@ -14804,17 +14804,17 @@
                     "giorno": "LUN",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P10"
                 },
                 {
                     "giorno": "LUN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P10"
                 },
                 {
                     "giorno": "LUN",
@@ -15073,9 +15073,9 @@
                     "giorno": "LUN",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P23"
                 },
                 {
                     "giorno": "LUN",
