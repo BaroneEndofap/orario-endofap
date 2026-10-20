@@ -1,11 +1,11 @@
 {
-    "aggiornato": "2026-10-19T18:41:17",
+    "aggiornato": "2026-10-20T14:53:46",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1044,
-            "dal": "2026-10-19",
-            "al": "2026-10-19",
+            "id": 1045,
+            "dal": "2026-10-20",
+            "al": "2026-10-20",
             "nota": "",
             "fasce": [
                 "08:00-09:00",
@@ -1139,46 +1139,6 @@
                             "aula": "P23"
                         },
                         {
-                            "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BENESSERE EST IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P8bis"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BENESSERE ACC IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "INGLESE",
-                            "aula": "P10"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "INGLESE",
-                            "aula": "P23"
-                        },
-                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -1730,6 +1690,14 @@
                             "aula": "P25"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BENESSERE ACC IeFP-3",
+                            "materia": "EDUCAZIONE FISICA",
+                            "aula": "PALESTRA"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
@@ -1986,6 +1954,14 @@
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "ITALIANO2",
                             "aula": "P9"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BENESSERE EST IeFP-3",
+                            "materia": "GEO-STORIA",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -2917,6 +2893,14 @@
                             "aula": "P24"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "STORIA",
+                            "aula": "P23"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "10:00",
                             "a": "11:00",
@@ -2947,14 +2931,6 @@
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "STORIA",
                             "aula": "P28"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
@@ -4029,6 +4005,14 @@
                             "aula": "P28"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "STORIA",
+                            "aula": "P10"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
@@ -5099,8 +5083,8 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
+                            "materia": "STORIA",
+                            "docente": "VULLO ENZA",
                             "aula": "P10"
                         },
                         {
@@ -5328,9 +5312,9 @@
                             "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P8"
+                            "materia": "EDUCAZIONE FISICA",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MAR",
@@ -5794,9 +5778,9 @@
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P8bis"
+                            "materia": "GEO-STORIA",
+                            "docente": "GRECO EGLE",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -7403,14 +7387,6 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
                             "materia": "MATEMATICA",
@@ -8461,8 +8437,8 @@
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
+                            "materia": "STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P23"
                         },
                         {
@@ -8578,14 +8554,6 @@
                             "aula": "P8"
                         },
                         {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
-                            "aula": "P8"
-                        },
-                        {
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
@@ -8622,8 +8590,8 @@
             ]
         },
         {
-            "id": 1045,
-            "dal": "2026-10-20",
+            "id": 1046,
+            "dal": "2026-10-21",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -9658,14 +9626,6 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "aula": "T24"
-                        },
-                        {
-                            "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
@@ -10161,6 +10121,14 @@
                         },
                         {
                             "giorno": "MER",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. RISTORAZIONE IeFP-3",
+                            "materia": "HACCP",
+                            "aula": "T51"
+                        },
+                        {
+                            "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. RISTORAZIONE IeFP-3",
@@ -10317,11 +10285,27 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": null
+                        },
+                        {
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE EST IeFP-3",
                             "materia": "EDUCAZIONE FISICA",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
                         },
                         {
@@ -10970,6 +10954,14 @@
                         },
                         {
                             "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "Scienze integrate",
+                            "aula": null
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -10991,6 +10983,14 @@
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MER",
@@ -11291,54 +11291,6 @@
                             "aula": "T29"
                         },
                         {
-                            "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
@@ -11518,6 +11470,14 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "STORIA",
                             "aula": "P23"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "STORIA",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MER",
@@ -12944,54 +12904,6 @@
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "Multimedialita\/Comunicazione",
                             "aula": "P2"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "ITALIANO(MULTIMEDIALITA')",
-                            "aula": "P26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P9"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "ITALIANO",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "aula": "P23"
                         },
                         {
                             "giorno": "GIO",
@@ -14648,30 +14560,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "materia": "LAB.TERMOIDRAULICA",
@@ -14847,9 +14735,9 @@
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "docente": "DI CARO VINCENZO",
-                            "aula": "T24"
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -14906,30 +14794,6 @@
                             "materia": "Religione - Attività alternative",
                             "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P10"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
                         },
                         {
                             "giorno": "GIO",
@@ -15574,8 +15438,8 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P9"
                         },
                         {
@@ -15835,9 +15699,9 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P8"
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MER",
@@ -16532,14 +16396,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "ITALIANO(MULTIMEDIALITA')",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P26"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
                             "materia": "HACCP",
@@ -16550,9 +16406,9 @@
                             "giorno": "MER",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P24"
+                            "materia": "HACCP",
+                            "docente": "GANCI DIEGO",
+                            "aula": "T51"
                         },
                         {
                             "giorno": "MER",
@@ -17048,9 +16904,9 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P23"
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -17116,9 +16972,9 @@
                             "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P23"
+                            "materia": "Scienze Motorie",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
@@ -17209,7 +17065,7 @@
             ]
         }
     ],
-    "dal": "19\/10\/2026",
+    "dal": "20\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -18342,46 +18198,6 @@
                     "aula": "P23"
                 },
                 {
-                    "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-3",
-                    "materia": "INGLESE",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. BENESSERE EST IeFP-3",
-                    "materia": "INGLESE",
-                    "aula": "P8bis"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BENESSERE ACC IeFP-3",
-                    "materia": "INGLESE",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BENESSERE ACC IeFP-2",
-                    "materia": "INGLESE",
-                    "aula": "P10"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "INGLESE",
-                    "aula": "P23"
-                },
-                {
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
@@ -18933,6 +18749,14 @@
                     "aula": "P25"
                 },
                 {
+                    "giorno": "MAR",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BENESSERE ACC IeFP-3",
+                    "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
@@ -19189,6 +19013,14 @@
                     "corso": "OP. MECCANICO IeFP-2",
                     "materia": "ITALIANO2",
                     "aula": "P9"
+                },
+                {
+                    "giorno": "MAR",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. BENESSERE EST IeFP-3",
+                    "materia": "GEO-STORIA",
+                    "aula": null
                 },
                 {
                     "giorno": "MAR",
@@ -20120,6 +19952,14 @@
                     "aula": "P24"
                 },
                 {
+                    "giorno": "MAR",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                    "materia": "STORIA",
+                    "aula": "P23"
+                },
+                {
                     "giorno": "MER",
                     "da": "10:00",
                     "a": "11:00",
@@ -20150,14 +19990,6 @@
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                     "materia": "STORIA",
                     "aula": "P28"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "STORIA",
-                    "aula": "P8"
                 },
                 {
                     "giorno": "VEN",
@@ -21232,6 +21064,14 @@
                     "aula": "P28"
                 },
                 {
+                    "giorno": "MAR",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE ACC IeFP-2",
+                    "materia": "STORIA",
+                    "aula": "P10"
+                },
+                {
                     "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
@@ -22302,8 +22142,8 @@
                     "giorno": "MAR",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
+                    "materia": "STORIA",
+                    "docente": "VULLO ENZA",
                     "aula": "P10"
                 },
                 {
@@ -22531,9 +22371,9 @@
                     "giorno": "MAR",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P8"
+                    "materia": "EDUCAZIONE FISICA",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MAR",
@@ -22997,9 +22837,9 @@
                     "giorno": "MAR",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P8bis"
+                    "materia": "GEO-STORIA",
+                    "docente": "GRECO EGLE",
+                    "aula": null
                 },
                 {
                     "giorno": "MAR",
@@ -24606,14 +24446,6 @@
                 },
                 {
                     "giorno": "MAR",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P28"
-                },
-                {
-                    "giorno": "MAR",
                     "da": "09:00",
                     "a": "10:00",
                     "materia": "MATEMATICA",
@@ -25664,8 +25496,8 @@
                     "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
+                    "materia": "STORIA",
+                    "docente": "MEGNA ROBERTA",
                     "aula": "P23"
                 },
                 {
@@ -25778,14 +25610,6 @@
                     "a": "13:00",
                     "materia": "INGLESE",
                     "docente": "DI SALVO SIMONETTA",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "STORIA",
-                    "docente": "MEGNA ROBERTA",
                     "aula": "P8"
                 },
                 {
