@@ -1,11 +1,11 @@
 {
-    "aggiornato": "2026-10-20T14:53:46",
+    "aggiornato": "2026-10-21T13:33:34",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1045,
-            "dal": "2026-10-20",
-            "al": "2026-10-20",
+            "id": 1046,
+            "dal": "2026-10-21",
+            "al": "2026-10-21",
             "nota": "",
             "fasce": [
                 "08:00-09:00",
@@ -1039,14 +1039,6 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "aula": "T24"
-                        },
-                        {
-                            "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
@@ -1542,6 +1534,14 @@
                         },
                         {
                             "giorno": "MER",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. RISTORAZIONE IeFP-3",
+                            "materia": "HACCP",
+                            "aula": "T51"
+                        },
+                        {
+                            "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. RISTORAZIONE IeFP-3",
@@ -1698,11 +1698,27 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": null
+                        },
+                        {
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE EST IeFP-3",
                             "materia": "EDUCAZIONE FISICA",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
                         },
                         {
@@ -2351,6 +2367,14 @@
                         },
                         {
                             "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "Scienze integrate",
+                            "aula": null
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -2372,6 +2396,14 @@
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MER",
@@ -2672,54 +2704,6 @@
                             "aula": "T29"
                         },
                         {
-                            "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
@@ -2899,6 +2883,14 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "STORIA",
                             "aula": "P23"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "STORIA",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MER",
@@ -4325,54 +4317,6 @@
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "Multimedialita\/Comunicazione",
                             "aula": "P2"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "ITALIANO(MULTIMEDIALITA')",
-                            "aula": "P26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P9"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. RISTORAZIONE IeFP-3",
-                            "materia": "ITALIANO",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "aula": "P23"
                         },
                         {
                             "giorno": "GIO",
@@ -6029,30 +5973,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "materia": "LAB.TERMOIDRAULICA",
@@ -6228,9 +6148,9 @@
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "docente": "DI CARO VINCENZO",
-                            "aula": "T24"
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -6287,30 +6207,6 @@
                             "materia": "Religione - Attività alternative",
                             "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P10"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
                         },
                         {
                             "giorno": "GIO",
@@ -6955,8 +6851,8 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P9"
                         },
                         {
@@ -7216,9 +7112,9 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P8"
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MER",
@@ -7913,14 +7809,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "materia": "ITALIANO(MULTIMEDIALITA')",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P26"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
                             "materia": "HACCP",
@@ -7931,9 +7819,9 @@
                             "giorno": "MER",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P24"
+                            "materia": "HACCP",
+                            "docente": "GANCI DIEGO",
+                            "aula": "T51"
                         },
                         {
                             "giorno": "MER",
@@ -8429,9 +8317,9 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P23"
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -8497,9 +8385,9 @@
                             "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P23"
+                            "materia": "Scienze Motorie",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
@@ -8590,8 +8478,8 @@
             ]
         },
         {
-            "id": 1046,
-            "dal": "2026-10-21",
+            "id": 1047,
+            "dal": "2026-10-22",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -8658,24 +8546,24 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "corso": "OP. BENESSERE ACC IeFP-3",
-                            "materia": "Lab. Acconciatura(Taglio Donna)2",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "A.S.LAB.ACC.3",
                             "aula": "T36"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. BENESSERE ACC IeFP-3",
-                            "materia": "Lab. Acconciatura(Taglio Donna)2",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "A.S.LAB.ACC.3",
                             "aula": "T36"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. BENESSERE ACC IeFP-3",
-                            "materia": "Lab. Acconciatura(Taglio Donna)2",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "A.S.LAB.ACC.3",
                             "aula": "T36"
                         },
                         {
@@ -9650,22 +9538,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "aula": "T24"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "aula": "T24"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -9767,22 +9639,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "INGLESE",
-                            "aula": "P1"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-3",
-                            "materia": "INGLESE",
-                            "aula": "P8bis"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
@@ -9823,6 +9679,14 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "INGLESE",
+                            "aula": "P1"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -9836,6 +9700,14 @@
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "INGLESE",
                             "aula": "P10"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. MECCANICO IeFP-3",
+                            "materia": "INGLESE",
+                            "aula": "P8bis"
                         }
                     ]
                 },
@@ -10656,6 +10528,14 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "Multimedialita\/Comunicazione 2",
+                            "aula": "P8bis"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
@@ -10677,14 +10557,6 @@
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "ITALIANO2",
                             "aula": "P1"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Multimedialita\/Comunicazione 2",
-                            "aula": "P8bis"
                         },
                         {
                             "giorno": "VEN",
@@ -11001,6 +10873,14 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "GIO",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
+                        },
+                        {
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
@@ -11292,14 +11172,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. MECCANICO IeFP-1",
@@ -11313,22 +11185,6 @@
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "LAB. MECCANICO",
                             "aula": "T29"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
                         },
                         {
                             "giorno": "GIO",
@@ -11497,6 +11353,22 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "ITALIANO",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-3",
+                            "materia": "GEO-STORIA",
+                            "aula": "P8bis"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
@@ -11542,14 +11414,6 @@
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "Geografia Economica",
                             "aula": "P24"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-3",
-                            "materia": "GEO-STORIA",
-                            "aula": "P8bis"
                         }
                     ]
                 },
@@ -12329,9 +12193,9 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "aula": "P24"
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "Scienze integrate 2",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
@@ -12343,11 +12207,27 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "EDUCAZIONE FISICA 2",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Scienze integrate 2",
-                            "aula": "P23"
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "aula": null
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
@@ -12792,7 +12672,7 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "corso": "OP. BENESSERE ACC IeFP-3",
                             "materia": "LABORATORIO DI ACCONCIATURA",
                             "aula": "T56"
                         },
@@ -12800,7 +12680,7 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "corso": "OP. BENESSERE ACC IeFP-3",
                             "materia": "LABORATORIO DI ACCONCIATURA",
                             "aula": "T56"
                         },
@@ -12808,7 +12688,7 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "corso": "OP. BENESSERE ACC IeFP-3",
                             "materia": "LABORATORIO DI ACCONCIATURA",
                             "aula": "T56"
                         },
@@ -12907,11 +12787,19 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
+                            "da": "08:00",
+                            "a": "09:00",
                             "corso": "OP. ELETTRICO IeFP-3",
                             "materia": "ITALIANO",
                             "aula": "P24"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "ITALIANO",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
@@ -13152,9 +13040,9 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LABORATORIO DI ACCONCIATURA",
-                            "docente": "ZAMA VINCENZA",
-                            "aula": "T56",
+                            "materia": "A.S.LAB.ACC.3",
+                            "docente": "ABBAGNATO IRENE",
+                            "aula": "T36",
                             "tipo": "divisa",
                             "docente2": "LO GALBO ANGELO",
                             "materia2": "LAB.TERMOIDRAULICA",
@@ -13164,9 +13052,9 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LABORATORIO DI ACCONCIATURA",
-                            "docente": "ZAMA VINCENZA",
-                            "aula": "T56",
+                            "materia": "A.S.LAB.ACC.3",
+                            "docente": "ABBAGNATO IRENE",
+                            "aula": "T36",
                             "tipo": "divisa",
                             "docente2": "LO GALBO ANGELO",
                             "materia2": "LAB.TERMOIDRAULICA",
@@ -13176,9 +13064,9 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "LABORATORIO DI ACCONCIATURA",
-                            "docente": "ZAMA VINCENZA",
-                            "aula": "T56",
+                            "materia": "A.S.LAB.ACC.3",
+                            "docente": "ABBAGNATO IRENE",
+                            "aula": "T36",
                             "tipo": "divisa",
                             "docente2": "LO GALBO ANGELO",
                             "materia2": "LAB.TERMOIDRAULICA",
@@ -13915,25 +13803,25 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Lab. Acconciatura(Taglio Donna)2",
-                            "docente": "ABBAGNATO IRENE",
-                            "aula": "T36"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "Lab. Acconciatura(Taglio Donna)2",
-                            "docente": "ABBAGNATO IRENE",
-                            "aula": "T36"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Lab. Acconciatura(Taglio Donna)2",
-                            "docente": "ABBAGNATO IRENE",
-                            "aula": "T36"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "GIO",
@@ -14586,8 +14474,8 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "docente": "URZI' FEDERICO",
+                            "materia": "ITALIANO",
+                            "docente": "ZITO SABRINA",
                             "aula": "P24"
                         },
                         {
@@ -14602,25 +14490,25 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
-                            "aula": "P24"
+                            "materia": "EDUCAZIONE FISICA 2",
+                            "docente": "URZI' FEDERICO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "docente": "URZI' FEDERICO",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "docente": "URZI' FEDERICO",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
@@ -14799,9 +14687,9 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "ITALIANO",
+                            "docente": "MEGNA ROBERTA",
+                            "aula": "P10"
                         },
                         {
                             "giorno": "GIO",
@@ -15004,9 +14892,9 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P1"
+                            "materia": "Scienze integrate 2",
+                            "docente": "URZI' FEDERICO",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
@@ -15028,9 +14916,9 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Scienze integrate 2",
-                            "docente": "URZI' FEDERICO",
-                            "aula": "P23"
+                            "materia": "Multimedialita\/Comunicazione 2",
+                            "docente": "GRECO EGLE",
+                            "aula": "P8bis"
                         },
                         {
                             "giorno": "GIO",
@@ -15068,9 +14956,9 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Multimedialita\/Comunicazione 2",
-                            "docente": "GRECO EGLE",
-                            "aula": "P8bis"
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P1"
                         },
                         {
                             "giorno": "VEN",
@@ -15241,8 +15129,8 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
+                            "materia": "GEO-STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P8bis"
                         },
                         {
@@ -15321,8 +15209,8 @@
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "GEO-STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P8bis"
                         }
                     ]
@@ -15478,17 +15366,17 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "docente": "DI CARO VINCENZO",
-                            "aula": "T24"
+                            "materia": "Scienze Motorie",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                            "docente": "DI CARO VINCENZO",
-                            "aula": "T24"
+                            "materia": "ITALIANO",
+                            "docente": "ZITO SABRINA",
+                            "aula": null
                         },
                         {
                             "giorno": "GIO",
@@ -17065,7 +16953,7 @@
             ]
         }
     ],
-    "dal": "20\/10\/2026",
+    "dal": "21\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -18098,14 +17986,6 @@
                 },
                 {
                     "giorno": "MAR",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                    "aula": "T24"
-                },
-                {
-                    "giorno": "MAR",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BEN. ACC - OP. EL IeFP-1",
@@ -18601,6 +18481,14 @@
                 },
                 {
                     "giorno": "MER",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. RISTORAZIONE IeFP-3",
+                    "materia": "HACCP",
+                    "aula": "T51"
+                },
+                {
+                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. RISTORAZIONE IeFP-3",
@@ -18757,11 +18645,27 @@
                     "aula": "PALESTRA"
                 },
                 {
+                    "giorno": "MAR",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                    "materia": "Scienze integrate",
+                    "aula": null
+                },
+                {
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BENESSERE EST IeFP-3",
                     "materia": "EDUCAZIONE FISICA",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "13:00",
+                    "a": "14:00",
+                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                    "materia": "Scienze Motorie",
                     "aula": "PALESTRA"
                 },
                 {
@@ -19410,6 +19314,14 @@
                 },
                 {
                     "giorno": "MAR",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "Scienze integrate",
+                    "aula": null
+                },
+                {
+                    "giorno": "MAR",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -19431,6 +19343,14 @@
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                     "materia": "Scienze Motorie",
                     "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                    "materia": "Scienze integrate",
+                    "aula": "P9"
                 },
                 {
                     "giorno": "MER",
@@ -19731,54 +19651,6 @@
                     "aula": "T29"
                 },
                 {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
                     "giorno": "GIO",
                     "da": "08:00",
                     "a": "09:00",
@@ -19958,6 +19830,14 @@
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                     "materia": "STORIA",
                     "aula": "P23"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                    "materia": "STORIA",
+                    "aula": "P9"
                 },
                 {
                     "giorno": "MER",
@@ -21384,54 +21264,6 @@
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                     "materia": "Multimedialita\/Comunicazione",
                     "aula": "P2"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "ITALIANO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RISTORAZIONE IeFP-3",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                    "materia": "ITALIANO",
-                    "aula": "P9"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. RISTORAZIONE IeFP-3",
-                    "materia": "ITALIANO",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "ITALIANO",
-                    "aula": "P8"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "aula": "P23"
                 },
                 {
                     "giorno": "GIO",
@@ -23088,30 +22920,6 @@
                 },
                 {
                     "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "materia": "LAB.TERMOIDRAULICA",
@@ -23287,9 +23095,9 @@
                     "giorno": "MAR",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "LABORATORIO MECCANICA POLIVALENTE",
-                    "docente": "DI CARO VINCENZO",
-                    "aula": "T24"
+                    "materia": "Scienze integrate",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": null
                 },
                 {
                     "giorno": "MAR",
@@ -23346,30 +23154,6 @@
                     "materia": "Religione - Attività alternative",
                     "docente": "SILIATO ROSSELLA VALERIA",
                     "aula": "P10"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
                 },
                 {
                     "giorno": "GIO",
@@ -24014,8 +23798,8 @@
                     "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
+                    "materia": "STORIA",
+                    "docente": "MEGNA ROBERTA",
                     "aula": "P9"
                 },
                 {
@@ -24275,9 +24059,9 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P8"
+                    "materia": "Scienze integrate",
+                    "docente": "LERDA RAMIRO EZEQUIEL",
+                    "aula": "P9"
                 },
                 {
                     "giorno": "MER",
@@ -24972,14 +24756,6 @@
                 },
                 {
                     "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "materia": "ITALIANO(MULTIMEDIALITA')",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P26"
-                },
-                {
-                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "materia": "HACCP",
@@ -24990,9 +24766,9 @@
                     "giorno": "MER",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P24"
+                    "materia": "HACCP",
+                    "docente": "GANCI DIEGO",
+                    "aula": "T51"
                 },
                 {
                     "giorno": "MER",
@@ -25488,9 +25264,9 @@
                     "giorno": "MAR",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "ITALIANO",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P23"
+                    "materia": "Scienze integrate",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": null
                 },
                 {
                     "giorno": "MAR",
@@ -25556,9 +25332,9 @@
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "docente": "ZITO SABRINA",
-                    "aula": "P23"
+                    "materia": "Scienze Motorie",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "GIO",
