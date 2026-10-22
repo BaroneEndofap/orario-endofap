@@ -516,7 +516,65 @@ html, body {
     padding: 4px 0;
 }
 
+
+/* ── Sostituzioni docenti ────────────────────────────────────────────────── */
+.totem-grid td.sostituzione {
+    background: #fff7ed;
+    border-left: 4px solid #ea580c;
+}
+
+.cell-sost {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #c2410c;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.card-lezione .cell-sost {
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.sost-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+    table-layout: fixed;
+}
+
+.sost-table th {
+    background: #c2410c;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 10px;
+    text-align: left;
+    border-radius: 6px;
+}
+
+.sost-table td {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    border-radius: 4px;
+    padding: 12px 10px;
+    font-size: 1.15rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.sost-table tr.in-corso td {
+    background: #ffedd5;
+    box-shadow: 0 0 0 1px #fb923c inset;
+}
+
+.sost-table td.sost-nome {
+    font-weight: 700;
+    color: #9a3412;
+}
+
 </style>
+    <script>window.TOTEM_GH_BASE = "https:\/\/baroneendofap.github.io\/orario-endofap";</script>
 </head>
 
 <body>
@@ -567,14 +625,27 @@ html, body {
                 dataRefresh: 120000, // 2 minuti
                 clockRefresh: 1000,
                 maxRowsPerSlide: 5, // righe massime per slide tabella
-                jsonUrl: 'https://baroneendofap.github.io/orario-endofap/data/orario.json',
-                comunicazioniUrl: 'https://baroneendofap.github.io/orario-endofap/data/comunicazioni.json',
-                mediaUrl: 'https://baroneendofap.github.io/orario-endofap/data/media.json',
+                // Base dei file pubblicati: la imposta totem_base.php (o, nel totem.html su GitHub
+                // Pages, una costante inserita alla pubblicazione). Se manca resta il vecchio repo.
+                baseUrl: (typeof window.TOTEM_GH_BASE === 'string' && window.TOTEM_GH_BASE !== '') ?
+                    window.TOTEM_GH_BASE : 'https://baroneendofap.github.io/orario-endofap',
+                jsonUrl: null,
+                comunicazioniUrl: null,
+                mediaUrl: null,
                 tickerEnabled: getParam('ticker') === '1',
                 filtro_piano: getParam('piano'), // '0' o '1'
                 filtro_aula: getParam('aula'), // nome aula es. 'P1', 'T56'
-                vista_fissa: getParam('vista'), // 'aule', 'corsi', 'adesso' o null (tutte)
+                // Turni: con classi sia al mattino sia al pomeriggio mostra solo il turno in corso.
+                //   ?turno=tutti (disattiva) | mattina | pomeriggio (fisso) | auto (predefinito)
+                //   ?cambio=HH:MM  ora di cambio turno, predefinita 14:00 (decide dall'ora di inizio della lezione)
+                turno: (getParam('turno') || 'auto').toLowerCase(),
+                cambio_turno: /^\d{1,2}:\d{2}$/.test(getParam('cambio') || '') ? getParam('cambio').padStart(5, '0') : '14:00',
+                vista_fissa: getParam('vista'), // 'aule', 'corsi', 'adesso', 'sostituzioni', anche in sequenza (corsi,sostituzioni) o null (tutte)
             };
+
+            CONFIG.jsonUrl = CONFIG.baseUrl + '/data/orario.json';
+            CONFIG.comunicazioniUrl = CONFIG.baseUrl + '/data/comunicazioni.json';
+            CONFIG.mediaUrl = CONFIG.baseUrl + '/data/media.json';
 
             // ── Stato ────────────────────────────────────────────────────────────────
 
@@ -594,6 +665,11 @@ html, body {
                 const d = document.createElement('div');
                 d.textContent = str || '';
                 return d.innerHTML;
+            }
+
+            /** Riga "Sost. di ..." mostrata sotto il docente quando la lezione è in sostituzione */
+            function etichettaSost(assente) {
+                return assente ? '<div class="cell-sost">Sostituisce: ' + escHtml(assente) + '</div>' : '';
             }
 
             /** Abbrevia un nome corso per stare in cella (es. "OIF ACCONCIATURA 1°A" → "ACCON. 1°A") */
@@ -669,6 +745,20 @@ html, body {
                     fasce: [],
                     aule: [],
                     corsi: [],
+                    sostituzioni: [],
+                };
+
+                // Sostituzioni di oggi (overlay sull'orario: l'orario resta invariato)
+                const sostOggi = (raw.sostituzioni || []).filter(function(s) {
+                    return s.data === dataStr;
+                });
+                base.sostituzioni = sostOggi;
+                const trovaSost = function(nomeCorso, l, nomeDocente) {
+                    if (!nomeDocente) return null;
+                    return sostOggi.find(function(s) {
+                        return s.corso === nomeCorso && s.da === l.da && s.a === l.a &&
+                            s.docente_assente === nomeDocente;
+                    }) || null;
                 };
 
                 // Weekend → nessuna lezione
@@ -733,20 +823,48 @@ html, body {
                 const auleSet = {};
                 const corsiSet = {};
 
+                // ── Turno in corso ─────────────────────────────────────────────────
+                // Una lezione è "del mattino" se inizia prima dell'ora di cambio, altrimenti "del pomeriggio".
+                // Il filtro scatta solo se oggi ci sono lezioni in entrambi i turni; una lezione già in corso
+                // resta visibile anche se appartiene al turno precedente (solo in modalità auto).
+                const cambio = CONFIG.cambio_turno;
+                const turnoDi = function(da) { return da < cambio ? 'mattina' : 'pomeriggio'; };
+                const turniPresenti = { mattina: false, pomeriggio: false };
+                for (const corso of rawCorsi) {
+                    for (const l of (corso.lezioni || [])) {
+                        if (normalizzaGiorno(l.giorno) === giornoCode) turniPresenti[turnoDi(l.da)] = true;
+                    }
+                }
+                const turnoAuto = ['tutti', 'mattina', 'pomeriggio'].indexOf(CONFIG.turno) === -1;
+                let turnoAttivo = null;
+                if (CONFIG.turno === 'mattina' || CONFIG.turno === 'pomeriggio') {
+                    turnoAttivo = turniPresenti[CONFIG.turno] ? CONFIG.turno : null;
+                } else if (CONFIG.turno !== 'tutti' && turniPresenti.mattina && turniPresenti.pomeriggio) {
+                    turnoAttivo = turnoDi(ora);
+                }
+                base.turno = turnoAttivo;
+
                 for (const corso of rawCorsi) {
                     for (const l of (corso.lezioni || [])) {
                         if (normalizzaGiorno(l.giorno) !== giornoCode) continue;
+                        if (turnoAttivo && turnoDi(l.da) !== turnoAttivo && !(turnoAuto && ora >= l.da && ora < l.a)) continue;
 
-                        const piano = getPiano(l.aula);
+                        // Una sostituzione può spostare la lezione in un'altra aula: conta l'aula effettiva
+                        const sost1 = trovaSost(corso.nome, l, l.docente);
+                        const sost2 = l.tipo === 'divisa' ? trovaSost(corso.nome, l, l.docente2) : null;
+                        const aula1 = (sost1 && sost1.aula) || l.aula;
+                        const aula2 = (sost2 && sost2.aula) || l.aula2;
+
+                        const piano = getPiano(aula1);
 
                         if (CONFIG.filtro_piano !== null && CONFIG.filtro_piano !== '') {
                             if (piano !== parseInt(CONFIG.filtro_piano, 10)) continue;
                         }
-                        if (CONFIG.filtro_aula && l.aula !== CONFIG.filtro_aula) continue;
+                        if (CONFIG.filtro_aula && aula1 !== CONFIG.filtro_aula) continue;
 
                         const fasciaKey = l.da + '-' + l.a;
                         const inCorso = ora >= l.da && ora < l.a;
-                        const nomeAula = l.aula || 'N/A';
+                        const nomeAula = aula1 || 'N/A';
 
                         lezioni.push({
                             da: l.da,
@@ -755,31 +873,33 @@ html, body {
                             corso: corso.nome,
                             id_corso: corso.nome,
                             materia: l.materia || '',
-                            docente: l.docente || '',
+                            docente: sost1 ? sost1.docente_sostituto : (l.docente || ''),
+                            sostituisce: sost1 ? sost1.docente_assente : null,
                             aula: nomeAula,
-                            id_aula: l.aula || null,
+                            id_aula: aula1 || null,
                             piano: piano,
                             in_corso: inCorso,
                             divisa: l.tipo === 'divisa' ? {
                                 materia2: l.materia2 || '',
-                                docente2: l.docente2 || '',
-                                aula2: l.aula2 || null,
+                                docente2: sost2 ? sost2.docente_sostituto : (l.docente2 || ''),
+                                sostituisce2: sost2 ? sost2.docente_assente : null,
+                                aula2: aula2 || null,
                             } : null,
                         });
 
-                        if (l.aula) {
-                            auleSet[l.aula] = {
-                                id: l.aula,
-                                nome: l.aula,
+                        if (aula1) {
+                            auleSet[aula1] = {
+                                id: aula1,
+                                nome: aula1,
                                 piano
                             };
                         }
                         // aula2 del gruppo secondario va aggiunta alle aule
-                        if (l.tipo === 'divisa' && l.aula2) {
-                            auleSet[l.aula2] = {
-                                id: l.aula2,
-                                nome: l.aula2,
-                                piano: getPiano(l.aula2)
+                        if (l.tipo === 'divisa' && aula2) {
+                            auleSet[aula2] = {
+                                id: aula2,
+                                nome: aula2,
+                                piano: getPiano(aula2)
                             };
                         }
                         corsiSet[corso.nome] = true;
@@ -883,26 +1003,52 @@ html, body {
                 }
 
                 document.getElementById('headerGiorno').textContent = dati.giorno + ' ' +
-                    formattaData(dati.data);
+                    formattaData(dati.data) +
+                    (dati.turno ? ' · Turno ' + (dati.turno === 'mattina' ? 'del mattino' : 'del pomeriggio') : '');
 
                 let slidesHtml = [];
+                // ?vista= accetta una o più viste in sequenza, nell'ordine indicato:
+                //   aule, corsi, adesso, sostituzioni  (es. ?vista=corsi,sostituzioni)
+                // Senza ?vista= le mostra tutte (sostituzioni per prime).
                 const vistaFissa = CONFIG.vista_fissa;
+                const costruttori = {
+                    sostituzioni: costruisciSlideSostituzioni,
+                    aule: costruisciVistaAule,
+                    corsi: costruisciVistaCorsi,
+                    adesso: costruisciVistaAdesso,
+                };
+                const viste = vistaFissa ?
+                    vistaFissa.toLowerCase().split(/[\s,+;]+/).filter(Boolean)
+                        .filter(function(v, i, a) { return costruttori[v] && a.indexOf(v) === i; }) :
+                    ['sostituzioni', 'aule', 'corsi', 'adesso'];
 
-                if (!vistaFissa || vistaFissa === 'aule') {
-                    slidesHtml = slidesHtml.concat(costruisciVistaAule());
-                }
-                if (!vistaFissa || vistaFissa === 'corsi') {
-                    slidesHtml = slidesHtml.concat(costruisciVistaCorsi());
-                }
-                if (!vistaFissa || vistaFissa === 'adesso') {
-                    slidesHtml = slidesHtml.concat(costruisciVistaAdesso());
-                }
+                // Un errore in una vista non deve azzerare anche le altre
+                viste.forEach(function(v) {
+                    try {
+                        slidesHtml = slidesHtml.concat(costruttori[v]());
+                    } catch (err) {
+                        console.error('Errore nella vista "' + v + '":', err);
+                    }
+                });
                 // Slide immagini/media da GitHub Pages (data/media.json)
                 if (dati.media && dati.media.length > 0) {
                     slidesHtml = slidesHtml.concat(costruisciSlideMedia());
                 }
 
+                // Vista fissa senza contenuti (es. ?vista=sostituzioni senza sostituzioni oggi):
+                // meglio un messaggio che una pagina bianca.
+                if (slidesHtml.length === 0) {
+                    const soloSostituzioni = viste.length === 1 && viste[0] === 'sostituzioni';
+                    const motivo = soloSostituzioni ? 'Nessuna sostituzione prevista per oggi' :
+                        'Nessun contenuto da mostrare';
+                    container.innerHTML = renderSlideVuota(motivo, 'Questa pagina si aggiorna da sola');
+                    slides = [];
+                    aggiornaIndicatori();
+                    return;
+                }
+
                 container.innerHTML = slidesHtml.join('');
+                adattaSlideAlloSchermo(container);
                 slides = container.querySelectorAll('.totem-slide');
 
                 // Attiva la prima slide
@@ -923,10 +1069,11 @@ html, body {
 
             // ── Slide Vuota (festivo / nessun dato) ──────────────────────────────────
 
-            function renderSlideVuota() {
-                let motivo = 'Nessuna lezione programmata per oggi';
+            function renderSlideVuota(motivoForzato, sottotitolo) {
+                let motivo = motivoForzato || 'Nessuna lezione programmata per oggi';
                 if (dati) {
-                    if (dati.festivo) motivo = dati.motivo || 'Giornata festiva';
+                    if (motivoForzato) { /* motivo esplicito */ }
+                    else if (dati.festivo) motivo = dati.motivo || 'Giornata festiva';
                     else if (dati.errore) motivo = dati.errore;
                     document.getElementById('headerGiorno').textContent =
                         (dati.giorno || '') + ' ' + formattaData(dati.data);
@@ -934,8 +1081,45 @@ html, body {
                 return '<div class="totem-slide active"><div class="totem-empty">' +
                     '<div class="totem-empty-icon">&#128218;</div>' +
                     '<div class="totem-empty-text">' + escHtml(motivo) + '</div>' +
-                    '<div class="totem-empty-sub">Le lezioni riprenderanno regolarmente</div>' +
+                    '<div class="totem-empty-sub">' + escHtml(sottotitolo || 'Le lezioni riprenderanno regolarmente') + '</div>' +
                     '</div></div>';
+            }
+
+            // ── Slide SOSTITUZIONI (docenti assenti sostituiti oggi) ─────────────────
+
+            function costruisciSlideSostituzioni() {
+                const elenco = (dati.sostituzioni || []).slice().sort(function(a, b) {
+                    return String(a.da || '').localeCompare(String(b.da || '')) ||
+                        String(a.corso || '').localeCompare(String(b.corso || ''));
+                });
+                if (elenco.length === 0) return [];
+
+                const pages = paginaRighe(elenco, 8);
+                return pages.map(function(pagina, p) {
+                    const pageLabel = pages.length > 1 ? (p + 1) + '/' + pages.length : '';
+                    let html = '<div class="totem-slide">';
+                    html += '<div class="slide-title">Sostituzioni di oggi' +
+                        (pageLabel ? '<span class="page-indicator">Pagina ' + pageLabel + '</span>' : '') +
+                        '</div>';
+                    html += '<table class="sost-table"><thead><tr>' +
+                        '<th>Ora</th><th>Corso</th><th>Materia</th><th>Docente assente</th><th>Sostituto</th><th>Aula</th>' +
+                        '</tr></thead><tbody>';
+                    pagina.forEach(function(s) {
+                        const inCorso = (dati.ora || '') >= (s.da || '') && (dati.ora || '') < (s.a || '');
+                        html += '<tr' + (inCorso ? ' class="in-corso"' : '') + '>' +
+                            '<td>' + escHtml(s.da) + '–' + escHtml(s.a) + '</td>' +
+                            '<td>' + escHtml(s.corso) + '</td>' +
+                            '<td>' + escHtml(s.materia) + '</td>' +
+                            '<td>' + escHtml(s.docente_assente) + '</td>' +
+                            '<td class="sost-nome">' + escHtml(s.docente_sostituto) + '</td>' +
+                            '<td>' + escHtml(s.aula || '') + '</td>' +
+                            '</tr>';
+                    });
+                    html += '</tbody></table>';
+                    html += renderValidita();
+                    html += '</div>';
+                    return html;
+                });
             }
 
             // ── Vista AULE ───────────────────────────────────────────────────────────
@@ -1053,29 +1237,34 @@ html, body {
                         const isCurrent = (oraCorrente >= f.da && oraCorrente < f.a);
 
                         if (lez) {
-                            const cls = isCurrent ? 'filled in-corso' : 'filled';
+                            const cls = (isCurrent ? 'filled in-corso' : 'filled') +
+                                ((lez.sostituisce || (lez.divisa && lez.divisa.sostituisce2)) ? ' sostituzione' : '');
                             if (tipo === 'aula') {
                                 html += '<td class="' + cls + '">';
                                 html += '<div class="cell-main">' + escHtml(abbreviaCorso(lez.corso)) + '</div>';
                                 html += '<div class="cell-sub">' + escHtml(lez.materia) + '</div>';
                                 html += '<div class="cell-sub">' + escHtml(lez.docente) + '</div>';
+                                html += etichettaSost(lez.sostituisce);
                                 // Classe divisa: il secondo gruppo appare come riga separata (aula2 nota)
                                 // oppure nella stessa cella se l'aula del secondo gruppo non è definita
                                 if (lez.divisa && !lez.divisa.aula2) {
                                     html += '<div class="cell-divider"></div>';
                                     html += '<div class="cell-main">' + escHtml(lez.divisa.materia2) + '</div>';
                                     html += '<div class="cell-sub">' + escHtml(lez.divisa.docente2) + '</div>';
+                                    html += etichettaSost(lez.divisa.sostituisce2);
                                 }
                                 html += '</td>';
                             } else {
                                 html += '<td class="' + cls + '">';
                                 html += '<div class="cell-main">' + escHtml(lez.materia) + '</div>';
                                 html += '<div class="cell-sub">' + escHtml(lez.docente) + '</div>';
+                                html += etichettaSost(lez.sostituisce);
                                 html += '<div class="cell-sub">' + escHtml(lez.aula) + '</div>';
                                 if (lez.divisa) {
                                     html += '<div class="cell-divider"></div>';
                                     html += '<div class="cell-main">' + escHtml(lez.divisa.materia2) + '</div>';
                                     html += '<div class="cell-sub">' + escHtml(lez.divisa.docente2) + '</div>';
+                                    html += etichettaSost(lez.divisa.sostituisce2);
                                     if (lez.divisa.aula2) html += '<div class="cell-sub">' + escHtml(lez.divisa.aula2) + '</div>';
                                 }
                                 html += '</td>';
@@ -1213,20 +1402,20 @@ html, body {
                         '<div class="card-dettagli">' +
                         '<span>' + escHtml(lez.docente) + '</span>' +
                         '<span>' + escHtml(lez.aula) + '</span>' +
-                        '</div></div>';
+                        '</div>' + etichettaSost(lez.sostituisce) + '</div>';
                     html += '<div class="card-divisa-gruppo">' +
                         '<div class="card-materia">' + escHtml(lez.divisa.materia2) + '</div>' +
                         '<div class="card-dettagli">' +
                         '<span>' + escHtml(lez.divisa.docente2) + '</span>' +
                         (lez.divisa.aula2 ? '<span>' + escHtml(lez.divisa.aula2) + '</span>' : '') +
-                        '</div></div>';
+                        '</div>' + etichettaSost(lez.divisa.sostituisce2) + '</div>';
                     html += '</div>';
                 } else {
                     html += '<div class="card-materia">' + escHtml(lez.materia) + '</div>' +
                         '<div class="card-dettagli">' +
                         '<span>Docente: ' + escHtml(lez.docente) + '</span>' +
                         '<span>Aula: ' + escHtml(lez.aula) + '</span>' +
-                        '</div>';
+                        '</div>' + etichettaSost(lez.sostituisce);
                 }
                 html += '</div>';
                 return html;
@@ -1245,6 +1434,92 @@ html, body {
                     formattaData(dati.orario_dal) +
                     (dati.orario_al ? ' al ' + formattaData(dati.orario_al) : '') +
                     '</div>';
+            }
+
+            /** Le immagini sono salvate con percorso relativo al repo (media/xxx.jpg) */
+            function urlMedia(u) {
+                return /^(https?:)?\/\//.test(u || '') ? u : CONFIG.baseUrl + '/' + (u || '');
+            }
+
+            // ── Adattamento allo schermo ─────────────────────────────────────────────
+            // Le slide sono paginate per numero fisso di righe, ma l'altezza reale dipende dallo
+            // schermo (smart TV 1280x720, 1366x768, …) e dalla lunghezza dei testi. Dopo il rendering
+            // si misura cosa non entra: le righe in eccesso passano a una pagina successiva e, solo se
+            // neanche una riga entra, la slide viene rimpicciolita. Così nulla viene tagliato.
+
+            /** Altezza occupata dal contenuto di una slide (dal bordo alto della slide). */
+            function altezzaContenuto(slide) {
+                const top = slide.getBoundingClientRect().top;
+                let bottom = top;
+                for (const c of slide.children) bottom = Math.max(bottom, c.getBoundingClientRect().bottom);
+                return bottom - top;
+            }
+
+            function dividiSlideSeNecessario(slide) {
+                const tbl = slide.querySelector('table.totem-grid, table.sost-table');
+                if (!tbl || !tbl.tBodies[0]) return;
+                const tbody = tbl.tBodies[0];
+                const flexOriginale = tbl.style.flex;
+                tbl.style.flex = 'none'; // altezza naturale delle righe, senza stiramento
+                const spostate = [];
+                while (altezzaContenuto(slide) > slide.clientHeight + 1 && tbody.rows.length > 1) {
+                    spostate.unshift(tbody.rows[tbody.rows.length - 1]);
+                    tbody.removeChild(tbody.rows[tbody.rows.length - 1]);
+                }
+                tbl.style.flex = flexOriginale;
+                if (spostate.length === 0) return;
+
+                const nuova = slide.cloneNode(true);
+                const nuovoBody = nuova.querySelector('table').tBodies[0];
+                while (nuovoBody.rows.length) nuovoBody.removeChild(nuovoBody.rows[0]);
+                spostate.forEach(function(r) { nuovoBody.appendChild(r); });
+                slide.parentNode.insertBefore(nuova, slide.nextSibling);
+                dividiSlideSeNecessario(nuova);
+            }
+
+            /** Rinumera "Pagina i/n" sui gruppi di slide con lo stesso titolo. */
+            function rinumeraPagine(container) {
+                const gruppi = [];
+                container.querySelectorAll('.totem-slide').forEach(function(sl) {
+                    const t = sl.querySelector('.slide-title');
+                    if (!t) return;
+                    const chiave = t.firstChild ? t.firstChild.textContent : '';
+                    const ultimo = gruppi[gruppi.length - 1];
+                    if (ultimo && ultimo.chiave === chiave) ultimo.titoli.push(t);
+                    else gruppi.push({ chiave: chiave, titoli: [t] });
+                });
+                gruppi.forEach(function(g) {
+                    g.titoli.forEach(function(t, i) {
+                        let ind = t.querySelector('.page-indicator');
+                        if (g.titoli.length === 1) { if (ind) ind.remove(); return; }
+                        if (!ind) {
+                            ind = document.createElement('span');
+                            ind.className = 'page-indicator';
+                            t.appendChild(ind);
+                        }
+                        ind.textContent = 'Pagina ' + (i + 1) + '/' + g.titoli.length;
+                    });
+                });
+            }
+
+            /** Ultima risorsa: se neppure una riga entra, rimpicciolisce la slide. */
+            function scalaSeSfora(slide) {
+                const H = slide.clientHeight, W = slide.clientWidth;
+                const necessaria = altezzaContenuto(slide);
+                if (necessaria <= H + 1) return;
+                const r = H / necessaria;
+                slide.style.transformOrigin = 'top left';
+                slide.style.transform = 'scale(' + r + ')';
+                slide.style.right = 'auto';
+                slide.style.bottom = 'auto';
+                slide.style.width = (W / r) + 'px';
+                slide.style.height = (H / r) + 'px';
+            }
+
+            function adattaSlideAlloSchermo(container) {
+                Array.from(container.querySelectorAll('.totem-slide')).forEach(dividiSlideSeNecessario);
+                rinumeraPagine(container);
+                container.querySelectorAll('.totem-slide').forEach(scalaSeSfora);
             }
 
             // ── Paginazione righe ────────────────────────────────────────────────────
@@ -1267,7 +1542,7 @@ html, body {
                     const durata = parseInt(m.durata) || 15;
                     let html = '<div class="totem-slide" data-durata="' + durata + '">';
                     html += '<div class="slide-media">';
-                    html += '<img src="' + escHtml(m.url) + '" alt="' + escHtml(m.titolo || '') + '">';
+                    html += '<img src="' + escHtml(urlMedia(m.url)) + '" alt="' + escHtml(m.titolo || '') + '">';
                     if (m.titolo) {
                         html += '<div class="slide-media-title">' + escHtml(m.titolo) + '</div>';
                     }
