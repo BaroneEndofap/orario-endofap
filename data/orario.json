@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-10-26T08:44:37",
+    "aggiornato": "2026-10-27T08:10:16",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -9020,125 +9020,37 @@
     ],
     "sostituzioni": [
         {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "08:00",
-            "a": "09:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": null,
-            "docente_assente": "CARAVELLO SIMONA",
-            "docente_sostituto": "GERACI FABRIZIO"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "08:00",
-            "a": "09:00",
+            "data": "2026-10-27",
+            "giorno": "MAR",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "11:00",
+            "a": "12:00",
             "materia": "LAB. MECCANICO",
-            "aula": null,
+            "aula": "P25",
             "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "LERDA RAMIRO EZEQUIEL"
+            "docente_sostituto": "CANNATELLA ANGELO"
         },
         {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": null,
-            "docente_assente": "CARAVELLO SIMONA",
+            "data": "2026-10-27",
+            "giorno": "MAR",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P25",
+            "docente_assente": "MANGIAPANE AURELIO",
             "docente_sostituto": "VULLO ENZA"
         },
         {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "LAB. MECCANICO",
-            "aula": null,
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "MEGNA ROBERTA"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": null,
-            "docente_assente": "CARAVELLO SIMONA",
-            "docente_sostituto": "IACONO SALVATORE"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "LAB. MECCANICO",
-            "aula": null,
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "ZITO SABRINA"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "Cultura d'impresa e Organiz Aziend",
-            "aula": null,
-            "docente_assente": "BASILE CATERINA",
-            "docente_sostituto": "IACONO SALVATORE"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. BENESSERE EST IeFP-3",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": null,
-            "docente_assente": "CARAVELLO SIMONA",
-            "docente_sostituto": "ZITO SABRINA"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-            "da": "12:00",
-            "a": "13:00",
-            "materia": "LABORATORIO ESTETICO",
-            "aula": null,
-            "docente_assente": "MORGANTE ANGELAMARIA",
-            "docente_sostituto": "VULLO ENZA"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP. BENESSERE EST IeFP-1",
-            "da": "12:00",
-            "a": "13:00",
-            "materia": "STORIA",
-            "aula": null,
-            "docente_assente": "BASILE CATERINA",
-            "docente_sostituto": "TARANTINO MARCO"
-        },
-        {
-            "data": "2026-10-26",
-            "giorno": "LUN",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+            "data": "2026-10-27",
+            "giorno": "MAR",
+            "corso": "OP. MECCANICO IeFP-2",
             "da": "13:00",
             "a": "14:00",
-            "materia": "LABORATORIO ESTETICO",
-            "aula": null,
-            "docente_assente": "MORGANTE ANGELAMARIA",
-            "docente_sostituto": "TARANTINO MARCO"
+            "materia": "LAB. MECCANICO",
+            "aula": "P25",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "VULLO ENZA"
         }
     ],
     "dal": "26\/10\/2026",
