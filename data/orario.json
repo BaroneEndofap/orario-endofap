@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-10-28T08:17:02",
+    "aggiornato": "2026-10-28T08:21:55",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -9082,7 +9082,140 @@
             ]
         }
     ],
-    "sostituzioni": [],
+    "sostituzioni": [
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. BENESSERE EST IeFP-1",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "Religione - Attività alternative",
+            "aula": null,
+            "docente_assente": "SILIATO ROSSELLA VALERIA",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. BENESSERE ACC IeFP-2",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LABORATORIO DI ACCONCIATURA",
+            "aula": "P24",
+            "docente_assente": "ZAMA VINCENZA",
+            "docente_sostituto": "BASILE CATERINA"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. ELETTRICO IeFP-3",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LABORATORIO ELETTRICO",
+            "aula": "P23",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. BENESSERE ACC IeFP-2",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LABORATORIO DI ACCONCIATURA",
+            "aula": "P24",
+            "docente_assente": "ZAMA VINCENZA",
+            "docente_sostituto": "VULLO ENZA"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "Religione - Attività alternative",
+            "aula": null,
+            "docente_assente": "SILIATO ROSSELLA VALERIA",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. BENESSERE ACC IeFP-2",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "Religione - Attività alternative",
+            "aula": null,
+            "docente_assente": "SILIATO ROSSELLA VALERIA",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "LABORATORIO DI ACCONCIATURA",
+            "aula": "P2",
+            "docente_assente": "ZAMA VINCENZA",
+            "docente_sostituto": "GERACI FABRIZIO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P9",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "VULLO ENZA"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LABORATORIO DI ACCONCIATURA",
+            "aula": "P2",
+            "docente_assente": "ZAMA VINCENZA",
+            "docente_sostituto": "CILLUFFO RICCARDO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P8",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LABORATORIO DI ACCONCIATURA",
+            "aula": "P2",
+            "docente_assente": "ZAMA VINCENZA",
+            "docente_sostituto": "GRECO EGLE"
+        },
+        {
+            "data": "2026-10-28",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P8",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        }
+    ],
     "dal": "28\/10\/2026",
     "fasce": [
         "08:00-09:00",
