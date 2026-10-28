@@ -355,6 +355,33 @@
       color: var(--text-muted);
     }
 
+    /* ── Sostituzioni docenti ──────────────────────────────────────────────── */
+    .sost-box {
+      margin: .75rem 1rem 0;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-left: 4px solid #ea580c;
+      border-radius: .5rem;
+      padding: .6rem .85rem;
+      font-size: .85rem;
+    }
+    .sost-box h3 { font-size: .9rem; color: #9a3412; margin-bottom: .35rem; }
+    .sost-giorno { font-weight: 700; color: #9a3412; margin-top: .45rem; }
+    .sost-riga { padding: .2rem 0; border-top: 1px dashed #fed7aa; color: var(--text-main); }
+    .sost-riga small { color: var(--text-sub); }
+    .sost-riga strong { color: #c2410c; }
+
+    .slot-sost {
+      margin-top: .25rem;
+      font-size: .75rem;
+      font-weight: 600;
+      color: #9a3412;
+      background: #ffedd5;
+      border: 1px solid #fed7aa;
+      border-radius: .4rem;
+      padding: .1rem .45rem;
+    }
+
     /* ── Messaggi ──────────────────────────────────────────────────────────── */
     .empty-msg {
       text-align: center;
@@ -396,6 +423,7 @@
 
 <!-- Vista lista -->
 <div id="lista-view">
+  <div id="sost-banner"></div>
   <div class="search-wrap">
     <input type="search" id="search-input" placeholder="Cerca…" oninput="filterList()" autocomplete="off">
   </div>
@@ -444,6 +472,7 @@ async function loadData() {
     document.getElementById('footer-ts').textContent = fmtDate + ' alle ' + fmtTime;
     document.getElementById('update-footer').style.display = 'block';
 
+    renderSostBanner();
     renderList();
   } catch (e) {
     document.getElementById('entity-list').innerHTML =
@@ -451,6 +480,64 @@ async function loadData() {
       'Impossibile caricare i dati.<br><small>' + esc(e.message) + '</small></div>';
     document.getElementById('hdr-meta').textContent = '';
   }
+}
+
+/* ── Sostituzioni docenti (valide da oggi in avanti) ───────────────────── */
+function isoOggi() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+
+function sostAttive() {
+  const oggi = isoOggi();
+  return ((orario && orario.sostituzioni) || []).filter(s => s.data >= oggi);
+}
+
+function fmtDataIt(iso) {
+  const p = iso.split('-');
+  const g = ['domenica','lunedì','martedì','mercoledì','giovedì','venerdì','sabato'][new Date(iso + 'T12:00:00').getDay()];
+  return g + ' ' + p[2] + '/' + p[1];
+}
+
+/* Elenco sostituzioni raggruppato per data; `ruolo` evidenzia l'altra parte in causa */
+function sostHtml(lista, titolo) {
+  if (!lista.length) return '';
+  const perData = {};
+  lista.forEach(s => (perData[s.data] = perData[s.data] || []).push(s));
+  const oggi = isoOggi();
+  return '<div class="sost-box"><h3>' + esc(titolo) + '</h3>' +
+    Object.keys(perData).sort().map(d =>
+      '<div class="sost-giorno">' + esc(fmtDataIt(d)) + (d === oggi ? ' · oggi' : '') + '</div>' +
+      perData[d].map(s =>
+        '<div class="sost-riga">' + esc(s.da) + '–' + esc(s.a) + ' · ' + esc(s.corso) +
+        '<br><strong>' + esc(s.docente_sostituto) + '</strong> <small>al posto di ' + esc(s.docente_assente) +
+        (s.materia ? ' (' + esc(s.materia) + ')' : '') + (s.aula ? ' · aula ' + esc(s.aula) : '') + '</small></div>'
+      ).join('')
+    ).join('') + '</div>';
+}
+
+function renderSostBanner() {
+  document.getElementById('sost-banner').innerHTML = sostHtml(sostAttive(), 'Sostituzioni docenti');
+}
+
+/* Etichette "sostituito da…" per una lezione: una per ogni data futura con sostituzione.
+   `docente` = chi era in orario; `perDocente` = true nella griglia del docente (mostra chi lo sostituisce),
+   false nella griglia del corso (mostra chi sostituisce). */
+function sostSlot(corso, giorno, da, docente, perDocente) {
+  return sostAttive()
+    .filter(s => s.corso === corso && s.giorno === giorno && s.da === da && s.docente_assente === docente)
+    .map(s => '<div class="slot-sost">' + esc(fmtDataIt(s.data)) + ' · ' +
+      (perDocente ? 'sostituito da ' : 'sostituisce ') + '<strong>' + esc(s.docente_sostituto) + '</strong>' +
+      (perDocente ? '' : ' (al posto di ' + esc(s.docente_assente) + ')') +
+      (s.aula ? ' · aula ' + esc(s.aula) : '') + '</div>')
+    .join('');
+}
+
+function sostPerEntita(nome) {
+  const lista = sostAttive().filter(s => currentTab === 'corsi'
+    ? s.corso === nome
+    : (s.docente_assente === nome || s.docente_sostituto === nome));
+  return sostHtml(lista, 'Sostituzioni');
 }
 
 /* ── Tab ───────────────────────────────────────────────────────────────── */
@@ -501,8 +588,8 @@ function showDetail(nome) {
 
   document.getElementById('detail-name').textContent = nome;
   document.getElementById('detail-dal').textContent  = 'Dal ' + orario.dal;
-  document.getElementById('detail-grid').innerHTML   =
-    currentTab === 'docenti' ? buildDocenteGrid(entity) : buildCorsoGrid(entity);
+  document.getElementById('detail-grid').innerHTML   = sostPerEntita(nome) +
+    (currentTab === 'docenti' ? buildDocenteGrid(entity) : buildCorsoGrid(entity));
 
   document.getElementById('lista-view').style.display = 'none';
   document.getElementById('dettaglio').style.display  = 'block';
@@ -534,6 +621,7 @@ function buildDocenteGrid(entity) {
             <div class="slot-tag">${esc(s.corso)}</div>
             <div class="slot-main">${esc(s.materia)}</div>
             ${s.aula ? `<div class="slot-aula">${esc(s.aula)}</div>` : ''}
+            ${sostSlot(s.corso, day, s.da, entity.nome, true)}
           </div>
         </div>`).join('')
       : '<div class="day-empty">Nessuna lezione</div>';
@@ -562,11 +650,13 @@ function buildCorsoGrid(entity) {
                   <div class="slot-main">${esc(l.materia)}</div>
                   <div class="slot-sub">${esc(l.docente)}</div>
                   ${l.aula  ? `<div class="slot-aula">${esc(l.aula)}</div>`  : ''}
+                  ${sostSlot(entity.nome, day, l.da, l.docente, false)}
                 </div>
                 <div class="slot-divisa">
                   <div class="slot-main">${esc(l.materia2)}</div>
                   <div class="slot-sub">${esc(l.docente2)}</div>
                   ${l.aula2 ? `<div class="slot-aula">${esc(l.aula2)}</div>` : ''}
+                  ${sostSlot(entity.nome, day, l.da, l.docente2, false)}
                 </div>
               </div>
             </div>`;
@@ -580,6 +670,7 @@ function buildCorsoGrid(entity) {
               <div class="slot-main">${esc(l.materia)}</div>
               <div class="slot-sub">${esc(l.docente)}</div>
               ${l.aula ? `<div class="slot-aula">${esc(l.aula)}</div>` : ''}
+              ${sostSlot(entity.nome, day, l.da, l.docente, false)}
             </div>
           </div>`;
         }).join('')
@@ -659,5 +750,3 @@ loadData();
 
 </body>
 </html>
-
-
