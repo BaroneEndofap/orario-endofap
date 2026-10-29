@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-10-29T08:03:15",
+    "aggiornato": "2026-10-29T08:09:47",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -9082,7 +9082,52 @@
             ]
         }
     ],
-    "sostituzioni": [],
+    "sostituzioni": [
+        {
+            "data": "2026-10-29",
+            "giorno": "GIO",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "DI SALVO SIMONETTA"
+        },
+        {
+            "data": "2026-10-29",
+            "giorno": "GIO",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-29",
+            "giorno": "GIO",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "CANNATELLA ANGELO"
+        },
+        {
+            "data": "2026-10-29",
+            "giorno": "GIO",
+            "corso": "OP. ELETTRICO IeFP-3",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LABORATORIO ELETTRICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "FICANO AURELIO"
+        }
+    ],
     "dal": "29\/10\/2026",
     "fasce": [
         "08:00-09:00",
