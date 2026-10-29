@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-10-28T08:21:55",
+    "aggiornato": "2026-10-29T08:03:15",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1051,
-            "dal": "2026-10-28",
+            "id": 1052,
+            "dal": "2026-10-29",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -2980,22 +2980,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "T26"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. ELETTRICO IeFP-3",
@@ -4036,8 +4020,24 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "EDUCAZIONE FISICA 2",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
                             "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "aula": "P10"
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "aula": "P25"
                         },
                         {
                             "giorno": "GIO",
@@ -6571,25 +6571,25 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "materia": "EDUCAZIONE FISICA 2",
                             "docente": "URZI' FEDERICO",
-                            "aula": "P10"
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "docente": "URZI' FEDERICO",
+                            "aula": "P25"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T26"
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
+                            "docente": "URZI' FEDERICO",
+                            "aula": "P25"
                         },
                         {
                             "giorno": "GIO",
@@ -9082,141 +9082,8 @@
             ]
         }
     ],
-    "sostituzioni": [
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. BENESSERE EST IeFP-1",
-            "da": "08:00",
-            "a": "09:00",
-            "materia": "Religione - Attività alternative",
-            "aula": null,
-            "docente_assente": "SILIATO ROSSELLA VALERIA",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. BENESSERE ACC IeFP-2",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "LABORATORIO DI ACCONCIATURA",
-            "aula": "P24",
-            "docente_assente": "ZAMA VINCENZA",
-            "docente_sostituto": "BASILE CATERINA"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. ELETTRICO IeFP-3",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "LABORATORIO ELETTRICO",
-            "aula": "P23",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. BENESSERE ACC IeFP-2",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "LABORATORIO DI ACCONCIATURA",
-            "aula": "P24",
-            "docente_assente": "ZAMA VINCENZA",
-            "docente_sostituto": "VULLO ENZA"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "Religione - Attività alternative",
-            "aula": null,
-            "docente_assente": "SILIATO ROSSELLA VALERIA",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. BENESSERE ACC IeFP-2",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "Religione - Attività alternative",
-            "aula": null,
-            "docente_assente": "SILIATO ROSSELLA VALERIA",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "LABORATORIO DI ACCONCIATURA",
-            "aula": "P2",
-            "docente_assente": "ZAMA VINCENZA",
-            "docente_sostituto": "GERACI FABRIZIO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P9",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "VULLO ENZA"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-            "da": "12:00",
-            "a": "13:00",
-            "materia": "LABORATORIO DI ACCONCIATURA",
-            "aula": "P2",
-            "docente_assente": "ZAMA VINCENZA",
-            "docente_sostituto": "CILLUFFO RICCARDO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "12:00",
-            "a": "13:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P8",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-            "da": "13:00",
-            "a": "14:00",
-            "materia": "LABORATORIO DI ACCONCIATURA",
-            "aula": "P2",
-            "docente_assente": "ZAMA VINCENZA",
-            "docente_sostituto": "GRECO EGLE"
-        },
-        {
-            "data": "2026-10-28",
-            "giorno": "MER",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "13:00",
-            "a": "14:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P8",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        }
-    ],
-    "dal": "28\/10\/2026",
+    "sostituzioni": [],
+    "dal": "29\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -12190,22 +12057,6 @@
                 },
                 {
                     "giorno": "GIO",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "aula": "T26"
-                },
-                {
-                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. ELETTRICO IeFP-3",
@@ -13246,8 +13097,24 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. ELETTRICO IeFP-3",
+                    "materia": "EDUCAZIONE FISICA 2",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. ELETTRICO IeFP-3",
                     "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "aula": "P10"
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. ELETTRICO IeFP-3",
+                    "materia": "Sostenibilita ambientale e transizione ecologica2",
+                    "aula": "P25"
                 },
                 {
                     "giorno": "GIO",
@@ -15781,25 +15648,25 @@
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
+                    "materia": "EDUCAZIONE FISICA 2",
                     "docente": "URZI' FEDERICO",
-                    "aula": "P10"
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
+                    "materia": "Sostenibilita ambientale e transizione ecologica2",
+                    "docente": "URZI' FEDERICO",
+                    "aula": "P25"
                 },
                 {
                     "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "LABORATORIO ELETTRICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T26"
+                    "materia": "Sostenibilita ambientale e transizione ecologica2",
+                    "docente": "URZI' FEDERICO",
+                    "aula": "P25"
                 },
                 {
                     "giorno": "GIO",
