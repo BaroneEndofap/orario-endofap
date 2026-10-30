@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-10-29T08:09:47",
+    "aggiornato": "2026-10-30T08:35:49",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1052,
-            "dal": "2026-10-29",
+            "id": 1053,
+            "dal": "2026-10-30",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -370,6 +370,14 @@
                             "giorno": "LUN",
                             "da": "11:00",
                             "a": "12:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "MATEMATICA",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "10:00",
+                            "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "MATEMATICA",
                             "aula": "P10"
@@ -2980,6 +2988,22 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "LABORATORIO ELETTRICO",
+                            "aula": "T26"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. ELETTRICO IeFP-3",
+                            "materia": "LABORATORIO ELETTRICO",
+                            "aula": "T26"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. ELETTRICO IeFP-3",
@@ -2999,38 +3023,6 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-2",
                             "materia": "LAB. MECCANICO",
                             "aula": "T29"
                         }
@@ -4020,24 +4012,8 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "EDUCAZIONE FISICA 2",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
                             "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. ELETTRICO IeFP-3",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "aula": "P25"
+                            "aula": "P10"
                         },
                         {
                             "giorno": "GIO",
@@ -6571,25 +6547,25 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "EDUCAZIONE FISICA 2",
+                            "materia": "Sostenibilita ambientale e transizione ecologica2",
                             "docente": "URZI' FEDERICO",
-                            "aula": "PALESTRA"
+                            "aula": "P10"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "docente": "URZI' FEDERICO",
-                            "aula": "P25"
+                            "materia": "LABORATORIO ELETTRICO",
+                            "docente": "MANGIAPANE AURELIO",
+                            "aula": "T26"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Sostenibilita ambientale e transizione ecologica2",
-                            "docente": "URZI' FEDERICO",
-                            "aula": "P25"
+                            "materia": "LABORATORIO ELETTRICO",
+                            "docente": "MANGIAPANE AURELIO",
+                            "aula": "T26"
                         },
                         {
                             "giorno": "GIO",
@@ -6840,9 +6816,9 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "MATEMATICA",
+                            "docente": "BARBA SALVATORE",
+                            "aula": "P10"
                         },
                         {
                             "giorno": "VEN",
@@ -7072,30 +7048,6 @@
                             "materia": "ITALIANO2",
                             "docente": "GRECO EGLE",
                             "aula": "P1"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
                         }
                     ]
                 },
@@ -9082,53 +9034,8 @@
             ]
         }
     ],
-    "sostituzioni": [
-        {
-            "data": "2026-10-29",
-            "giorno": "GIO",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "08:00",
-            "a": "09:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P10",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "DI SALVO SIMONETTA"
-        },
-        {
-            "data": "2026-10-29",
-            "giorno": "GIO",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P10",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-29",
-            "giorno": "GIO",
-            "corso": "OP. MECCANICO IeFP-1",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P10",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "CANNATELLA ANGELO"
-        },
-        {
-            "data": "2026-10-29",
-            "giorno": "GIO",
-            "corso": "OP. ELETTRICO IeFP-3",
-            "da": "13:00",
-            "a": "14:00",
-            "materia": "LABORATORIO ELETTRICO",
-            "aula": "P10",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "FICANO AURELIO"
-        }
-    ],
-    "dal": "29\/10\/2026",
+    "sostituzioni": [],
+    "dal": "30\/10\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -9492,6 +9399,14 @@
                     "giorno": "LUN",
                     "da": "11:00",
                     "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "MATEMATICA",
+                    "aula": "P10"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "MATEMATICA",
                     "aula": "P10"
@@ -12102,6 +12017,22 @@
                 },
                 {
                     "giorno": "GIO",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. ELETTRICO IeFP-3",
+                    "materia": "LABORATORIO ELETTRICO",
+                    "aula": "T26"
+                },
+                {
+                    "giorno": "GIO",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. ELETTRICO IeFP-3",
+                    "materia": "LABORATORIO ELETTRICO",
+                    "aula": "T26"
+                },
+                {
+                    "giorno": "GIO",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. ELETTRICO IeFP-3",
@@ -12121,38 +12052,6 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "corso": "OP. MECCANICO IeFP-2",
                     "materia": "LAB. MECCANICO",
                     "aula": "T29"
                 }
@@ -13142,24 +13041,8 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "EDUCAZIONE FISICA 2",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
                     "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "GIO",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. ELETTRICO IeFP-3",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "aula": "P25"
+                    "aula": "P10"
                 },
                 {
                     "giorno": "GIO",
@@ -15693,25 +15576,25 @@
                     "giorno": "GIO",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "EDUCAZIONE FISICA 2",
+                    "materia": "Sostenibilita ambientale e transizione ecologica2",
                     "docente": "URZI' FEDERICO",
-                    "aula": "PALESTRA"
+                    "aula": "P10"
                 },
                 {
                     "giorno": "GIO",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "docente": "URZI' FEDERICO",
-                    "aula": "P25"
+                    "materia": "LABORATORIO ELETTRICO",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T26"
                 },
                 {
                     "giorno": "GIO",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "Sostenibilita ambientale e transizione ecologica2",
-                    "docente": "URZI' FEDERICO",
-                    "aula": "P25"
+                    "materia": "LABORATORIO ELETTRICO",
+                    "docente": "MANGIAPANE AURELIO",
+                    "aula": "T26"
                 },
                 {
                     "giorno": "GIO",
@@ -15962,9 +15845,9 @@
                     "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "MATEMATICA",
+                    "docente": "BARBA SALVATORE",
+                    "aula": "P10"
                 },
                 {
                     "giorno": "VEN",
@@ -16194,30 +16077,6 @@
                     "materia": "ITALIANO2",
                     "docente": "GRECO EGLE",
                     "aula": "P1"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "13:00",
-                    "a": "14:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
                 }
             ]
         },
