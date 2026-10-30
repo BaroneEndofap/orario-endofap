@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-10-30T08:35:49",
+    "aggiornato": "2026-10-30T08:37:27",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -9034,7 +9034,52 @@
             ]
         }
     ],
-    "sostituzioni": [],
+    "sostituzioni": [
+        {
+            "data": "2026-10-30",
+            "giorno": "VEN",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "LERDA RAMIRO EZEQUIEL"
+        },
+        {
+            "data": "2026-10-30",
+            "giorno": "VEN",
+            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB. MECCATRONICA",
+            "aula": "P8",
+            "docente_assente": "URSUMANDO ROBERTO",
+            "docente_sostituto": "LERDA RAMIRO EZEQUIEL"
+        },
+        {
+            "data": "2026-10-30",
+            "giorno": "VEN",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "ZITO SABRINA"
+        },
+        {
+            "data": "2026-10-30",
+            "giorno": "VEN",
+            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LAB. MECCATRONICA",
+            "aula": "P8",
+            "docente_assente": "URSUMANDO ROBERTO",
+            "docente_sostituto": "IACONO SALVATORE"
+        }
+    ],
     "dal": "30\/10\/2026",
     "fasce": [
         "08:00-09:00",
