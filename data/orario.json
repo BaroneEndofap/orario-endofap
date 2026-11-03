@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-11-03T08:37:47",
+    "aggiornato": "2026-11-03T09:26:10",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -5629,7 +5629,7 @@
             "materia": "LAB. MECCANICO",
             "aula": null,
             "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "DI CARO VINCENZO"
+            "docente_sostituto": "LO GALBO ANGELO"
         },
         {
             "data": "2026-11-03",
@@ -5651,7 +5651,7 @@
             "materia": "LAB. MECCANICO",
             "aula": null,
             "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "DI CARO VINCENZO"
+            "docente_sostituto": "SILIATO ROSSELLA VALERIA"
         },
         {
             "data": "2026-11-03",
@@ -5678,6 +5678,17 @@
         {
             "data": "2026-11-03",
             "giorno": "MAR",
+            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+            "aula": "P24",
+            "docente_assente": "DI CARO VINCENZO",
+            "docente_sostituto": "MEGNA ROBERTA"
+        },
+        {
+            "data": "2026-11-03",
+            "giorno": "MAR",
             "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
             "da": "12:00",
             "a": "13:00",
@@ -5689,6 +5700,17 @@
         {
             "data": "2026-11-03",
             "giorno": "MAR",
+            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+            "aula": "P24",
+            "docente_assente": "DI CARO VINCENZO",
+            "docente_sostituto": "LERDA RAMIRO EZEQUIEL"
+        },
+        {
+            "data": "2026-11-03",
+            "giorno": "MAR",
             "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
             "da": "13:00",
             "a": "14:00",
@@ -5696,6 +5718,17 @@
             "aula": "P28",
             "docente_assente": "CARAVELLO SIMONA",
             "docente_sostituto": "GERACI FABRIZIO"
+        },
+        {
+            "data": "2026-11-03",
+            "giorno": "MAR",
+            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LABORATORIO MECCANICA POLIVALENTE",
+            "aula": "P24",
+            "docente_assente": "DI CARO VINCENZO",
+            "docente_sostituto": "CILLUFFO RICCARDO"
         }
     ],
     "dal": "03\/11\/2026",
