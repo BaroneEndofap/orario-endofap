@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-11-03T09:26:10",
+    "aggiornato": "2026-11-04T08:22:58",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1054,
-            "dal": "2026-11-03",
+            "id": 1055,
+            "dal": "2026-11-04",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -222,6 +222,14 @@
                 {
                     "nome": "BARBA SALVATORE",
                     "slots": [
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "MATEMATICA",
+                            "aula": "P10"
+                        },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
@@ -1661,14 +1669,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. MECCANICO IeFP-1",
@@ -1798,7 +1798,7 @@
                             "a": "09:00",
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "Multimedialita\/Comunicazione",
-                            "aula": null
+                            "aula": "P10"
                         },
                         {
                             "giorno": "MER",
@@ -4163,7 +4163,7 @@
                             "a": "09:00",
                             "materia": "Multimedialita\/Comunicazione",
                             "docente": "MEGNA ROBERTA",
-                            "aula": null
+                            "aula": "P10"
                         },
                         {
                             "giorno": "MER",
@@ -4185,9 +4185,9 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
-                            "aula": "T29"
+                            "materia": "MATEMATICA",
+                            "docente": "BARBA SALVATORE",
+                            "aula": "P10"
                         },
                         {
                             "giorno": "MER",
@@ -5608,130 +5608,8 @@
             ]
         }
     ],
-    "sostituzioni": [
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. MECCANICO IeFP-2",
-            "da": "08:00",
-            "a": "09:00",
-            "materia": "LAB. MECCANICO",
-            "aula": null,
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "LO GALBO ANGELO"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. MECCANICO IeFP-2",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "LAB. MECCANICO",
-            "aula": null,
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "LO GALBO ANGELO"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "ECONOMIA",
-            "aula": null,
-            "docente_assente": "VULLO ENZA",
-            "docente_sostituto": "GANCI DIEGO"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. MECCANICO IeFP-2",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "LAB. MECCANICO",
-            "aula": null,
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "SILIATO ROSSELLA VALERIA"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "STORIA",
-            "aula": null,
-            "docente_assente": "BASILE CATERINA",
-            "docente_sostituto": "GRECO EGLE"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": "P28",
-            "docente_assente": "CARAVELLO SIMONA",
-            "docente_sostituto": "CILLUFFO RICCARDO"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-            "da": "11:00",
-            "a": "12:00",
-            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-            "aula": "P24",
-            "docente_assente": "DI CARO VINCENZO",
-            "docente_sostituto": "MEGNA ROBERTA"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "12:00",
-            "a": "13:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": "P28",
-            "docente_assente": "CARAVELLO SIMONA",
-            "docente_sostituto": "GERACI FABRIZIO"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-            "da": "12:00",
-            "a": "13:00",
-            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-            "aula": "P24",
-            "docente_assente": "DI CARO VINCENZO",
-            "docente_sostituto": "LERDA RAMIRO EZEQUIEL"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "13:00",
-            "a": "14:00",
-            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-            "aula": "P28",
-            "docente_assente": "CARAVELLO SIMONA",
-            "docente_sostituto": "GERACI FABRIZIO"
-        },
-        {
-            "data": "2026-11-03",
-            "giorno": "MAR",
-            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-            "da": "13:00",
-            "a": "14:00",
-            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-            "aula": "P24",
-            "docente_assente": "DI CARO VINCENZO",
-            "docente_sostituto": "CILLUFFO RICCARDO"
-        }
-    ],
-    "dal": "03\/11\/2026",
+    "sostituzioni": [],
+    "dal": "04\/11\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -5947,6 +5825,14 @@
         {
             "nome": "BARBA SALVATORE",
             "slots": [
+                {
+                    "giorno": "MER",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. MECCANICO IeFP-1",
+                    "materia": "MATEMATICA",
+                    "aula": "P10"
+                },
                 {
                     "giorno": "GIO",
                     "da": "11:00",
@@ -7386,14 +7272,6 @@
                 },
                 {
                     "giorno": "MER",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. MECCANICO IeFP-1",
-                    "materia": "LAB. MECCANICO",
-                    "aula": "T29"
-                },
-                {
-                    "giorno": "MER",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. MECCANICO IeFP-1",
@@ -7523,7 +7401,7 @@
                     "a": "09:00",
                     "corso": "OP. MECCANICO IeFP-1",
                     "materia": "Multimedialita\/Comunicazione",
-                    "aula": null
+                    "aula": "P10"
                 },
                 {
                     "giorno": "MER",
@@ -9888,7 +9766,7 @@
                     "a": "09:00",
                     "materia": "Multimedialita\/Comunicazione",
                     "docente": "MEGNA ROBERTA",
-                    "aula": null
+                    "aula": "P10"
                 },
                 {
                     "giorno": "MER",
@@ -9910,9 +9788,9 @@
                     "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "LAB. MECCANICO",
-                    "docente": "MANGIAPANE AURELIO",
-                    "aula": "T29"
+                    "materia": "MATEMATICA",
+                    "docente": "BARBA SALVATORE",
+                    "aula": "P10"
                 },
                 {
                     "giorno": "MER",
