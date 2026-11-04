@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-11-04T08:22:58",
+    "aggiornato": "2026-11-04T08:37:10",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -5608,7 +5608,151 @@
             ]
         }
     ],
-    "sostituzioni": [],
+    "sostituzioni": [
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P26",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "IENNA FRANCESCO"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+            "aula": "P24",
+            "docente_assente": "TARANTINO MARCO",
+            "docente_sostituto": "CILLUFFO RICCARDO"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P26",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "IENNA FRANCESCO"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+            "aula": "P24",
+            "docente_assente": "TARANTINO MARCO",
+            "docente_sostituto": "BASILE CATERINA"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "ECONOMIA",
+            "aula": null,
+            "docente_assente": "VULLO ENZA",
+            "docente_sostituto": "LO GALBO ANGELO"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P26",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "LO GALBO ANGELO"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+            "aula": "P24",
+            "docente_assente": "TARANTINO MARCO",
+            "docente_sostituto": "IACONO SALVATORE"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+            "aula": null,
+            "docente_assente": "TARANTINO MARCO",
+            "docente_sostituto": "ZAMA VINCENZA"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "STORIA",
+            "aula": null,
+            "docente_assente": "VULLO ENZA",
+            "docente_sostituto": "GERACI FABRIZIO"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+            "aula": null,
+            "docente_assente": "TARANTINO MARCO",
+            "docente_sostituto": "ZAMA VINCENZA"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "IACONO SALVATORE"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LAB.ACCONCIATURA(TAGLIO UOMO, BARBA)",
+            "aula": null,
+            "docente_assente": "TARANTINO MARCO",
+            "docente_sostituto": "ZAMA VINCENZA"
+        },
+        {
+            "data": "2026-11-04",
+            "giorno": "MER",
+            "corso": "OP. MECCANICO IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "IACONO SALVATORE"
+        }
+    ],
     "dal": "04\/11\/2026",
     "fasce": [
         "08:00-09:00",
