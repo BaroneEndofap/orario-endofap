@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-11-05T08:06:49",
+    "aggiornato": "2026-11-06T08:12:32",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -5514,70 +5514,81 @@
     ],
     "sostituzioni": [
         {
-            "data": "2026-11-05",
-            "giorno": "GIO",
-            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. MECCANICO IeFP-1",
             "da": "08:00",
             "a": "09:00",
-            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-            "aula": "P9",
-            "docente_assente": "DI CARO VINCENZO",
-            "docente_sostituto": "ABBAGNATO IRENE"
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "GRECO EGLE"
         },
         {
-            "data": "2026-11-05",
-            "giorno": "GIO",
-            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. MECCANICO IeFP-1",
             "da": "09:00",
             "a": "10:00",
-            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-            "aula": "P9",
-            "docente_assente": "DI CARO VINCENZO",
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "GRECO EGLE"
+        },
+        {
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "ITALIANO",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
             "docente_sostituto": "CARAVELLO SIMONA"
         },
         {
-            "data": "2026-11-05",
-            "giorno": "GIO",
-            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. MECCANICO IeFP-1",
             "da": "10:00",
             "a": "11:00",
-            "materia": "LABORATORIO MECCANICA POLIVALENTE",
-            "aula": "P9",
-            "docente_assente": "DI CARO VINCENZO",
-            "docente_sostituto": "DADDELLI ANGELO SALVATORE"
+            "materia": "LAB. MECCANICO",
+            "aula": "P10",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "VULLO ENZA"
         },
         {
-            "data": "2026-11-05",
-            "giorno": "GIO",
-            "corso": "OP. MECCANICO IeFP-2",
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
             "da": "11:00",
             "a": "12:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P26",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "DADDELLI ANGELO SALVATORE"
+            "materia": "Multimedialita\/Comunicazione",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "ABBAGNATO IRENE"
         },
         {
-            "data": "2026-11-05",
-            "giorno": "GIO",
-            "corso": "OP. MECCANICO IeFP-2",
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
             "da": "12:00",
             "a": "13:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P26",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "DADDELLI ANGELO SALVATORE"
+            "materia": "ITALIANO",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "CARAVELLO SIMONA"
         },
         {
-            "data": "2026-11-05",
-            "giorno": "GIO",
-            "corso": "OP. MECCANICO IeFP-2",
+            "data": "2026-11-06",
+            "giorno": "VEN",
+            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
             "da": "13:00",
             "a": "14:00",
-            "materia": "LAB. MECCANICO",
-            "aula": "P26",
-            "docente_assente": "MANGIAPANE AURELIO",
-            "docente_sostituto": "LO GALBO ANGELO"
+            "materia": "Multimedialita\/Comunicazione",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "ABBAGNATO IRENE"
         }
     ],
     "dal": "05\/11\/2026",
