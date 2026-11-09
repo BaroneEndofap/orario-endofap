@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-11-09T08:21:56",
+    "aggiornato": "2026-11-09T08:33:12",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -6769,7 +6769,107 @@
             ]
         }
     ],
-    "sostituzioni": [],
+    "sostituzioni": [
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P26",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "LO GALBO ANGELO"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "ITALIANO",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "TARANTINO MARCO"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P26",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "TARANTINO MARCO"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "Multimedialita\/Comunicazione",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "DI SALVO SIMONETTA"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LAB. MECCANICO",
+            "aula": "P26",
+            "docente_assente": "MANGIAPANE AURELIO",
+            "docente_sostituto": "URSUMANDO ROBERTO"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "ITALIANO",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "VULLO ENZA"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. MECCANICO IeFP-2",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "MATEMATICA",
+            "aula": null,
+            "docente_assente": "FICANO AURELIO",
+            "docente_sostituto": "VULLO ENZA"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "ITALIANO",
+            "aula": null,
+            "docente_assente": "ZITO SABRINA",
+            "docente_sostituto": "VULLO ENZA"
+        },
+        {
+            "data": "2026-11-09",
+            "giorno": "LUN",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "MATEMATICA",
+            "aula": null,
+            "docente_assente": "FICANO AURELIO",
+            "docente_sostituto": "IACONO SALVATORE"
+        }
+    ],
     "dal": "09\/11\/2026",
     "fasce": [
         "08:00-09:00",
