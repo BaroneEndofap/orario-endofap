@@ -1,10 +1,10 @@
 {
-    "aggiornato": "2026-11-10T08:08:10",
+    "aggiornato": "2026-11-11T11:11:31",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1058,
-            "dal": "2026-11-10",
+            "id": 1059,
+            "dal": "2026-11-11",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -104,6 +104,22 @@
                             "giorno": "LUN",
                             "da": "16:00",
                             "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Sicurezza, prevenzione e primo soccorso",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Sicurezza, prevenzione e primo soccorso",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "18:00",
+                            "a": "19:00",
                             "corso": "Assistente familiare CS 37 ED 84",
                             "materia": "Sicurezza, prevenzione e primo soccorso",
                             "aula": "P24"
@@ -243,9 +259,9 @@
                         },
                         {
                             "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         },
@@ -253,7 +269,7 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "corso": "OP. MECCANICO IeFP-1",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         },
@@ -261,7 +277,7 @@
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-1",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         }
@@ -617,14 +633,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -689,6 +697,14 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Multimedialita\/Comunicazione",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. BENESSERE EST IeFP-1",
@@ -700,6 +716,22 @@
                 {
                     "nome": "CIMINO ANGELA",
                     "slots": [
+                        {
+                            "giorno": "MAR",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "INGLESE",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "INGLESE",
+                            "aula": "P24"
+                        },
                         {
                             "giorno": "GIO",
                             "da": "17:00",
@@ -912,19 +944,27 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-1",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "INGLESE",
-                            "aula": "P10"
+                            "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. MECCANICO IeFP-1",
                             "materia": "INGLESE",
-                            "aula": "P28"
+                            "aula": "P10"
                         }
                     ]
                 },
@@ -1231,6 +1271,14 @@
                         },
                         {
                             "giorno": "MER",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
@@ -1308,22 +1356,6 @@
                             "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "Scienze Motorie",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "Scienze integrate",
-                            "aula": "P28"
                         }
                     ]
                 },
@@ -2061,7 +2093,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "aula": "P1"
                         },
                         {
@@ -2069,7 +2101,7 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "aula": "P1"
                         },
                         {
@@ -2077,7 +2109,7 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "Geografia Economica",
+                            "materia": "DIRITTO",
                             "aula": "P24"
                         },
                         {
@@ -2085,7 +2117,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "aula": "P8"
                         },
                         {
@@ -2093,7 +2125,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "aula": "P26"
                         }
                     ]
@@ -2461,94 +2493,9 @@
                     ]
                 },
                 {
-                    "nome": "PIPITONE VINCENZO",
-                    "slots": [
-                        {
-                            "giorno": "LUN",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Elementi di igiene ambientale",
-                            "aula": "P25"
-                        }
-                    ]
-                },
-                {
                     "nome": "PRINZIVALLI ANTONIO",
                     "slots": [
                         {
-                            "giorno": "LUN",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
-                            "materia": "Tecniche di mobilizzazione",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
-                            "materia": "Tecniche di mobilizzazione",
-                            "aula": "P23"
-                        },
-                        {
                             "giorno": "MAR",
                             "da": "17:00",
                             "a": "18:00",
@@ -2563,27 +2510,6 @@
                             "corso": "Assistente familiare CS 37 ED 84",
                             "materia": "Tecniche di mobilizzazione",
                             "aula": "P24"
-                        }
-                    ]
-                },
-                {
-                    "nome": "SANCARLO SIMONA",
-                    "slots": [
-                        {
-                            "giorno": "MAR",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "INGLESE",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "INGLESE",
-                            "aula": "P25"
                         }
                     ]
                 },
@@ -3561,38 +3487,6 @@
                     "nome": "Assistente familiare CS 37 ED 83",
                     "lezioni": [
                         {
-                            "giorno": "LUN",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "materia": "Tecniche di mobilizzazione",
-                            "docente": "PRINZIVALLI ANTONIO",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "materia": "Tecniche di mobilizzazione",
-                            "docente": "PRINZIVALLI ANTONIO",
-                            "aula": "P23"
-                        },
-                        {
                             "giorno": "MER",
                             "da": "15:00",
                             "a": "16:00",
@@ -3681,32 +3575,32 @@
                             "giorno": "LUN",
                             "da": "17:00",
                             "a": "18:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
+                            "materia": "Sicurezza, prevenzione e primo soccorso",
+                            "docente": "ALAGNA GIUSEPPE",
                             "aula": "P24"
                         },
                         {
                             "giorno": "LUN",
                             "da": "18:00",
                             "a": "19:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
+                            "materia": "Sicurezza, prevenzione e primo soccorso",
+                            "docente": "ALAGNA GIUSEPPE",
                             "aula": "P24"
                         },
                         {
                             "giorno": "MAR",
                             "da": "15:00",
                             "a": "16:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
+                            "materia": "INGLESE",
+                            "docente": "CIMINO ANGELA",
                             "aula": "P24"
                         },
                         {
                             "giorno": "MAR",
                             "da": "16:00",
                             "a": "17:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
+                            "materia": "INGLESE",
+                            "docente": "CIMINO ANGELA",
                             "aula": "P24"
                         },
                         {
@@ -3762,38 +3656,6 @@
                 {
                     "nome": "Assistente familiare CS 37 ED 85",
                     "lezioni": [
-                        {
-                            "giorno": "MAR",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "materia": "INGLESE",
-                            "docente": "SANCARLO SIMONA",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "materia": "INGLESE",
-                            "docente": "SANCARLO SIMONA",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "materia": "Elementi di igiene ambientale",
-                            "docente": "PIPITONE VINCENZO",
-                            "aula": "P25"
-                        },
                         {
                             "giorno": "MER",
                             "da": "15:00",
@@ -4119,7 +3981,7 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Geografia Economica",
+                            "materia": "DIRITTO",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P24"
                         },
@@ -4412,25 +4274,25 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Scienze integrate",
-                            "docente": "GERACI FABRIZIO",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P28"
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         }
                     ]
                 },
@@ -4782,9 +4644,9 @@
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "CILLUFFO RICCARDO",
-                            "aula": "P25"
+                            "materia": "Scienze Motorie",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "MER",
@@ -4894,9 +4756,9 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Scienze Motorie",
-                            "docente": "GERACI FABRIZIO",
-                            "aula": "PALESTRA"
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         },
                         {
                             "giorno": "VEN",
@@ -4910,9 +4772,9 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "Multimedialita\/Comunicazione",
+                            "docente": "CILLUFFO RICCARDO",
+                            "aula": "P25"
                         },
                         {
                             "giorno": "VEN",
@@ -5155,17 +5017,17 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P10"
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         },
                         {
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P10"
                         }
                     ]
                 },
@@ -5408,7 +5270,7 @@
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P26"
                         }
@@ -5866,7 +5728,7 @@
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P1"
                         },
@@ -5874,7 +5736,7 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P1"
                         },
@@ -6757,7 +6619,7 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P8"
                         },
@@ -6774,53 +6636,8 @@
             ]
         }
     ],
-    "sostituzioni": [
-        {
-            "data": "2026-11-10",
-            "giorno": "MAR",
-            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-            "da": "08:00",
-            "a": "09:00",
-            "materia": "ITALIANO",
-            "aula": null,
-            "docente_assente": "ZITO SABRINA",
-            "docente_sostituto": "GRECO EGLE"
-        },
-        {
-            "data": "2026-11-10",
-            "giorno": "MAR",
-            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-            "da": "09:00",
-            "a": "10:00",
-            "materia": "Multimedialita\/Comunicazione",
-            "aula": null,
-            "docente_assente": "ZITO SABRINA",
-            "docente_sostituto": "GANCI DIEGO"
-        },
-        {
-            "data": "2026-11-10",
-            "giorno": "MAR",
-            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-            "da": "10:00",
-            "a": "11:00",
-            "materia": "ITALIANO",
-            "aula": null,
-            "docente_assente": "ZITO SABRINA",
-            "docente_sostituto": "GRECO EGLE"
-        },
-        {
-            "data": "2026-11-10",
-            "giorno": "MAR",
-            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-            "da": "13:00",
-            "a": "14:00",
-            "materia": "Multimedialita\/Comunicazione",
-            "aula": null,
-            "docente_assente": "ZITO SABRINA",
-            "docente_sostituto": "BASILE CATERINA"
-        }
-    ],
-    "dal": "10\/11\/2026",
+    "sostituzioni": [],
+    "dal": "11\/11\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -6918,6 +6735,22 @@
                     "giorno": "LUN",
                     "da": "16:00",
                     "a": "17:00",
+                    "corso": "Assistente familiare CS 37 ED 84",
+                    "materia": "Sicurezza, prevenzione e primo soccorso",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "LUN",
+                    "da": "17:00",
+                    "a": "18:00",
+                    "corso": "Assistente familiare CS 37 ED 84",
+                    "materia": "Sicurezza, prevenzione e primo soccorso",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "LUN",
+                    "da": "18:00",
+                    "a": "19:00",
                     "corso": "Assistente familiare CS 37 ED 84",
                     "materia": "Sicurezza, prevenzione e primo soccorso",
                     "aula": "P24"
@@ -7057,9 +6890,9 @@
                 },
                 {
                     "giorno": "VEN",
-                    "da": "11:00",
-                    "a": "12:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 },
@@ -7067,7 +6900,7 @@
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "corso": "OP. MECCANICO IeFP-1",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 },
@@ -7075,7 +6908,7 @@
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. MECCANICO IeFP-1",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                     "materia": "Informatica e competenze digitali",
                     "aula": "P29"
                 }
@@ -7431,14 +7264,6 @@
                 },
                 {
                     "giorno": "MER",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MER",
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -7503,6 +7328,14 @@
                 },
                 {
                     "giorno": "VEN",
+                    "da": "12:00",
+                    "a": "13:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "materia": "Multimedialita\/Comunicazione",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. BENESSERE EST IeFP-1",
@@ -7514,6 +7347,22 @@
         {
             "nome": "CIMINO ANGELA",
             "slots": [
+                {
+                    "giorno": "MAR",
+                    "da": "15:00",
+                    "a": "16:00",
+                    "corso": "Assistente familiare CS 37 ED 84",
+                    "materia": "INGLESE",
+                    "aula": "P24"
+                },
+                {
+                    "giorno": "MAR",
+                    "da": "16:00",
+                    "a": "17:00",
+                    "corso": "Assistente familiare CS 37 ED 84",
+                    "materia": "INGLESE",
+                    "aula": "P24"
+                },
                 {
                     "giorno": "GIO",
                     "da": "17:00",
@@ -7726,19 +7575,27 @@
                 },
                 {
                     "giorno": "VEN",
+                    "da": "11:00",
+                    "a": "12:00",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "materia": "INGLESE",
+                    "aula": "P28"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "corso": "OP. MECCANICO IeFP-1",
+                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                     "materia": "INGLESE",
-                    "aula": "P10"
+                    "aula": "P28"
                 },
                 {
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                    "corso": "OP. MECCANICO IeFP-1",
                     "materia": "INGLESE",
-                    "aula": "P28"
+                    "aula": "P10"
                 }
             ]
         },
@@ -8045,6 +7902,14 @@
                 },
                 {
                     "giorno": "MER",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. BENESSERE EST IeFP-1",
+                    "materia": "Scienze Motorie",
+                    "aula": "PALESTRA"
+                },
+                {
+                    "giorno": "MER",
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BENESSERE ACC IeFP-2",
@@ -8122,22 +7987,6 @@
                     "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                     "materia": "Scienze Motorie",
                     "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "10:00",
-                    "a": "11:00",
-                    "corso": "OP. BENESSERE EST IeFP-1",
-                    "materia": "Scienze Motorie",
-                    "aula": "PALESTRA"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "12:00",
-                    "a": "13:00",
-                    "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                    "materia": "Scienze integrate",
-                    "aula": "P28"
                 }
             ]
         },
@@ -8875,7 +8724,7 @@
                     "da": "09:00",
                     "a": "10:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "aula": "P1"
                 },
                 {
@@ -8883,7 +8732,7 @@
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "aula": "P1"
                 },
                 {
@@ -8891,7 +8740,7 @@
                     "da": "11:00",
                     "a": "12:00",
                     "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                    "materia": "Geografia Economica",
+                    "materia": "DIRITTO",
                     "aula": "P24"
                 },
                 {
@@ -8899,7 +8748,7 @@
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "aula": "P8"
                 },
                 {
@@ -8907,7 +8756,7 @@
                     "da": "13:00",
                     "a": "14:00",
                     "corso": "OP. MECCANICO IeFP-2",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "aula": "P26"
                 }
             ]
@@ -9275,94 +9124,9 @@
             ]
         },
         {
-            "nome": "PIPITONE VINCENZO",
-            "slots": [
-                {
-                    "giorno": "LUN",
-                    "da": "15:00",
-                    "a": "16:00",
-                    "corso": "Assistente familiare CS 37 ED 83",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "16:00",
-                    "a": "17:00",
-                    "corso": "Assistente familiare CS 37 ED 83",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "17:00",
-                    "a": "18:00",
-                    "corso": "Assistente familiare CS 37 ED 84",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "18:00",
-                    "a": "19:00",
-                    "corso": "Assistente familiare CS 37 ED 84",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "15:00",
-                    "a": "16:00",
-                    "corso": "Assistente familiare CS 37 ED 84",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "16:00",
-                    "a": "17:00",
-                    "corso": "Assistente familiare CS 37 ED 84",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P24"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "17:00",
-                    "a": "18:00",
-                    "corso": "Assistente familiare CS 37 ED 85",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "18:00",
-                    "a": "19:00",
-                    "corso": "Assistente familiare CS 37 ED 85",
-                    "materia": "Elementi di igiene ambientale",
-                    "aula": "P25"
-                }
-            ]
-        },
-        {
             "nome": "PRINZIVALLI ANTONIO",
             "slots": [
                 {
-                    "giorno": "LUN",
-                    "da": "17:00",
-                    "a": "18:00",
-                    "corso": "Assistente familiare CS 37 ED 83",
-                    "materia": "Tecniche di mobilizzazione",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "18:00",
-                    "a": "19:00",
-                    "corso": "Assistente familiare CS 37 ED 83",
-                    "materia": "Tecniche di mobilizzazione",
-                    "aula": "P23"
-                },
-                {
                     "giorno": "MAR",
                     "da": "17:00",
                     "a": "18:00",
@@ -9377,27 +9141,6 @@
                     "corso": "Assistente familiare CS 37 ED 84",
                     "materia": "Tecniche di mobilizzazione",
                     "aula": "P24"
-                }
-            ]
-        },
-        {
-            "nome": "SANCARLO SIMONA",
-            "slots": [
-                {
-                    "giorno": "MAR",
-                    "da": "15:00",
-                    "a": "16:00",
-                    "corso": "Assistente familiare CS 37 ED 85",
-                    "materia": "INGLESE",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "16:00",
-                    "a": "17:00",
-                    "corso": "Assistente familiare CS 37 ED 85",
-                    "materia": "INGLESE",
-                    "aula": "P25"
                 }
             ]
         },
@@ -10375,38 +10118,6 @@
             "nome": "Assistente familiare CS 37 ED 83",
             "lezioni": [
                 {
-                    "giorno": "LUN",
-                    "da": "15:00",
-                    "a": "16:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "16:00",
-                    "a": "17:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "17:00",
-                    "a": "18:00",
-                    "materia": "Tecniche di mobilizzazione",
-                    "docente": "PRINZIVALLI ANTONIO",
-                    "aula": "P23"
-                },
-                {
-                    "giorno": "LUN",
-                    "da": "18:00",
-                    "a": "19:00",
-                    "materia": "Tecniche di mobilizzazione",
-                    "docente": "PRINZIVALLI ANTONIO",
-                    "aula": "P23"
-                },
-                {
                     "giorno": "MER",
                     "da": "15:00",
                     "a": "16:00",
@@ -10495,32 +10206,32 @@
                     "giorno": "LUN",
                     "da": "17:00",
                     "a": "18:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
+                    "materia": "Sicurezza, prevenzione e primo soccorso",
+                    "docente": "ALAGNA GIUSEPPE",
                     "aula": "P24"
                 },
                 {
                     "giorno": "LUN",
                     "da": "18:00",
                     "a": "19:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
+                    "materia": "Sicurezza, prevenzione e primo soccorso",
+                    "docente": "ALAGNA GIUSEPPE",
                     "aula": "P24"
                 },
                 {
                     "giorno": "MAR",
                     "da": "15:00",
                     "a": "16:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
+                    "materia": "INGLESE",
+                    "docente": "CIMINO ANGELA",
                     "aula": "P24"
                 },
                 {
                     "giorno": "MAR",
                     "da": "16:00",
                     "a": "17:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
+                    "materia": "INGLESE",
+                    "docente": "CIMINO ANGELA",
                     "aula": "P24"
                 },
                 {
@@ -10576,38 +10287,6 @@
         {
             "nome": "Assistente familiare CS 37 ED 85",
             "lezioni": [
-                {
-                    "giorno": "MAR",
-                    "da": "15:00",
-                    "a": "16:00",
-                    "materia": "INGLESE",
-                    "docente": "SANCARLO SIMONA",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "16:00",
-                    "a": "17:00",
-                    "materia": "INGLESE",
-                    "docente": "SANCARLO SIMONA",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "17:00",
-                    "a": "18:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MAR",
-                    "da": "18:00",
-                    "a": "19:00",
-                    "materia": "Elementi di igiene ambientale",
-                    "docente": "PIPITONE VINCENZO",
-                    "aula": "P25"
-                },
                 {
                     "giorno": "MER",
                     "da": "15:00",
@@ -10933,7 +10612,7 @@
                     "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "Geografia Economica",
+                    "materia": "DIRITTO",
                     "docente": "MEGNA ROBERTA",
                     "aula": "P24"
                 },
@@ -11226,25 +10905,25 @@
                     "giorno": "VEN",
                     "da": "11:00",
                     "a": "12:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P28"
                 },
                 {
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "Scienze integrate",
-                    "docente": "GERACI FABRIZIO",
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
                     "aula": "P28"
                 },
                 {
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P28"
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
                 }
             ]
         },
@@ -11596,9 +11275,9 @@
                     "giorno": "MER",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "Multimedialita\/Comunicazione",
-                    "docente": "CILLUFFO RICCARDO",
-                    "aula": "P25"
+                    "materia": "Scienze Motorie",
+                    "docente": "GERACI FABRIZIO",
+                    "aula": "PALESTRA"
                 },
                 {
                     "giorno": "MER",
@@ -11708,9 +11387,9 @@
                     "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "Scienze Motorie",
-                    "docente": "GERACI FABRIZIO",
-                    "aula": "PALESTRA"
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
                 },
                 {
                     "giorno": "VEN",
@@ -11724,9 +11403,9 @@
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
+                    "materia": "Multimedialita\/Comunicazione",
+                    "docente": "CILLUFFO RICCARDO",
+                    "aula": "P25"
                 },
                 {
                     "giorno": "VEN",
@@ -11969,17 +11648,17 @@
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "INGLESE",
-                    "docente": "DI SALVO SIMONETTA",
-                    "aula": "P10"
+                    "materia": "Informatica e competenze digitali",
+                    "docente": "AMMIRATA GIUSEPPE",
+                    "aula": "P29"
                 },
                 {
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "Informatica e competenze digitali",
-                    "docente": "AMMIRATA GIUSEPPE",
-                    "aula": "P29"
+                    "materia": "INGLESE",
+                    "docente": "DI SALVO SIMONETTA",
+                    "aula": "P10"
                 }
             ]
         },
@@ -12222,7 +11901,7 @@
                     "giorno": "VEN",
                     "da": "13:00",
                     "a": "14:00",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "docente": "MEGNA ROBERTA",
                     "aula": "P26"
                 }
@@ -12680,7 +12359,7 @@
                     "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "docente": "MEGNA ROBERTA",
                     "aula": "P1"
                 },
@@ -12688,7 +12367,7 @@
                     "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "docente": "MEGNA ROBERTA",
                     "aula": "P1"
                 },
@@ -13571,7 +13250,7 @@
                     "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
-                    "materia": "STORIA",
+                    "materia": "DIRITTO",
                     "docente": "MEGNA ROBERTA",
                     "aula": "P8"
                 },
