@@ -1,11 +1,11 @@
 {
-    "aggiornato": "2026-11-12T14:26:49",
+    "aggiornato": "2026-11-13T12:41:25",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
-            "id": 1059,
-            "dal": "2026-11-11",
-            "al": "2026-11-12",
+            "id": 1060,
+            "dal": "2026-11-13",
+            "al": "2026-11-15",
             "nota": "",
             "fasce": [
                 "08:00-09:00",
@@ -123,22 +123,6 @@
                             "corso": "Assistente familiare CS 37 ED 84",
                             "materia": "Sicurezza, prevenzione e primo soccorso",
                             "aula": "P24"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "aula": "P25"
                         }
                     ]
                 },
@@ -1077,6 +1061,22 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "MATEMATICA",
+                            "aula": "P2"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "MATEMATICA",
+                            "aula": "P2"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -1170,26 +1170,10 @@
                         },
                         {
                             "giorno": "VEN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO CUCINA",
-                            "aula": "T51"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO CUCINA",
-                            "aula": "T51"
-                        },
-                        {
-                            "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO CUCINA",
+                            "materia": "HACCP",
                             "aula": "T51"
                         },
                         {
@@ -1518,6 +1502,22 @@
                             "corso": "Assistente familiare CS 37 ED 83",
                             "materia": "Tecniche di Comunicazione e osservazione",
                             "aula": "P23"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "18:00",
+                            "a": "19:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "aula": "P25"
                         },
                         {
                             "giorno": "VEN",
@@ -1882,30 +1882,6 @@
                             "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LAB.TERMOIDRAULICA",
-                            "aula": "T11"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LAB.TERMOIDRAULICA",
-                            "aula": "T11"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LAB.TERMOIDRAULICA",
-                            "aula": "T11"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "10:00",
-                            "a": "11:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "LAB.TERMOIDRAULICA",
                             "aula": "T11"
@@ -2465,6 +2441,14 @@
                             "corso": "OP. BENESSERE EST IeFP-1",
                             "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
                             "aula": "P25"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "LABORATORIO ELETTRICO",
+                            "aula": "P7"
                         },
                         {
                             "giorno": "VEN",
@@ -3676,16 +3660,16 @@
                             "giorno": "MER",
                             "da": "17:00",
                             "a": "18:00",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "docente": "ALAGNA GIUSEPPE",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "docente": "GRECO EGLE",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MER",
                             "da": "18:00",
                             "a": "19:00",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "docente": "ALAGNA GIUSEPPE",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "docente": "GRECO EGLE",
                             "aula": "P25"
                         },
                         {
@@ -5989,37 +5973,29 @@
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LABORATORIO CUCINA",
-                            "docente": "GANCI DIEGO",
-                            "aula": "T51",
-                            "tipo": "divisa",
-                            "docente2": "LO GALBO ANGELO",
-                            "materia2": "LAB.TERMOIDRAULICA",
-                            "aula2": "T11"
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
+                            "aula": "P2"
                         },
                         {
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LABORATORIO CUCINA",
-                            "docente": "GANCI DIEGO",
-                            "aula": "T51",
-                            "tipo": "divisa",
-                            "docente2": "LO GALBO ANGELO",
-                            "materia2": "LAB.TERMOIDRAULICA",
-                            "aula2": "T11"
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
+                            "aula": "P2"
                         },
                         {
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "LABORATORIO CUCINA",
+                            "materia": "HACCP",
                             "docente": "GANCI DIEGO",
                             "aula": "T51",
                             "tipo": "divisa",
-                            "docente2": "LO GALBO ANGELO",
-                            "materia2": "LAB.TERMOIDRAULICA",
-                            "aula2": "T11"
+                            "docente2": "PIPITONE ANTONINO",
+                            "materia2": "LABORATORIO ELETTRICO",
+                            "aula2": "P7"
                         },
                         {
                             "giorno": "VEN",
@@ -6636,8 +6612,8 @@
             ]
         },
         {
-            "id": 1060,
-            "dal": "2026-11-13",
+            "id": 1061,
+            "dal": "2026-11-16",
             "al": "2030-12-31",
             "nota": "",
             "fasce": [
@@ -6706,6 +6682,14 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "A.S.LAB.ACC.3",
+                            "aula": "T36"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -6726,36 +6710,20 @@
                     "nome": "ALAGNA GIUSEPPE",
                     "slots": [
                         {
-                            "giorno": "LUN",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "LUN",
+                            "giorno": "MER",
                             "da": "17:00",
                             "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
+                            "corso": "Assistente familiare CS 37 ED 85",
                             "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "aula": "P24"
+                            "aula": "P25"
                         },
                         {
-                            "giorno": "LUN",
+                            "giorno": "MER",
                             "da": "18:00",
                             "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
+                            "corso": "Assistente familiare CS 37 ED 85",
                             "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "aula": "P24"
+                            "aula": "P25"
                         }
                     ]
                 },
@@ -6772,33 +6740,9 @@
                         },
                         {
                             "giorno": "LUN",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "Utilizzo e manut strum e attrez",
-                            "aula": "P29"
-                        },
-                        {
-                            "giorno": "LUN",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "Informatica e competenze digitali",
-                            "aula": "P29"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "Informatica e competenze digitali",
-                            "aula": "P29"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         },
@@ -6827,10 +6771,34 @@
                             "aula": "P29"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "Informatica e competenze digitali",
+                            "aula": "P29"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "Informatica e competenze digitali",
+                            "aula": "P29"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Informatica e competenze digitali",
+                            "aula": "P29"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
                             "materia": "Informatica e competenze digitali",
                             "aula": "P29"
                         },
@@ -6864,6 +6832,14 @@
                             "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "Informatica e competenze digitali",
+                            "aula": "P29"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "Utilizzo e manut strum e attrez",
                             "aula": "P29"
                         },
                         {
@@ -6913,8 +6889,8 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
+                            "da": "12:00",
+                            "a": "13:00",
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "MATEMATICA",
                             "aula": "P10"
@@ -6957,6 +6933,22 @@
                             "aula": "P23"
                         },
                         {
+                            "giorno": "MAR",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "Cultura d'impresa e Organiz Aziend",
+                            "aula": "P2"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Cultura d'impresa e Organiz Aziend",
+                            "aula": "P8"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -6990,11 +6982,11 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "Cultura d'impresa e Organiz Aziend",
-                            "aula": "P8"
+                            "aula": "P2"
                         }
                     ]
                 },
@@ -7018,7 +7010,7 @@
                             "aula": "P29"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "17:00",
                             "a": "18:00",
                             "corso": "Assistente familiare CS 37 ED 85",
@@ -7026,7 +7018,7 @@
                             "aula": "P29"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "18:00",
                             "a": "19:00",
                             "corso": "Assistente familiare CS 37 ED 85",
@@ -7197,14 +7189,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "aula": "T38"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE EST IeFP-1",
@@ -7234,8 +7218,8 @@
                         },
                         {
                             "giorno": "LUN",
-                            "da": "10:00",
-                            "a": "11:00",
+                            "da": "09:00",
+                            "a": "10:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "Multimedialita\/Comunicazione",
                             "aula": "P24"
@@ -7258,19 +7242,11 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                             "materia": "ITALIANO",
-                            "aula": "P24"
+                            "aula": "P23"
                         },
                         {
                             "giorno": "GIO",
@@ -7281,35 +7257,11 @@
                             "aula": "P24"
                         },
                         {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P24"
-                        },
-                        {
                             "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
+                            "da": "10:00",
+                            "a": "11:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Multimedialita\/Comunicazione",
+                            "materia": "ITALIANO",
                             "aula": "P23"
                         },
                         {
@@ -7334,22 +7286,6 @@
                     "nome": "CIMINO ANGELA",
                     "slots": [
                         {
-                            "giorno": "MAR",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "INGLESE",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "corso": "Assistente familiare CS 37 ED 84",
-                            "materia": "INGLESE",
-                            "aula": "P24"
-                        },
-                        {
                             "giorno": "GIO",
                             "da": "17:00",
                             "a": "18:00",
@@ -7371,92 +7307,60 @@
                     "nome": "DADDELLI ANGELO SALVATORE",
                     "slots": [
                         {
-                            "giorno": "MER",
+                            "giorno": "LUN",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "MATEMATICA",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "MATEMATICA",
-                            "aula": "P25"
+                            "aula": "P28"
                         },
                         {
-                            "giorno": "MER",
+                            "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
-                            "materia": "MATEMATICA",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "MATEMATICA",
                             "aula": "P24"
                         },
                         {
-                            "giorno": "MER",
+                            "giorno": "LUN",
                             "da": "12:00",
                             "a": "13:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "MATEMATICA",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "MATEMATICA",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "MATEMATICA",
                             "aula": "P24"
                         },
                         {
-                            "giorno": "MER",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "MATEMATICA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "15:00",
-                            "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "16:00",
-                            "a": "17:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "18:00",
-                            "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "MATEMATICA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "GIO",
+                            "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. BENESSERE EST IeFP-1",
                             "materia": "MATEMATICA",
-                            "aula": "P28"
+                            "aula": "P25"
                         }
                     ]
                 },
@@ -7497,8 +7401,8 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "11:00",
-                            "a": "12:00",
+                            "da": "12:00",
+                            "a": "13:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "INGLESE",
                             "aula": "P8"
@@ -7542,6 +7446,30 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "INGLESE",
                             "aula": "P8"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "INGLESE",
+                            "aula": "P23"
                         },
                         {
                             "giorno": "VEN",
@@ -7590,6 +7518,14 @@
                     "slots": [
                         {
                             "giorno": "LUN",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "Geometria",
+                            "aula": "P2"
+                        },
+                        {
+                            "giorno": "LUN",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. MECCANICO IeFP-2",
@@ -7605,30 +7541,6 @@
                             "aula": "P23"
                         },
                         {
-                            "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "MATEMATICA",
-                            "aula": "P2"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "MATEMATICA",
-                            "aula": "P1"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "MATEMATICA",
-                            "aula": "P8bis"
-                        },
-                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -7641,7 +7553,7 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "aula": "P1"
                         },
                         {
@@ -7649,7 +7561,7 @@
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "aula": "P23"
                         },
                         {
@@ -7657,7 +7569,7 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "aula": "P26"
                         },
                         {
@@ -7670,30 +7582,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
-                            "materia": "MATEMATICA",
-                            "aula": "P9"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "MATEMATICA",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "MATEMATICA",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
@@ -7701,12 +7589,44 @@
                             "aula": "P2"
                         },
                         {
-                            "giorno": "VEN",
+                            "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "materia": "Geometria",
+                            "aula": "P9"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                             "materia": "MATEMATICA",
-                            "aula": "P2"
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "Geometria",
+                            "aula": "P8bis"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "MATEMATICA",
+                            "aula": "P8"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "MATEMATICA",
+                            "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
@@ -7721,7 +7641,7 @@
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "aula": "P8"
                         }
                     ]
@@ -7778,6 +7698,22 @@
                             "aula": "T51"
                         },
                         {
+                            "giorno": "LUN",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Preparazione Pasti",
+                            "aula": "T51"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Preparazione Pasti",
+                            "aula": "T51"
+                        },
+                        {
                             "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
@@ -7803,10 +7739,26 @@
                         },
                         {
                             "giorno": "VEN",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "LABORATORIO CUCINA",
+                            "aula": "T51"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "LABORATORIO CUCINA",
+                            "aula": "T51"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "HACCP",
+                            "materia": "LABORATORIO CUCINA",
                             "aula": "T51"
                         },
                         {
@@ -7872,16 +7824,8 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Scienze Motorie",
-                            "aula": "PALESTRA"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
+                            "da": "11:00",
+                            "a": "12:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "Scienze integrate",
                             "aula": "P8"
@@ -7920,43 +7864,19 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Scienze integrate",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Scienze integrate",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Scienze integrate",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Scienze integrate",
-                            "aula": "P23"
+                            "materia": "Scienze Motorie",
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "Scienze integrate",
-                            "aula": "P23"
+                            "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
@@ -7973,6 +7893,14 @@
                             "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "Scienze Motorie",
                             "aula": "PALESTRA"
+                        },
+                        {
+                            "giorno": "VEN",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P8"
                         }
                     ]
                 },
@@ -8028,31 +7956,31 @@
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "LABORATORIO CUCINA 2",
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "LABORATORIO CUCINA 2",
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "LABORATORIO CUCINA 2",
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "15:00",
                             "a": "16:00",
                             "corso": "Assistente familiare CS 37 ED 85",
@@ -8060,35 +7988,11 @@
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "16:00",
                             "a": "17:00",
                             "corso": "Assistente familiare CS 37 ED 85",
                             "materia": "Preparazione Pasti",
-                            "aula": "T51"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO CUCINA 2",
-                            "aula": "T51"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO CUCINA 2",
-                            "aula": "T51"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO CUCINA 2",
                             "aula": "T51"
                         }
                     ]
@@ -8124,33 +8028,49 @@
                             "giorno": "MER",
                             "da": "15:00",
                             "a": "16:00",
-                            "corso": "Assistente familiare CS 37 ED 83",
+                            "corso": "Assistente familiare CS 37 ED 85",
                             "materia": "Tecniche di Comunicazione e osservazione",
-                            "aula": "P23"
+                            "aula": "P25"
                         },
                         {
                             "giorno": "MER",
                             "da": "16:00",
                             "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "17:00",
+                            "a": "18:00",
                             "corso": "Assistente familiare CS 37 ED 83",
                             "materia": "Tecniche di Comunicazione e osservazione",
                             "aula": "P23"
                         },
                         {
                             "giorno": "MER",
-                            "da": "17:00",
-                            "a": "18:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
-                            "materia": "Tecniche di Comunicazione e osservazione",
-                            "aula": "P25"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "18:00",
                             "a": "19:00",
-                            "corso": "Assistente familiare CS 37 ED 85",
+                            "corso": "Assistente familiare CS 37 ED 83",
                             "materia": "Tecniche di Comunicazione e osservazione",
-                            "aula": "P25"
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "ITALIANO2",
+                            "aula": "P8bis"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "Multimedialita\/Comunicazione 2",
+                            "aula": "P8bis"
                         },
                         {
                             "giorno": "VEN",
@@ -8162,8 +8082,8 @@
                         },
                         {
                             "giorno": "VEN",
-                            "da": "12:00",
-                            "a": "13:00",
+                            "da": "11:00",
+                            "a": "12:00",
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "ITALIANO2",
                             "aula": "P26"
@@ -8339,6 +8259,22 @@
                             "aula": "PALESTRA"
                         },
                         {
+                            "giorno": "LUN",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P26"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "Scienze integrate",
+                            "aula": "P2"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -8396,19 +8332,11 @@
                         },
                         {
                             "giorno": "VEN",
-                            "da": "10:00",
-                            "a": "11:00",
+                            "da": "12:00",
+                            "a": "13:00",
                             "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "Scienze integrate",
                             "aula": "P24"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "Scienze integrate",
-                            "aula": "P26"
                         },
                         {
                             "giorno": "VEN",
@@ -8518,35 +8446,54 @@
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "LAB.TERMOIDRAULICA",
                             "aula": "T11"
-                        }
-                    ]
-                },
-                {
-                    "nome": "MANGIAPANE AURELIO",
-                    "slots": [
+                        },
                         {
-                            "giorno": "LUN",
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "LAB.TERMOIDRAULICA",
+                            "aula": "T11"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "LAB.TERMOIDRAULICA",
+                            "aula": "T11"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "LAB.TERMOIDRAULICA",
+                            "aula": "T11"
+                        },
+                        {
+                            "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "LAB.TERMOIDRAULICA",
+                            "aula": "T11"
                         },
                         {
-                            "giorno": "LUN",
+                            "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "LAB.TERMOIDRAULICA",
+                            "aula": "T11"
                         },
                         {
-                            "giorno": "LUN",
+                            "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "LAB. MECCANICO",
-                            "aula": "T29"
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "LAB.TERMOIDRAULICA",
+                            "aula": "T11"
                         }
                     ]
                 },
@@ -8565,25 +8512,17 @@
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "STORIA",
-                            "aula": "P24"
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "DIRITTO",
+                            "aula": "P8"
                         },
                         {
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "aula": "P8"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P2"
                         },
                         {
                             "giorno": "LUN",
@@ -8592,30 +8531,6 @@
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "Geografia Economica",
                             "aula": "P9"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. MECCANICO IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P26"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
-                            "materia": "STORIA",
-                            "aula": "P24"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P2"
                         },
                         {
                             "giorno": "MAR",
@@ -8627,8 +8542,8 @@
                         },
                         {
                             "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
+                            "da": "12:00",
+                            "a": "13:00",
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "STORIA",
                             "aula": "P9"
@@ -8650,44 +8565,36 @@
                             "aula": "P9"
                         },
                         {
-                            "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P10"
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "STORIA",
+                            "aula": "P24"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P10"
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "STORIA",
+                            "aula": "P24"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P10"
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "DIRITTO",
+                            "aula": "P2"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P10"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "ITALIANO",
-                            "aula": "P10"
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "DIRITTO",
+                            "aula": "P2"
                         },
                         {
                             "giorno": "GIO",
@@ -8725,9 +8632,9 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "corso": "OP. MECCANICO IeFP-2",
                             "materia": "DIRITTO",
-                            "aula": "P8"
+                            "aula": "P26"
                         },
                         {
                             "giorno": "VEN",
@@ -8866,23 +8773,7 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "LABORATORIO ESTETICO",
-                            "aula": "T37"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "LABORATORIO ESTETICO",
-                            "aula": "T37"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. BENESSERE EST IeFP-1",
                             "materia": "LABORATORIO ESTETICO",
                             "aula": "T37"
                         },
@@ -8906,14 +8797,6 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "LABORATORIO ESTETICO",
-                            "aula": "T37"
-                        },
-                        {
-                            "giorno": "VEN",
-                            "da": "11:00",
-                            "a": "12:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "LABORATORIO ESTETICO",
                             "aula": "T37"
@@ -8975,9 +8858,17 @@
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                             "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                            "aula": "P28"
+                            "aula": "P2"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "aula": "P1"
                         },
                         {
                             "giorno": "MAR",
@@ -8994,14 +8885,6 @@
                             "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
                             "aula": "P9"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                            "aula": "P2"
                         },
                         {
                             "giorno": "MAR",
@@ -9037,14 +8920,6 @@
                         },
                         {
                             "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-2",
-                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                            "aula": "P1"
-                        },
-                        {
-                            "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
                             "corso": "OP. MECCANICO IeFP-2",
@@ -9053,11 +8928,43 @@
                         },
                         {
                             "giorno": "GIO",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
                             "aula": "P8"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "aula": "P23"
                         },
                         {
                             "giorno": "VEN",
@@ -9079,9 +8986,9 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "LABORATORIO ELETTRICO",
-                            "aula": "P7"
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "Utilizzo e manut strum e attrez",
+                            "aula": "P24"
                         },
                         {
                             "giorno": "VEN",
@@ -9110,8 +9017,93 @@
                     ]
                 },
                 {
+                    "nome": "PIPITONE VINCENZO",
+                    "slots": [
+                        {
+                            "giorno": "LUN",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "corso": "Assistente familiare CS 37 ED 83",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 83",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "18:00",
+                            "a": "19:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 84",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P24"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "18:00",
+                            "a": "19:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "Elementi di igiene ambientale",
+                            "aula": "P25"
+                        }
+                    ]
+                },
+                {
                     "nome": "PRINZIVALLI ANTONIO",
                     "slots": [
+                        {
+                            "giorno": "LUN",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "corso": "Assistente familiare CS 37 ED 83",
+                            "materia": "Tecniche di mobilizzazione",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "18:00",
+                            "a": "19:00",
+                            "corso": "Assistente familiare CS 37 ED 83",
+                            "materia": "Tecniche di mobilizzazione",
+                            "aula": "P23"
+                        },
                         {
                             "giorno": "MAR",
                             "da": "17:00",
@@ -9127,28 +9119,49 @@
                             "corso": "Assistente familiare CS 37 ED 84",
                             "materia": "Tecniche di mobilizzazione",
                             "aula": "P24"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "corso": "Assistente familiare CS 37 ED 83",
+                            "materia": "Tecniche di mobilizzazione",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 83",
+                            "materia": "Tecniche di mobilizzazione",
+                            "aula": "P23"
+                        }
+                    ]
+                },
+                {
+                    "nome": "SANCARLO SIMONA",
+                    "slots": [
+                        {
+                            "giorno": "MAR",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "INGLESE",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "corso": "Assistente familiare CS 37 ED 85",
+                            "materia": "INGLESE",
+                            "aula": "P25"
                         }
                     ]
                 },
                 {
                     "nome": "SILIATO ROSSELLA VALERIA",
                     "slots": [
-                        {
-                            "giorno": "LUN",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "Religione - Attività alternative",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "Religione - Attività alternative",
-                            "aula": "P8"
-                        },
                         {
                             "giorno": "LUN",
                             "da": "10:00",
@@ -9158,12 +9171,12 @@
                             "aula": "P10"
                         },
                         {
-                            "giorno": "MAR",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "giorno": "LUN",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
                             "materia": "Religione - Attività alternative",
-                            "aula": "P25"
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MAR",
@@ -9174,12 +9187,28 @@
                             "aula": "P26"
                         },
                         {
-                            "giorno": "MAR",
+                            "giorno": "MER",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BENESSERE EST IeFP-1",
+                            "materia": "Religione - Attività alternative",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "Religione - Attività alternative",
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "MER",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
                             "materia": "Religione - Attività alternative",
-                            "aula": "P9"
+                            "aula": "P24"
                         },
                         {
                             "giorno": "GIO",
@@ -9196,6 +9225,14 @@
                             "corso": "OP. MECCANICO IeFP-2",
                             "materia": "Religione - Attività alternative",
                             "aula": "P26"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                            "materia": "Religione - Attività alternative",
+                            "aula": "P2"
                         },
                         {
                             "giorno": "VEN",
@@ -9215,14 +9252,6 @@
                         },
                         {
                             "giorno": "VEN",
-                            "da": "10:00",
-                            "a": "11:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
-                            "materia": "Religione - Attività alternative",
-                            "aula": "P23"
-                        },
-                        {
-                            "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE EST IeFP-1",
@@ -9233,9 +9262,9 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "Religione - Attività alternative",
-                            "aula": "P24"
+                            "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
@@ -9251,6 +9280,30 @@
                     "nome": "STANCAMPIANO GIUSEPPE",
                     "slots": [
                         {
+                            "giorno": "LUN",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "LAB. MECCANICO 2",
+                            "aula": "T29"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "LAB. MECCANICO 2",
+                            "aula": "T29"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. MECCANICO IeFP-2",
+                            "materia": "LAB. MECCANICO 2",
+                            "aula": "T29"
+                        },
+                        {
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
@@ -9318,6 +9371,30 @@
                             "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "LAB. MECCANICO 2",
+                            "aula": "T29"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "LAB. MECCANICO 2",
+                            "aula": "T29"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "LAB. MECCANICO 2",
+                            "aula": "T29"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
                             "corso": "OP. MECCANICO IeFP-1",
                             "materia": "LAB. MECCANICO 2",
                             "aula": "T29"
@@ -9645,7 +9722,7 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
                             "materia": "LAB.MANUFATT.TESSILE 1",
                             "aula": "T25"
                         },
@@ -9675,88 +9752,56 @@
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "Carta dei diritti fond UE",
                             "aula": "P8bis"
                         },
                         {
-                            "giorno": "MAR",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "ECONOMIA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. MECCANICO IeFP-1",
-                            "materia": "ECONOMIA",
-                            "aula": "P10"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "STORIA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "MER",
-                            "da": "12:00",
-                            "a": "13:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "STORIA",
-                            "aula": "P28"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P8bis"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P8bis"
-                        },
-                        {
-                            "giorno": "GIO",
+                            "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P8bis"
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "ECONOMIA",
+                            "aula": "P28"
                         },
                         {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "STORIA",
-                            "aula": "P8bis"
+                            "giorno": "MAR",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "ECONOMIA",
+                            "aula": "P28"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "STORIA",
+                            "materia": "Carta dei diritti fond UE",
                             "aula": "P8bis"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "corso": "OP. MECCANICO IeFP-1",
+                            "materia": "ECONOMIA",
+                            "aula": "P10"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
                             "materia": "STORIA",
-                            "aula": "P8bis"
+                            "aula": "P28"
+                        },
+                        {
+                            "giorno": "MER",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "STORIA",
+                            "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
@@ -9771,7 +9816,7 @@
                             "da": "12:00",
                             "a": "13:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "ECONOMIA",
+                            "materia": "Carta dei diritti fond UE",
                             "aula": "P8bis"
                         },
                         {
@@ -9837,6 +9882,14 @@
                         },
                         {
                             "giorno": "MAR",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
+                            "materia": "Utilizzo e manut strum e attrez",
+                            "aula": null
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. ACC IeFP-1",
@@ -9892,6 +9945,54 @@
                             "aula": "T56"
                         },
                         {
+                            "giorno": "GIO",
+                            "da": "08:00",
+                            "a": "09:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "09:00",
+                            "a": "10:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "10:00",
+                            "a": "11:00",
+                            "corso": "OP. BENESSERE ACC IeFP-2",
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "11:00",
+                            "a": "12:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "aula": "T56"
+                        },
+                        {
+                            "giorno": "GIO",
+                            "da": "13:00",
+                            "a": "14:00",
+                            "corso": "OP. BEN. ACC - OP. EL IeFP-1",
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "aula": "T56"
+                        },
+                        {
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
@@ -9920,8 +10021,8 @@
                             "da": "11:00",
                             "a": "12:00",
                             "corso": "OP. BENESSERE ACC IeFP-2",
-                            "materia": "LABORATORIO DI ACCONCIATURA",
-                            "aula": "T56"
+                            "materia": "Pianificazione delle fasi di lavoro",
+                            "aula": "P8bis"
                         }
                     ]
                 },
@@ -9935,14 +10036,6 @@
                             "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
                             "materia": "ITALIANO",
                             "aula": "P8"
-                        },
-                        {
-                            "giorno": "LUN",
-                            "da": "09:00",
-                            "a": "10:00",
-                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "aula": "P28"
                         },
                         {
                             "giorno": "LUN",
@@ -9985,14 +10078,6 @@
                             "aula": "P28"
                         },
                         {
-                            "giorno": "MAR",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "aula": "P8"
-                        },
-                        {
                             "giorno": "MER",
                             "da": "08:00",
                             "a": "09:00",
@@ -10018,14 +10103,6 @@
                         },
                         {
                             "giorno": "GIO",
-                            "da": "08:00",
-                            "a": "09:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P2"
-                        },
-                        {
-                            "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
                             "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
@@ -10036,33 +10113,17 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P2"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "11:00",
-                            "a": "12:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P2"
+                            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+                            "materia": "Multimedialita\/Comunicazione",
+                            "aula": "P8"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P2"
-                        },
-                        {
-                            "giorno": "GIO",
-                            "da": "13:00",
-                            "a": "14:00",
-                            "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                            "materia": "ITALIANO",
-                            "aula": "P2"
+                            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+                            "materia": "Multimedialita\/Comunicazione",
+                            "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
@@ -10104,35 +10165,67 @@
                     "nome": "Assistente familiare CS 37 ED 83",
                     "lezioni": [
                         {
+                            "giorno": "LUN",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "materia": "Tecniche di mobilizzazione",
+                            "docente": "PRINZIVALLI ANTONIO",
+                            "aula": "P23"
+                        },
+                        {
+                            "giorno": "LUN",
+                            "da": "18:00",
+                            "a": "19:00",
+                            "materia": "Tecniche di mobilizzazione",
+                            "docente": "PRINZIVALLI ANTONIO",
+                            "aula": "P23"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "15:00",
                             "a": "16:00",
-                            "materia": "Tecniche di Comunicazione e osservazione",
-                            "docente": "GRECO EGLE",
+                            "materia": "Tecniche di mobilizzazione",
+                            "docente": "PRINZIVALLI ANTONIO",
                             "aula": "P23"
                         },
                         {
                             "giorno": "MER",
                             "da": "16:00",
                             "a": "17:00",
-                            "materia": "Tecniche di Comunicazione e osservazione",
-                            "docente": "GRECO EGLE",
+                            "materia": "Tecniche di mobilizzazione",
+                            "docente": "PRINZIVALLI ANTONIO",
                             "aula": "P23"
                         },
                         {
                             "giorno": "MER",
                             "da": "17:00",
                             "a": "18:00",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "docente": "GRECO EGLE",
                             "aula": "P23"
                         },
                         {
                             "giorno": "MER",
                             "da": "18:00",
                             "a": "19:00",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "docente": "GRECO EGLE",
                             "aula": "P23"
                         },
                         {
@@ -10176,48 +10269,48 @@
                             "giorno": "LUN",
                             "da": "15:00",
                             "a": "16:00",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "docente": "ALAGNA GIUSEPPE",
-                            "aula": "P24"
+                            "materia": "Preparazione Pasti",
+                            "docente": "GANCI DIEGO",
+                            "aula": "T51"
                         },
                         {
                             "giorno": "LUN",
                             "da": "16:00",
                             "a": "17:00",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "docente": "ALAGNA GIUSEPPE",
-                            "aula": "P24"
+                            "materia": "Preparazione Pasti",
+                            "docente": "GANCI DIEGO",
+                            "aula": "T51"
                         },
                         {
                             "giorno": "LUN",
                             "da": "17:00",
                             "a": "18:00",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "docente": "ALAGNA GIUSEPPE",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
                             "aula": "P24"
                         },
                         {
                             "giorno": "LUN",
                             "da": "18:00",
                             "a": "19:00",
-                            "materia": "Sicurezza, prevenzione e primo soccorso",
-                            "docente": "ALAGNA GIUSEPPE",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
                             "aula": "P24"
                         },
                         {
                             "giorno": "MAR",
                             "da": "15:00",
                             "a": "16:00",
-                            "materia": "INGLESE",
-                            "docente": "CIMINO ANGELA",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
                             "aula": "P24"
                         },
                         {
                             "giorno": "MAR",
                             "da": "16:00",
                             "a": "17:00",
-                            "materia": "INGLESE",
-                            "docente": "CIMINO ANGELA",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
                             "aula": "P24"
                         },
                         {
@@ -10274,39 +10367,71 @@
                     "nome": "Assistente familiare CS 37 ED 85",
                     "lezioni": [
                         {
+                            "giorno": "MAR",
+                            "da": "15:00",
+                            "a": "16:00",
+                            "materia": "INGLESE",
+                            "docente": "SANCARLO SIMONA",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "16:00",
+                            "a": "17:00",
+                            "materia": "INGLESE",
+                            "docente": "SANCARLO SIMONA",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "17:00",
+                            "a": "18:00",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
+                            "aula": "P25"
+                        },
+                        {
+                            "giorno": "MAR",
+                            "da": "18:00",
+                            "a": "19:00",
+                            "materia": "Elementi di igiene ambientale",
+                            "docente": "PIPITONE VINCENZO",
+                            "aula": "P25"
+                        },
+                        {
                             "giorno": "MER",
                             "da": "15:00",
                             "a": "16:00",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "docente": "GRECO EGLE",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MER",
                             "da": "16:00",
                             "a": "17:00",
-                            "materia": "Igiene e sicurezza sul luogo di lavoro",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Tecniche di Comunicazione e osservazione",
+                            "docente": "GRECO EGLE",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MER",
                             "da": "17:00",
                             "a": "18:00",
-                            "materia": "Tecniche di Comunicazione e osservazione",
-                            "docente": "GRECO EGLE",
+                            "materia": "Sicurezza, prevenzione e primo soccorso",
+                            "docente": "ALAGNA GIUSEPPE",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MER",
                             "da": "18:00",
                             "a": "19:00",
-                            "materia": "Tecniche di Comunicazione e osservazione",
-                            "docente": "GRECO EGLE",
+                            "materia": "Sicurezza, prevenzione e primo soccorso",
+                            "docente": "ALAGNA GIUSEPPE",
                             "aula": "P25"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "15:00",
                             "a": "16:00",
                             "materia": "Preparazione Pasti",
@@ -10314,7 +10439,7 @@
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "16:00",
                             "a": "17:00",
                             "materia": "Preparazione Pasti",
@@ -10322,7 +10447,7 @@
                             "aula": "T51"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "17:00",
                             "a": "18:00",
                             "materia": "Alfabetizzazione informatica",
@@ -10330,7 +10455,7 @@
                             "aula": "P29"
                         },
                         {
-                            "giorno": "GIO",
+                            "giorno": "VEN",
                             "da": "18:00",
                             "a": "19:00",
                             "materia": "Alfabetizzazione informatica",
@@ -10354,16 +10479,16 @@
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Multimedialita\/Comunicazione",
+                            "docente": "CILLUFFO RICCARDO",
                             "aula": "P24"
                         },
                         {
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "CILLUFFO RICCARDO",
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P24"
                         },
                         {
@@ -10414,8 +10539,8 @@
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P24"
                         },
                         {
@@ -10502,16 +10627,16 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P24"
                         },
                         {
                             "giorno": "MER",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Religione - Attività alternative",
+                            "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P24"
                         },
                         {
@@ -10526,16 +10651,16 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "ITALIANO",
-                            "docente": "CILLUFFO RICCARDO",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P24"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ITALIANO",
-                            "docente": "CILLUFFO RICCARDO",
+                            "materia": "STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P24"
                         },
                         {
@@ -10550,25 +10675,37 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "ITALIANO",
-                            "docente": "CILLUFFO RICCARDO",
-                            "aula": "P24"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56",
+                            "tipo": "divisa",
+                            "docente2": "LO GALBO ANGELO",
+                            "materia2": "LAB.TERMOIDRAULICA",
+                            "aula2": "T11"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ITALIANO",
-                            "docente": "CILLUFFO RICCARDO",
-                            "aula": "P24"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56",
+                            "tipo": "divisa",
+                            "docente2": "LO GALBO ANGELO",
+                            "materia2": "LAB.TERMOIDRAULICA",
+                            "aula2": "T11"
                         },
                         {
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "ITALIANO",
-                            "docente": "CILLUFFO RICCARDO",
-                            "aula": "P24"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56",
+                            "tipo": "divisa",
+                            "docente2": "LO GALBO ANGELO",
+                            "materia2": "LAB.TERMOIDRAULICA",
+                            "aula2": "T11"
                         },
                         {
                             "giorno": "VEN",
@@ -10590,8 +10727,8 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Scienze integrate",
-                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "materia": "Utilizzo e manut strum e attrez",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P24"
                         },
                         {
@@ -10606,8 +10743,8 @@
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
                             "aula": "P24"
                         },
                         {
@@ -10627,25 +10764,25 @@
                             "giorno": "LUN",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P28"
                         },
                         {
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "ZITO SABRINA",
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P28"
                         },
                         {
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Utilizzo e manut strum e attrez",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "ECONOMIA",
+                            "docente": "VULLO ENZA",
+                            "aula": "P28"
                         },
                         {
                             "giorno": "LUN",
@@ -10687,8 +10824,8 @@
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                            "docente": "PIPITONE ANTONINO",
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P28"
                         },
                         {
@@ -10783,8 +10920,8 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
+                            "materia": "Religione - Attività alternative",
+                            "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P28"
                         },
                         {
@@ -10799,8 +10936,8 @@
                             "giorno": "MER",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "STORIA",
+                            "docente": "VULLO ENZA",
                             "aula": "P28"
                         },
                         {
@@ -10815,53 +10952,41 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P28"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P28"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LABORATORIO ESTETICO",
-                            "docente": "MORGANTE ANGELAMARIA",
-                            "aula": "T37",
-                            "tipo": "divisa",
-                            "docente2": "GRECO DARIO",
-                            "materia2": "LABORATORIO CUCINA 2",
-                            "aula2": "T51"
+                            "materia": "Utilizzo e manut strum e attrez",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "LABORATORIO ESTETICO",
-                            "docente": "MORGANTE ANGELAMARIA",
-                            "aula": "T37",
-                            "tipo": "divisa",
-                            "docente2": "GRECO DARIO",
-                            "materia2": "LABORATORIO CUCINA 2",
-                            "aula2": "T51"
+                            "materia": "Multimedialita\/Comunicazione",
+                            "docente": "ZITO SABRINA",
+                            "aula": "P28"
                         },
                         {
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "LABORATORIO ESTETICO",
-                            "docente": "MORGANTE ANGELAMARIA",
-                            "aula": "T37",
-                            "tipo": "divisa",
-                            "docente2": "GRECO DARIO",
-                            "materia2": "LABORATORIO CUCINA 2",
-                            "aula2": "T51"
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "P28"
                         },
                         {
                             "giorno": "VEN",
@@ -10928,7 +11053,7 @@
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "STORIA",
+                            "materia": "Carta dei diritti fond UE",
                             "docente": "VULLO ENZA",
                             "aula": "P8bis"
                         },
@@ -11000,8 +11125,8 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "MATEMATICA",
-                            "docente": "FICANO AURELIO",
+                            "materia": "Carta dei diritti fond UE",
+                            "docente": "VULLO ENZA",
                             "aula": "P8bis"
                         },
                         {
@@ -11064,48 +11189,48 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
-                            "aula": "P8bis"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
-                            "aula": "P8bis"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
-                            "aula": "P8bis"
+                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": "T56"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
+                            "materia": "Geometria",
+                            "docente": "FICANO AURELIO",
                             "aula": "P8bis"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
+                            "materia": "ITALIANO2",
+                            "docente": "GRECO EGLE",
                             "aula": "P8bis"
                         },
                         {
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "STORIA",
-                            "docente": "VULLO ENZA",
+                            "materia": "Multimedialita\/Comunicazione 2",
+                            "docente": "GRECO EGLE",
                             "aula": "P8bis"
                         },
                         {
@@ -11136,15 +11261,15 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LABORATORIO DI ACCONCIATURA",
+                            "materia": "Pianificazione delle fasi di lavoro",
                             "docente": "ZAMA VINCENZA",
-                            "aula": "T56"
+                            "aula": "P8bis"
                         },
                         {
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ECONOMIA",
+                            "materia": "Carta dei diritti fond UE",
                             "docente": "VULLO ENZA",
                             "aula": "P8bis"
                         },
@@ -11197,9 +11322,9 @@
                             "giorno": "LUN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "aula": "P25"
                         },
                         {
                             "giorno": "LUN",
@@ -11229,8 +11354,8 @@
                             "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "MATEMATICA",
+                            "docente": "DADDELLI ANGELO SALVATORE",
                             "aula": "P25"
                         },
                         {
@@ -11269,17 +11394,17 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
+                            "materia": "Religione - Attività alternative",
+                            "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P25"
                         },
                         {
                             "giorno": "MER",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "MATEMATICA",
-                            "docente": "DADDELLI ANGELO SALVATORE",
-                            "aula": "P25"
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         },
                         {
                             "giorno": "MER",
@@ -11333,9 +11458,9 @@
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
-                            "docente": "CARAVELLO SIMONA",
-                            "aula": "T38"
+                            "materia": "LABORATORIO ESTETICO",
+                            "docente": "MORGANTE ANGELAMARIA",
+                            "aula": "T37"
                         },
                         {
                             "giorno": "GIO",
@@ -11490,16 +11615,16 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ECONOMIA",
-                            "docente": "VULLO ENZA",
+                            "materia": "MATEMATICA",
+                            "docente": "BARBA SALVATORE",
                             "aula": "P10"
                         },
                         {
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "MATEMATICA",
-                            "docente": "BARBA SALVATORE",
+                            "materia": "ECONOMIA",
+                            "docente": "VULLO ENZA",
                             "aula": "P10"
                         },
                         {
@@ -11554,40 +11679,40 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "ITALIANO",
-                            "docente": "MEGNA ROBERTA",
-                            "aula": "P10"
+                            "materia": "LAB. MECCANICO 2",
+                            "docente": "STANCAMPIANO GIUSEPPE",
+                            "aula": "T29"
                         },
                         {
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "ITALIANO",
-                            "docente": "MEGNA ROBERTA",
-                            "aula": "P10"
+                            "materia": "LAB. MECCANICO 2",
+                            "docente": "STANCAMPIANO GIUSEPPE",
+                            "aula": "T29"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "ITALIANO",
-                            "docente": "MEGNA ROBERTA",
-                            "aula": "P10"
+                            "materia": "LAB. MECCANICO 2",
+                            "docente": "STANCAMPIANO GIUSEPPE",
+                            "aula": "T29"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "ITALIANO",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P10"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ITALIANO",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P10"
                         },
                         {
@@ -11655,24 +11780,24 @@
                             "giorno": "LUN",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
+                            "materia": "LAB. MECCANICO 2",
+                            "docente": "STANCAMPIANO GIUSEPPE",
                             "aula": "T29"
                         },
                         {
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
+                            "materia": "LAB. MECCANICO 2",
+                            "docente": "STANCAMPIANO GIUSEPPE",
                             "aula": "T29"
                         },
                         {
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "LAB. MECCANICO",
-                            "docente": "MANGIAPANE AURELIO",
+                            "materia": "LAB. MECCANICO 2",
+                            "docente": "STANCAMPIANO GIUSEPPE",
                             "aula": "T29"
                         },
                         {
@@ -11695,8 +11820,8 @@
                             "giorno": "LUN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
                             "aula": "P26"
                         },
                         {
@@ -11775,7 +11900,7 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "docente": "FICANO AURELIO",
                             "aula": "P26"
                         },
@@ -11871,16 +11996,16 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Scienze integrate",
-                            "docente": "LERDA RAMIRO EZEQUIEL",
+                            "materia": "ITALIANO2",
+                            "docente": "GRECO EGLE",
                             "aula": "P26"
                         },
                         {
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ITALIANO2",
-                            "docente": "GRECO EGLE",
+                            "materia": "DIRITTO",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P26"
                         },
                         {
@@ -11940,9 +12065,9 @@
                             "giorno": "LUN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Informatica e competenze digitali",
-                            "docente": "AMMIRATA GIUSEPPE",
-                            "aula": "P29"
+                            "materia": "Religione - Attività alternative",
+                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "aula": "P9"
                         },
                         {
                             "giorno": "MAR",
@@ -11980,17 +12105,17 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "STORIA",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P9"
                         },
                         {
                             "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
-                            "aula": "P9"
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         },
                         {
                             "giorno": "MER",
@@ -12052,7 +12177,7 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "docente": "FICANO AURELIO",
                             "aula": "P9"
                         },
@@ -12201,8 +12326,8 @@
                             "giorno": "MAR",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "MATEMATICA",
-                            "docente": "FICANO AURELIO",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P1"
                         },
                         {
@@ -12249,7 +12374,7 @@
                             "giorno": "MER",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "docente": "FICANO AURELIO",
                             "aula": "P1"
                         },
@@ -12265,9 +12390,9 @@
                             "giorno": "MER",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                            "docente": "PIPITONE ANTONINO",
-                            "aula": "P1"
+                            "materia": "Informatica e competenze digitali",
+                            "docente": "AMMIRATA GIUSEPPE",
+                            "aula": "P29"
                         },
                         {
                             "giorno": "MER",
@@ -12426,8 +12551,8 @@
                             "giorno": "LUN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Geometria",
+                            "docente": "FICANO AURELIO",
                             "aula": "P2"
                         },
                         {
@@ -12450,8 +12575,8 @@
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "MATEMATICA",
-                            "docente": "FICANO AURELIO",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P2"
                         },
                         {
@@ -12466,8 +12591,8 @@
                             "giorno": "MAR",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "STORIA",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Scienze integrate",
+                            "docente": "LERDA RAMIRO EZEQUIEL",
                             "aula": "P2"
                         },
                         {
@@ -12482,8 +12607,8 @@
                             "giorno": "MAR",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
-                            "docente": "PIPITONE ANTONINO",
+                            "materia": "Cultura d'impresa e Organiz Aziend",
+                            "docente": "BASILE CATERINA",
                             "aula": "P2"
                         },
                         {
@@ -12558,8 +12683,8 @@
                             "giorno": "GIO",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
                             "aula": "P2"
                         },
                         {
@@ -12574,61 +12699,69 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "DIRITTO",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P2"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "DIRITTO",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P2"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "Religione - Attività alternative",
+                            "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P2"
                         },
                         {
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "ITALIANO",
-                            "docente": "ZITO SABRINA",
+                            "materia": "Cultura d'impresa e Organiz Aziend",
+                            "docente": "BASILE CATERINA",
                             "aula": "P2"
                         },
                         {
                             "giorno": "VEN",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "MATEMATICA",
-                            "docente": "FICANO AURELIO",
-                            "aula": "P2"
+                            "materia": "LABORATORIO CUCINA",
+                            "docente": "GANCI DIEGO",
+                            "aula": "T51",
+                            "tipo": "divisa",
+                            "docente2": "LO GALBO ANGELO",
+                            "materia2": "LAB.TERMOIDRAULICA",
+                            "aula2": "T11"
                         },
                         {
                             "giorno": "VEN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "MATEMATICA",
-                            "docente": "FICANO AURELIO",
-                            "aula": "P2"
+                            "materia": "LABORATORIO CUCINA",
+                            "docente": "GANCI DIEGO",
+                            "aula": "T51",
+                            "tipo": "divisa",
+                            "docente2": "LO GALBO ANGELO",
+                            "materia2": "LAB.TERMOIDRAULICA",
+                            "aula2": "T11"
                         },
                         {
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "HACCP",
+                            "materia": "LABORATORIO CUCINA",
                             "docente": "GANCI DIEGO",
                             "aula": "T51",
                             "tipo": "divisa",
-                            "docente2": "PIPITONE ANTONINO",
-                            "materia2": "LABORATORIO ELETTRICO",
-                            "aula2": "P7"
+                            "docente2": "LO GALBO ANGELO",
+                            "materia2": "LAB.TERMOIDRAULICA",
+                            "aula2": "T11"
                         },
                         {
                             "giorno": "VEN",
@@ -12735,9 +12868,9 @@
                             "giorno": "MAR",
                             "da": "08:00",
                             "a": "09:00",
-                            "materia": "Scienze Motorie",
-                            "docente": "GERACI FABRIZIO",
-                            "aula": "PALESTRA"
+                            "materia": "Utilizzo e manut strum e attrez",
+                            "docente": "ZAMA VINCENZA",
+                            "aula": null
                         },
                         {
                             "giorno": "MAR",
@@ -12811,7 +12944,7 @@
                             "giorno": "MER",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "docente": "FICANO AURELIO",
                             "aula": "P23"
                         },
@@ -12863,40 +12996,40 @@
                             "giorno": "GIO",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "Scienze integrate",
-                            "docente": "GERACI FABRIZIO",
+                            "materia": "ITALIANO",
+                            "docente": "CILLUFFO RICCARDO",
                             "aula": "P23"
                         },
                         {
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Scienze integrate",
-                            "docente": "GERACI FABRIZIO",
+                            "materia": "MATEMATICA",
+                            "docente": "FICANO AURELIO",
                             "aula": "P23"
                         },
                         {
                             "giorno": "GIO",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Scienze integrate",
+                            "materia": "Scienze Motorie",
                             "docente": "GERACI FABRIZIO",
-                            "aula": "P23"
+                            "aula": "PALESTRA"
                         },
                         {
                             "giorno": "GIO",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "Scienze integrate",
-                            "docente": "GERACI FABRIZIO",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
                             "aula": "P23"
                         },
                         {
                             "giorno": "GIO",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Scienze integrate",
-                            "docente": "GERACI FABRIZIO",
+                            "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
+                            "docente": "PIPITONE ANTONINO",
                             "aula": "P23"
                         },
                         {
@@ -12919,17 +13052,21 @@
                             "giorno": "VEN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "ITALIANO",
+                            "docente": "CILLUFFO RICCARDO",
                             "aula": "P23"
                         },
                         {
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "CILLUFFO RICCARDO",
-                            "aula": "P23"
+                            "materia": "LAB.MANUFATT.TESSILE 1",
+                            "docente": "VANGELO GIOVANNI",
+                            "aula": "T25",
+                            "tipo": "divisa",
+                            "docente2": "ABBAGNATO IRENE",
+                            "materia2": "A.S.LAB.ACC.3",
+                            "aula2": "T36"
                         },
                         {
                             "giorno": "VEN",
@@ -12972,15 +13109,15 @@
                             "giorno": "LUN",
                             "da": "09:00",
                             "a": "10:00",
-                            "materia": "Religione - Attività alternative",
-                            "docente": "SILIATO ROSSELLA VALERIA",
+                            "materia": "DIRITTO",
+                            "docente": "MEGNA ROBERTA",
                             "aula": "P8"
                         },
                         {
                             "giorno": "LUN",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "STORIA",
+                            "materia": "DIRITTO",
                             "docente": "MEGNA ROBERTA",
                             "aula": "P8"
                         },
@@ -13048,24 +13185,24 @@
                             "giorno": "MAR",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "INGLESE",
-                            "docente": "DI SALVO SIMONETTA",
-                            "aula": "P8"
-                        },
-                        {
-                            "giorno": "MAR",
-                            "da": "12:00",
-                            "a": "13:00",
                             "materia": "Scienze integrate",
                             "docente": "GERACI FABRIZIO",
                             "aula": "P8"
                         },
                         {
                             "giorno": "MAR",
+                            "da": "12:00",
+                            "a": "13:00",
+                            "materia": "INGLESE",
+                            "docente": "DI SALVO SIMONETTA",
+                            "aula": "P8"
+                        },
+                        {
+                            "giorno": "MAR",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "Multimedialita\/Comunicazione",
-                            "docente": "ZITO SABRINA",
+                            "materia": "Cultura d'impresa e Organiz Aziend",
+                            "docente": "BASILE CATERINA",
                             "aula": "P8"
                         },
                         {
@@ -13148,8 +13285,8 @@
                             "giorno": "GIO",
                             "da": "10:00",
                             "a": "11:00",
-                            "materia": "Cultura d'impresa e Organiz Aziend",
-                            "docente": "BASILE CATERINA",
+                            "materia": "Multimedialita\/Comunicazione",
+                            "docente": "ZITO SABRINA",
                             "aula": "P8"
                         },
                         {
@@ -13216,27 +13353,23 @@
                             "giorno": "VEN",
                             "da": "11:00",
                             "a": "12:00",
-                            "materia": "LAB.MANUFATT.TESSILE 1",
-                            "docente": "VANGELO GIOVANNI",
-                            "aula": "T25",
-                            "tipo": "divisa",
-                            "docente2": "MORGANTE ANGELAMARIA",
-                            "materia2": "LABORATORIO ESTETICO",
-                            "aula2": "T37"
+                            "materia": "Scienze integrate",
+                            "docente": "GERACI FABRIZIO",
+                            "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
                             "da": "12:00",
                             "a": "13:00",
-                            "materia": "DIRITTO",
-                            "docente": "MEGNA ROBERTA",
+                            "materia": "Religione - Attività alternative",
+                            "docente": "SILIATO ROSSELLA VALERIA",
                             "aula": "P8"
                         },
                         {
                             "giorno": "VEN",
                             "da": "13:00",
                             "a": "14:00",
-                            "materia": "MATEMATICA",
+                            "materia": "Geometria",
                             "docente": "FICANO AURELIO",
                             "aula": "P8"
                         }
@@ -13246,7 +13379,7 @@
         }
     ],
     "sostituzioni": [],
-    "dal": "11\/11\/2026",
+    "dal": "13\/11\/2026",
     "fasce": [
         "08:00-09:00",
         "09:00-10:00",
@@ -13363,22 +13496,6 @@
                     "corso": "Assistente familiare CS 37 ED 84",
                     "materia": "Sicurezza, prevenzione e primo soccorso",
                     "aula": "P24"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "17:00",
-                    "a": "18:00",
-                    "corso": "Assistente familiare CS 37 ED 85",
-                    "materia": "Sicurezza, prevenzione e primo soccorso",
-                    "aula": "P25"
-                },
-                {
-                    "giorno": "MER",
-                    "da": "18:00",
-                    "a": "19:00",
-                    "corso": "Assistente familiare CS 37 ED 85",
-                    "materia": "Sicurezza, prevenzione e primo soccorso",
-                    "aula": "P25"
                 }
             ]
         },
@@ -14317,6 +14434,22 @@
                 },
                 {
                     "giorno": "VEN",
+                    "da": "08:00",
+                    "a": "09:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                    "materia": "MATEMATICA",
+                    "aula": "P2"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "09:00",
+                    "a": "10:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                    "materia": "MATEMATICA",
+                    "aula": "P2"
+                },
+                {
+                    "giorno": "VEN",
                     "da": "12:00",
                     "a": "13:00",
                     "corso": "OP. RIP. VEIC A MOTORE IeFP-1",
@@ -14410,26 +14543,10 @@
                 },
                 {
                     "giorno": "VEN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "LABORATORIO CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "LABORATORIO CUCINA",
-                    "aula": "T51"
-                },
-                {
-                    "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "LABORATORIO CUCINA",
+                    "materia": "HACCP",
                     "aula": "T51"
                 },
                 {
@@ -14758,6 +14875,22 @@
                     "corso": "Assistente familiare CS 37 ED 83",
                     "materia": "Tecniche di Comunicazione e osservazione",
                     "aula": "P23"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "17:00",
+                    "a": "18:00",
+                    "corso": "Assistente familiare CS 37 ED 85",
+                    "materia": "Tecniche di Comunicazione e osservazione",
+                    "aula": "P25"
+                },
+                {
+                    "giorno": "MER",
+                    "da": "18:00",
+                    "a": "19:00",
+                    "corso": "Assistente familiare CS 37 ED 85",
+                    "materia": "Tecniche di Comunicazione e osservazione",
+                    "aula": "P25"
                 },
                 {
                     "giorno": "VEN",
@@ -15122,30 +15255,6 @@
                     "giorno": "MER",
                     "da": "13:00",
                     "a": "14:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "08:00",
-                    "a": "09:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "09:00",
-                    "a": "10:00",
-                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
-                    "materia": "LAB.TERMOIDRAULICA",
-                    "aula": "T11"
-                },
-                {
-                    "giorno": "VEN",
-                    "da": "10:00",
-                    "a": "11:00",
                     "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
                     "materia": "LAB.TERMOIDRAULICA",
                     "aula": "T11"
@@ -15705,6 +15814,14 @@
                     "corso": "OP. BENESSERE EST IeFP-1",
                     "materia": "Sicurezza, prevenzione ed igiene sul lavoro",
                     "aula": "P25"
+                },
+                {
+                    "giorno": "VEN",
+                    "da": "10:00",
+                    "a": "11:00",
+                    "corso": "OP. RIST.-OP.ELETTRICO IeFP-2",
+                    "materia": "LABORATORIO ELETTRICO",
+                    "aula": "P7"
                 },
                 {
                     "giorno": "VEN",
@@ -16916,16 +17033,16 @@
                     "giorno": "MER",
                     "da": "17:00",
                     "a": "18:00",
-                    "materia": "Sicurezza, prevenzione e primo soccorso",
-                    "docente": "ALAGNA GIUSEPPE",
+                    "materia": "Tecniche di Comunicazione e osservazione",
+                    "docente": "GRECO EGLE",
                     "aula": "P25"
                 },
                 {
                     "giorno": "MER",
                     "da": "18:00",
                     "a": "19:00",
-                    "materia": "Sicurezza, prevenzione e primo soccorso",
-                    "docente": "ALAGNA GIUSEPPE",
+                    "materia": "Tecniche di Comunicazione e osservazione",
+                    "docente": "GRECO EGLE",
                     "aula": "P25"
                 },
                 {
@@ -19229,37 +19346,29 @@
                     "giorno": "VEN",
                     "da": "08:00",
                     "a": "09:00",
-                    "materia": "LABORATORIO CUCINA",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "LAB.TERMOIDRAULICA",
-                    "aula2": "T11"
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P2"
                 },
                 {
                     "giorno": "VEN",
                     "da": "09:00",
                     "a": "10:00",
-                    "materia": "LABORATORIO CUCINA",
-                    "docente": "GANCI DIEGO",
-                    "aula": "T51",
-                    "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "LAB.TERMOIDRAULICA",
-                    "aula2": "T11"
+                    "materia": "MATEMATICA",
+                    "docente": "FICANO AURELIO",
+                    "aula": "P2"
                 },
                 {
                     "giorno": "VEN",
                     "da": "10:00",
                     "a": "11:00",
-                    "materia": "LABORATORIO CUCINA",
+                    "materia": "HACCP",
                     "docente": "GANCI DIEGO",
                     "aula": "T51",
                     "tipo": "divisa",
-                    "docente2": "LO GALBO ANGELO",
-                    "materia2": "LAB.TERMOIDRAULICA",
-                    "aula2": "T11"
+                    "docente2": "PIPITONE ANTONINO",
+                    "materia2": "LABORATORIO ELETTRICO",
+                    "aula2": "P7"
                 },
                 {
                     "giorno": "VEN",
