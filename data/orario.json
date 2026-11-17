@@ -1,5 +1,5 @@
 {
-    "aggiornato": "2026-11-16T13:21:57",
+    "aggiornato": "2026-11-17T08:09:55",
     "anno_formativo": "2026\/2027",
     "orari": [
         {
@@ -6769,7 +6769,74 @@
             ]
         }
     ],
-    "sostituzioni": [],
+    "sostituzioni": [
+        {
+            "data": "2026-11-17",
+            "giorno": "MAR",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+            "da": "08:00",
+            "a": "09:00",
+            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
+            "aula": "P8",
+            "docente_assente": "CARAVELLO SIMONA",
+            "docente_sostituto": "GRECO EGLE"
+        },
+        {
+            "data": "2026-11-17",
+            "giorno": "MAR",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+            "da": "09:00",
+            "a": "10:00",
+            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
+            "aula": "P8",
+            "docente_assente": "CARAVELLO SIMONA",
+            "docente_sostituto": "GRECO EGLE"
+        },
+        {
+            "data": "2026-11-17",
+            "giorno": "MAR",
+            "corso": "OP.ABBIGLIAMENTO-OP. BEN. EST IeFP-2",
+            "da": "10:00",
+            "a": "11:00",
+            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
+            "aula": "P8",
+            "docente_assente": "CARAVELLO SIMONA",
+            "docente_sostituto": "GANCI DIEGO"
+        },
+        {
+            "data": "2026-11-17",
+            "giorno": "MAR",
+            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+            "da": "11:00",
+            "a": "12:00",
+            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
+            "aula": "P28",
+            "docente_assente": "CARAVELLO SIMONA",
+            "docente_sostituto": "DI SALVO SIMONETTA"
+        },
+        {
+            "data": "2026-11-17",
+            "giorno": "MAR",
+            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+            "da": "12:00",
+            "a": "13:00",
+            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
+            "aula": "P28",
+            "docente_assente": "CARAVELLO SIMONA",
+            "docente_sostituto": "DADDELLI ANGELO SALVATORE"
+        },
+        {
+            "data": "2026-11-17",
+            "giorno": "MAR",
+            "corso": "OP. BEN. EST-OP. RISTORAZIONE IeFP-1",
+            "da": "13:00",
+            "a": "14:00",
+            "materia": "LAB. ESTETICA(RIC. UNGHIA)",
+            "aula": "P28",
+            "docente_assente": "CARAVELLO SIMONA",
+            "docente_sostituto": "DADDELLI ANGELO SALVATORE"
+        }
+    ],
     "dal": "16\/11\/2026",
     "fasce": [
         "08:00-09:00",
